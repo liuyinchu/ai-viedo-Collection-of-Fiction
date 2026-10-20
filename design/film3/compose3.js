@@ -162,7 +162,8 @@ export function post3(ctx, W, H, p) {
   const light = { x: W * p.light.x, y: H * p.light.y, radius: p.light.radius * s, darkness: p.light.darkness, warmth: p.light.warmth };
   if (p.dof) applyDepthOfField(ctx, W, H, { x: light.x, y: light.y, inner: p.dof.inner * s, outer: p.dof.outer * s, blur: p.dof.blur * s });
   applyLight(ctx, W, H, light);
-  if (p.fade < 1) drawDust(ctx, W, H, p.t, { light, count: Math.round(55 * (1 - p.fade)) });
+  const dust = Math.round(55 * (1 - p.fade) * (p.dust ?? 1));
+  if (dust > 0) drawDust(ctx, W, H, p.t, { light, count: dust });
   if (p.fade > 0) {
     ctx.save();
     ctx.globalAlpha = Math.min(1, p.fade);

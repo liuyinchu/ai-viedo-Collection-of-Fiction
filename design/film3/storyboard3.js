@@ -310,7 +310,7 @@ export function build(timing, script, words = {}) {
   reveal('me1Sig', word('S14', '它们是我写的', 1) + 0.3, 0.6);
   reveal('me2', word('S14', '一模一样的句子'), 0.9); // 人写的那一行：没有光标
   reveal('me2Sig', word('S14', '那还是同一句话'), 0.6);
-  foreground.push({ x: 167.9 * CELL, y: -32.1 * CELL, ch: '我', size: 460, alpha: 0.12, depth: 2.2, color: VERMILION });
+  foreground.push({ x: 167.9 * CELL, y: -32.1 * CELL, ch: '我', size: 460, alpha: 0.07, depth: 2.2, color: VERMILION }); // 预览里 0.12 太抢
 
   // S15 我不知道答案……（静止，只有光标在闪）
 
@@ -571,6 +571,7 @@ export function build(timing, script, words = {}) {
       light: { x: 0.47, y: 0.46, ...lightAt(t) },
       dof: dofAmt > 0.01 ? { inner: 480, outer: 1200, blur: 5 * dofAmt } : null,
       fade: Math.max(fadeIn, ease.inOutSine(fadeOut)),
+      dust: smoothstep(0.05, 0.3, cam.zoom), // 片尾拉远到书在黑暗里时，灰尘落在黑底上像噪点，收掉
     };
   }
 
