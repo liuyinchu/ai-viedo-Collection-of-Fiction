@@ -1,0 +1,281 @@
+{
+  "text": "有人问过我两次如果只推荐一本书你选哪本两次我给了不同的答案",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.22,
+      "text": "有人问过我两次",
+      "tokens": [
+        50365,
+        45820,
+        22064,
+        16866,
+        1654,
+        36257,
+        9487,
+        50428
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12328206300735474,
+      "compression_ratio": 0.925531914893617,
+      "no_speech_prob": 1.1171407549026569e-11,
+      "words": [
+        {
+          "word": "有人",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.98828125
+        },
+        {
+          "word": "问",
+          "start": 0.34,
+          "end": 0.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "过",
+          "start": 0.52,
+          "end": 0.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "我",
+          "start": 0.68,
+          "end": 0.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "两",
+          "start": 0.82,
+          "end": 0.96,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "次",
+          "start": 0.96,
+          "end": 1.22,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.88,
+      "end": 3.26,
+      "text": "如果只推荐一本书",
+      "tokens": [
+        50428,
+        13119,
+        14003,
+        33597,
+        31409,
+        238,
+        2257,
+        8802,
+        2930,
+        99,
+        50527
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12328206300735474,
+      "compression_ratio": 0.925531914893617,
+      "no_speech_prob": 1.1171407549026569e-11,
+      "words": [
+        {
+          "word": "如果",
+          "start": 1.88,
+          "end": 2.2,
+          "probability": 0.7998046875
+        },
+        {
+          "word": "只",
+          "start": 2.2,
+          "end": 2.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "推",
+          "start": 2.42,
+          "end": 2.54,
+          "probability": 1.0
+        },
+        {
+          "word": "荐",
+          "start": 2.54,
+          "end": 2.7,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "一",
+          "start": 2.7,
+          "end": 2.84,
+          "probability": 1.0
+        },
+        {
+          "word": "本",
+          "start": 2.84,
+          "end": 3.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "书",
+          "start": 3.0,
+          "end": 3.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.26,
+      "end": 4.16,
+      "text": "你选哪本",
+      "tokens": [
+        50527,
+        2166,
+        2215,
+        231,
+        17028,
+        8802,
+        50575
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12328206300735474,
+      "compression_ratio": 0.925531914893617,
+      "no_speech_prob": 1.1171407549026569e-11,
+      "words": [
+        {
+          "word": "你",
+          "start": 3.26,
+          "end": 3.68,
+          "probability": 0.8486328125
+        },
+        {
+          "word": "选",
+          "start": 3.68,
+          "end": 3.84,
+          "probability": 1.0
+        },
+        {
+          "word": "哪",
+          "start": 3.84,
+          "end": 3.96,
+          "probability": 0.98681640625
+        },
+        {
+          "word": "本",
+          "start": 3.96,
+          "end": 4.16,
+          "probability": 0.90966796875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4.58,
+      "end": 5.2,
+      "text": "两次",
+      "tokens": [
+        50575,
+        36257,
+        9487,
+        50626
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12328206300735474,
+      "compression_ratio": 0.925531914893617,
+      "no_speech_prob": 1.1171407549026569e-11,
+      "words": [
+        {
+          "word": "两",
+          "start": 4.58,
+          "end": 4.9,
+          "probability": 0.70654296875
+        },
+        {
+          "word": "次",
+          "start": 4.9,
+          "end": 5.2,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 5.66,
+      "end": 6.84,
+      "text": "我给了不同的答案",
+      "tokens": [
+        50626,
+        1654,
+        23197,
+        2289,
+        47123,
+        1546,
+        28223,
+        28899,
+        50709
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12328206300735474,
+      "compression_ratio": 0.925531914893617,
+      "no_speech_prob": 1.1171407549026569e-11,
+      "words": [
+        {
+          "word": "我",
+          "start": 5.66,
+          "end": 5.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": "给",
+          "start": 5.98,
+          "end": 6.12,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "了",
+          "start": 6.12,
+          "end": 6.22,
+          "probability": 1.0
+        },
+        {
+          "word": "不同",
+          "start": 6.22,
+          "end": 6.38,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 6.38,
+          "end": 6.56,
+          "probability": 1.0
+        },
+        {
+          "word": "答",
+          "start": 6.56,
+          "end": 6.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "案",
+          "start": 6.7,
+          "end": 6.84,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "403e81f4e55e6252f309f5ce461da08da4d51857f09d389d3d9e70c7a9316aad",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

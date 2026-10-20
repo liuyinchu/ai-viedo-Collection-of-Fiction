@@ -1,0 +1,182 @@
+{
+  "text": "对了,这期视频里的每一句话,也都在那座图书馆里。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.94,
+      "text": "对了,这期视频里的每一句话,也都在那座图书馆里。",
+      "tokens": [
+        50365,
+        8713,
+        2289,
+        11,
+        5562,
+        16786,
+        40656,
+        39752,
+        15759,
+        1546,
+        23664,
+        2257,
+        34592,
+        21596,
+        11,
+        6404,
+        7182,
+        3581,
+        4184,
+        6346,
+        100,
+        3919,
+        122,
+        2930,
+        99,
+        11748,
+        228,
+        15759,
+        1543,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0731995951744818,
+      "compression_ratio": 0.8607594936708861,
+      "no_speech_prob": 8.046865257460567e-12,
+      "words": [
+        {
+          "word": "对",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.9814453125
+        },
+        {
+          "word": "了,",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 1.0
+        },
+        {
+          "word": "这",
+          "start": 1.14,
+          "end": 1.8,
+          "probability": 0.998046875
+        },
+        {
+          "word": "期",
+          "start": 1.8,
+          "end": 1.96,
+          "probability": 0.99609375
+        },
+        {
+          "word": "视",
+          "start": 1.96,
+          "end": 2.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "频",
+          "start": 2.1,
+          "end": 2.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "里",
+          "start": 2.26,
+          "end": 2.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 2.38,
+          "end": 2.48,
+          "probability": 1.0
+        },
+        {
+          "word": "每",
+          "start": 2.48,
+          "end": 2.6,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 2.6,
+          "end": 2.76,
+          "probability": 1.0
+        },
+        {
+          "word": "句",
+          "start": 2.76,
+          "end": 2.86,
+          "probability": 1.0
+        },
+        {
+          "word": "话,",
+          "start": 2.86,
+          "end": 3.1,
+          "probability": 1.0
+        },
+        {
+          "word": "也",
+          "start": 3.28,
+          "end": 3.76,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "都",
+          "start": 3.76,
+          "end": 3.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "在",
+          "start": 3.9,
+          "end": 4.08,
+          "probability": 1.0
+        },
+        {
+          "word": "那",
+          "start": 4.08,
+          "end": 4.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "座",
+          "start": 4.22,
+          "end": 4.36,
+          "probability": 0.9892578125
+        },
+        {
+          "word": "图",
+          "start": 4.36,
+          "end": 4.5,
+          "probability": 1.0
+        },
+        {
+          "word": "书",
+          "start": 4.5,
+          "end": 4.62,
+          "probability": 1.0
+        },
+        {
+          "word": "馆",
+          "start": 4.62,
+          "end": 4.84,
+          "probability": 0.998046875
+        },
+        {
+          "word": "里。",
+          "start": 4.84,
+          "end": 4.94,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "a0373a8fd549d7c009582a712704ccdb3d79a89a463a2089223e49439ce20add",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

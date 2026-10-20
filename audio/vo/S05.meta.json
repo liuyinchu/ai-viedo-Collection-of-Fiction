@@ -1,0 +1,25 @@
+{
+  "id": "S05",
+  "source": "audio/vo/raw/S05.mp3",
+  "sourceSha256": "39cd20b0e7f75302adabf3d150377bdbd2d94c3920e55dd73d1c4e993bfe25fa",
+  "wavSha256": "9e788f90c353d280983f34e8c7a2a1607d2bd0b37df45fe99dbb6145fd0f8863",
+  "generationSha256": "5c8e7a21951231ec0f7ee090963953ae39a7968bb868fcb3d283ebdac0a7688c",
+  "textSha256": "9189fbaef6a2f12adbe5a2649a8105008eeb2728e100321fe6f2469251cd246e",
+  "ttsText": "那座图书馆里，有字母的每一种排列。所以每一本可能的书都在里面：你的传记，所有的真理，以及每条真理无数个错误的版本。",
+  "samples": 595175,
+  "duration": 12.399479166666667,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

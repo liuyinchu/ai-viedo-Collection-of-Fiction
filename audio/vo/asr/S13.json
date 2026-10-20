@@ -1,0 +1,241 @@
+{
+  "text": "讲故事的人坚持说,它的版本更丰富,同样的字,换一个人,换一个时代,就是另一句话。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.48,
+      "text": "讲故事的人坚持说,它的版本更丰富,同样的字,换一个人,换一个时代,就是另一句话。",
+      "tokens": [
+        50365,
+        39255,
+        43045,
+        6973,
+        29979,
+        14872,
+        248,
+        17694,
+        8090,
+        11,
+        45224,
+        42096,
+        8802,
+        19002,
+        940,
+        108,
+        47564,
+        11,
+        13089,
+        14496,
+        1546,
+        22381,
+        11,
+        26075,
+        95,
+        20182,
+        4035,
+        11,
+        26075,
+        95,
+        20182,
+        15729,
+        19105,
+        11,
+        5620,
+        22762,
+        2257,
+        34592,
+        21596,
+        1543,
+        50791
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.07888816651843843,
+      "compression_ratio": 0.990990990990991,
+      "no_speech_prob": 1.0536447582476516e-11,
+      "words": [
+        {
+          "word": "讲",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.99169921875
+        },
+        {
+          "word": "故",
+          "start": 0.32,
+          "end": 0.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "事",
+          "start": 0.5,
+          "end": 0.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的人",
+          "start": 0.66,
+          "end": 0.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "坚",
+          "start": 0.84,
+          "end": 1.08,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "持",
+          "start": 1.08,
+          "end": 1.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "说,",
+          "start": 1.18,
+          "end": 1.48,
+          "probability": 1.0
+        },
+        {
+          "word": "它的",
+          "start": 1.8,
+          "end": 2.3,
+          "probability": 0.49072265625
+        },
+        {
+          "word": "版",
+          "start": 2.3,
+          "end": 2.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "本",
+          "start": 2.48,
+          "end": 2.64,
+          "probability": 1.0
+        },
+        {
+          "word": "更",
+          "start": 2.64,
+          "end": 2.8,
+          "probability": 1.0
+        },
+        {
+          "word": "丰",
+          "start": 2.8,
+          "end": 3.02,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "富,",
+          "start": 3.02,
+          "end": 3.2,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "同",
+          "start": 3.58,
+          "end": 4.0,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "样",
+          "start": 4.0,
+          "end": 4.18,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "的",
+          "start": 4.18,
+          "end": 4.28,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "字,",
+          "start": 4.28,
+          "end": 4.46,
+          "probability": 0.966796875
+        },
+        {
+          "word": "换",
+          "start": 5.28,
+          "end": 5.44,
+          "probability": 0.9921875
+        },
+        {
+          "word": "一个",
+          "start": 5.44,
+          "end": 5.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "人,",
+          "start": 5.64,
+          "end": 5.84,
+          "probability": 1.0
+        },
+        {
+          "word": "换",
+          "start": 6.22,
+          "end": 6.6,
+          "probability": 1.0
+        },
+        {
+          "word": "一个",
+          "start": 6.6,
+          "end": 6.78,
+          "probability": 1.0
+        },
+        {
+          "word": "时",
+          "start": 6.78,
+          "end": 6.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "代,",
+          "start": 6.94,
+          "end": 7.12,
+          "probability": 1.0
+        },
+        {
+          "word": "就是",
+          "start": 7.54,
+          "end": 7.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "另",
+          "start": 7.9,
+          "end": 8.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "一",
+          "start": 8.06,
+          "end": 8.22,
+          "probability": 1.0
+        },
+        {
+          "word": "句",
+          "start": 8.22,
+          "end": 8.32,
+          "probability": 1.0
+        },
+        {
+          "word": "话。",
+          "start": 8.32,
+          "end": 8.48,
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "89001b4001a14f5142eec24412631e67b1452909eaa88526463576372d36c4e8",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

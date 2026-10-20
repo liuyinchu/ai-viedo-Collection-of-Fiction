@@ -1,0 +1,25 @@
+{
+  "id": "S18",
+  "source": "audio/vo/raw/S18.mp3",
+  "sourceSha256": "870a00df39082fb300b2ef52e638352e120cb441397a5b54b75657153de106a2",
+  "wavSha256": "3ac227d8e510b7889802fcc56b6e6776fc655a9a75aef1ebb9aa621495ea864d",
+  "generationSha256": "698a12994e451f50a6ffeef850a54e91fb6413c1936c38dfcbe4b56ecb3d2b28",
+  "textSha256": "d9debc0293320a4a0066c2aaa6efd0c5a8f79876106c0ce0e644569d3f96ac50",
+  "ttsText": "如果你想读，就从《巴别图书馆》开始，只有几页。中文版可以找王永年的译本。",
+  "samples": 362791,
+  "duration": 7.558145833333334,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "text": "如果您想读,就从巴别图书馆开始,只有几页。中文版可以找王永年的一本。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.2,
+      "text": "如果您想读,就从巴别图书馆开始,只有几页。中文版可以找王永年的一本。",
+      "tokens": [
+        50365,
+        13119,
+        23414,
+        7093,
+        5233,
+        119,
+        11,
+        3111,
+        35630,
+        38325,
+        18453,
+        3919,
+        122,
+        2930,
+        99,
+        11748,
+        228,
+        45213,
+        11,
+        35244,
+        6336,
+        254,
+        10178,
+        113,
+        1543,
+        5975,
+        17174,
+        42096,
+        6723,
+        25085,
+        19940,
+        42503,
+        34128,
+        2257,
+        8802,
+        1543,
+        50726
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10301054151434648,
+      "compression_ratio": 0.8990825688073395,
+      "no_speech_prob": 1.0952115082896174e-11,
+      "words": [
+        {
+          "word": "如果",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.99072265625
+        },
+        {
+          "word": "您",
+          "start": 0.34,
+          "end": 0.5,
+          "probability": 0.53662109375
+        },
+        {
+          "word": "想",
+          "start": 0.5,
+          "end": 0.7,
+          "probability": 0.998046875
+        },
+        {
+          "word": "读,",
+          "start": 0.7,
+          "end": 0.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "就",
+          "start": 1.22,
+          "end": 1.62,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "从",
+          "start": 1.62,
+          "end": 1.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "巴",
+          "start": 1.8,
+          "end": 1.92,
+          "probability": 0.93359375
+        },
+        {
+          "word": "别",
+          "start": 1.92,
+          "end": 2.06,
+          "probability": 0.9052734375
+        },
+        {
+          "word": "图",
+          "start": 2.06,
+          "end": 2.24,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "书",
+          "start": 2.24,
+          "end": 2.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": "馆",
+          "start": 2.36,
+          "end": 2.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "开始,",
+          "start": 2.52,
+          "end": 2.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "只有",
+          "start": 3.24,
+          "end": 3.64,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "几",
+          "start": 3.64,
+          "end": 3.88,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "页。",
+          "start": 3.88,
+          "end": 4.04,
+          "probability": 0.9951171875
+        },
+        {
+          "word": "中",
+          "start": 4.88,
+          "end": 5.24,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "文",
+          "start": 5.24,
+          "end": 5.4,
+          "probability": 1.0
+        },
+        {
+          "word": "版",
+          "start": 5.4,
+          "end": 5.64,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "可以",
+          "start": 5.64,
+          "end": 6.18,
+          "probability": 0.94580078125
+        },
+        {
+          "word": "找",
+          "start": 6.18,
+          "end": 6.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "王",
+          "start": 6.36,
+          "end": 6.52,
+          "probability": 0.97119140625
+        },
+        {
+          "word": "永",
+          "start": 6.52,
+          "end": 6.64,
+          "probability": 0.966796875
+        },
+        {
+          "word": "年的",
+          "start": 6.64,
+          "end": 6.9,
+          "probability": 0.9541015625
+        },
+        {
+          "word": "一",
+          "start": 6.9,
+          "end": 7.04,
+          "probability": 0.5859375
+        },
+        {
+          "word": "本。",
+          "start": 7.04,
+          "end": 7.2,
+          "probability": 0.98486328125
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "3ac227d8e510b7889802fcc56b6e6776fc655a9a75aef1ebb9aa621495ea864d",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

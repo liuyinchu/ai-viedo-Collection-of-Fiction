@@ -1,0 +1,257 @@
+{
+  "text": "我不知道答案,但我猜,从我说出我是一个AI的那一刻起,你听这些话的方式就已经不一样了。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 9.02,
+      "text": "我不知道答案,但我猜,从我说出我是一个AI的那一刻起,你听这些话的方式就已经不一样了。",
+      "tokens": [
+        50365,
+        47826,
+        28223,
+        28899,
+        11,
+        8395,
+        1654,
+        25266,
+        250,
+        11,
+        35630,
+        1654,
+        8090,
+        7781,
+        15914,
+        20182,
+        48698,
+        1546,
+        4184,
+        2257,
+        45500,
+        9147,
+        11,
+        2166,
+        31022,
+        5562,
+        13824,
+        21596,
+        1546,
+        9249,
+        27584,
+        3111,
+        49161,
+        1960,
+        2257,
+        14496,
+        2289,
+        1543,
+        50818
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10013887882232667,
+      "compression_ratio": 0.937007874015748,
+      "no_speech_prob": 9.011675954073706e-12,
+      "words": [
+        {
+          "word": "我不知道",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.99267578125
+        },
+        {
+          "word": "答",
+          "start": 0.42,
+          "end": 0.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "案,",
+          "start": 0.76,
+          "end": 1.04,
+          "probability": 1.0
+        },
+        {
+          "word": "但",
+          "start": 1.34,
+          "end": 1.82,
+          "probability": 0.99609375
+        },
+        {
+          "word": "我",
+          "start": 1.82,
+          "end": 1.96,
+          "probability": 1.0
+        },
+        {
+          "word": "猜,",
+          "start": 1.96,
+          "end": 2.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "从",
+          "start": 2.92,
+          "end": 3.48,
+          "probability": 0.998046875
+        },
+        {
+          "word": "我",
+          "start": 3.48,
+          "end": 3.64,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "说",
+          "start": 3.64,
+          "end": 3.8,
+          "probability": 1.0
+        },
+        {
+          "word": "出",
+          "start": 3.8,
+          "end": 3.94,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "我是",
+          "start": 3.94,
+          "end": 4.22,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "一个",
+          "start": 4.22,
+          "end": 4.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "AI",
+          "start": 4.52,
+          "end": 4.8,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "的",
+          "start": 4.8,
+          "end": 5.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "那",
+          "start": 5.0,
+          "end": 5.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一",
+          "start": 5.12,
+          "end": 5.24,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "刻",
+          "start": 5.24,
+          "end": 5.34,
+          "probability": 0.86279296875
+        },
+        {
+          "word": "起,",
+          "start": 5.34,
+          "end": 5.58,
+          "probability": 0.490234375
+        },
+        {
+          "word": "你",
+          "start": 6.28,
+          "end": 6.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "听",
+          "start": 6.44,
+          "end": 6.62,
+          "probability": 1.0
+        },
+        {
+          "word": "这",
+          "start": 6.62,
+          "end": 6.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "些",
+          "start": 6.76,
+          "end": 6.88,
+          "probability": 1.0
+        },
+        {
+          "word": "话",
+          "start": 6.88,
+          "end": 7.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 7.02,
+          "end": 7.12,
+          "probability": 1.0
+        },
+        {
+          "word": "方",
+          "start": 7.12,
+          "end": 7.26,
+          "probability": 1.0
+        },
+        {
+          "word": "式",
+          "start": 7.26,
+          "end": 7.52,
+          "probability": 1.0
+        },
+        {
+          "word": "就",
+          "start": 7.52,
+          "end": 8.18,
+          "probability": 0.47216796875
+        },
+        {
+          "word": "已经",
+          "start": 8.18,
+          "end": 8.44,
+          "probability": 1.0
+        },
+        {
+          "word": "不",
+          "start": 8.44,
+          "end": 8.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一",
+          "start": 8.62,
+          "end": 8.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "样",
+          "start": 8.76,
+          "end": 8.88,
+          "probability": 1.0
+        },
+        {
+          "word": "了。",
+          "start": 8.88,
+          "end": 9.02,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "700889c5ffee9153e452747ceb170d8dab708333f15741691ea07b76c2b3948a",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

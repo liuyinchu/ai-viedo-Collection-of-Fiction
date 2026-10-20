@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>虚构集 · 预览</title>
+<link rel="stylesheet" href="./fonts.css">
+<style>
+  :root { --bg: #161513; --fg: #d9d2c1; --dim: #8a8373; --line: #2c2a26; --accent: #A8322A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Noto Sans SC", system-ui, sans-serif; }
+  main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+  h1 { font-weight: 400; font-size: 20px; margin: 0; }
+  .meta { color: var(--dim); font-size: 13px; }
+  .meta b { color: var(--fg); font-weight: 400; }
+  canvas#view { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #0d0c0b; }
+  #caption { min-height: 3.2em; margin: 14px 0 6px; font-size: 18px; line-height: 1.6; }
+  #caption .id { color: var(--accent); font-size: 13px; margin-right: 10px; font-variant-numeric: tabular-nums; }
+  #controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  button { background: none; color: var(--fg); border: 1px solid var(--dim); border-radius: 4px; padding: 4px 14px; font: inherit; cursor: pointer; }
+  input[type=range] { flex: 1; min-width: 200px; accent-color: var(--accent); }
+  #time { color: var(--dim); font-variant-numeric: tabular-nums; min-width: 9em; text-align: right; }
+  #segs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+  #segs button { padding: 2px 8px; font-size: 12px; border-color: var(--line); color: var(--dim); font-variant-numeric: tabular-nums; }
+  #segs button.on { border-color: var(--accent); color: var(--fg); }
+  .hint { color: var(--dim); font-size: 13px; margin-top: 16px; }
+  body.stills main > *:not(#stills) { display: none; }
+  #stills canvas { display: block; width: 100%; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>一个 AI 讲《虚构集》 · 3 分钟版 · 第一版预览</h1>
+    <span class="meta" id="meta">加载中……</span>
+  </header>
+  <canvas id="view" width="960" height="540"></canvas>
+  <div id="caption"></div>
+  <div id="controls">
+    <button id="play">播放</button>
+    <input id="scrub" type="range" min="0" step="0.01" value="0">
+    <span id="time">0:00.0</span>
+  </div>
+  <div id="segs"></div>
+  <p class="hint">空格：播放 / 暂停 · ←→：前后 2 秒 · 点段落编号跳到该段。预览是半分辨率、实时渲染、不带运动模糊；正式渲染为 1920×1080 并带运动模糊。下方字幕只在预览里显示，成片不烧录。</p>
+  <div id="stills"></div>
+</main>
+<script type="module" src="./player.js"></script>
+</body>
+</html>

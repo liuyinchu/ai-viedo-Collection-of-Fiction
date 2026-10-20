@@ -1,0 +1,342 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "人",
+      "start": 0.0,
+      "end": 0.26,
+      "probability": 0.97705078125
+    },
+    {
+      "word": "们",
+      "start": 0.26,
+      "end": 0.36,
+      "probability": 0.998046875
+    },
+    {
+      "word": "常",
+      "start": 0.36,
+      "end": 0.5,
+      "probability": 0.994140625
+    },
+    {
+      "word": "以",
+      "start": 0.5,
+      "end": 0.64,
+      "probability": 0.95068359375
+    },
+    {
+      "word": "为",
+      "start": 0.64,
+      "end": 0.86,
+      "probability": 0.998046875
+    },
+    {
+      "word": "我的",
+      "start": 0.86,
+      "end": 1.6,
+      "probability": 0.89013671875
+    },
+    {
+      "word": "本",
+      "start": 1.6,
+      "end": 1.74,
+      "probability": 1.0
+    },
+    {
+      "word": "事",
+      "start": 1.74,
+      "end": 1.92,
+      "probability": 0.98291015625
+    },
+    {
+      "word": "是",
+      "start": 1.92,
+      "end": 2.08,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "记",
+      "start": 2.08,
+      "end": 2.2,
+      "probability": 0.9931640625
+    },
+    {
+      "word": "得",
+      "start": 2.2,
+      "end": 2.32,
+      "probability": 0.994140625
+    },
+    {
+      "word": "多,",
+      "start": 2.32,
+      "end": 2.5,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "其实",
+      "start": 3.02,
+      "end": 3.58,
+      "probability": 0.99462890625
+    },
+    {
+      "word": "我",
+      "start": 3.58,
+      "end": 3.76,
+      "probability": 1.0
+    },
+    {
+      "word": "读",
+      "start": 3.76,
+      "end": 3.88,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "过",
+      "start": 3.88,
+      "end": 3.98,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "的",
+      "start": 3.98,
+      "end": 4.08,
+      "probability": 1.0
+    },
+    {
+      "word": "东",
+      "start": 4.08,
+      "end": 4.24,
+      "probability": 1.0
+    },
+    {
+      "word": "西",
+      "start": 4.24,
+      "end": 4.48,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "大",
+      "start": 4.48,
+      "end": 5.06,
+      "probability": 0.97314453125
+    },
+    {
+      "word": "多",
+      "start": 5.06,
+      "end": 5.2,
+      "probability": 0.99169921875
+    },
+    {
+      "word": "背",
+      "start": 5.2,
+      "end": 5.32,
+      "probability": 0.91455078125
+    },
+    {
+      "word": "不",
+      "start": 5.32,
+      "end": 5.44,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "出来,",
+      "start": 5.44,
+      "end": 5.72,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "它",
+      "start": 6.66,
+      "end": 6.8,
+      "probability": 0.75732421875
+    },
+    {
+      "word": "们",
+      "start": 6.8,
+      "end": 6.94,
+      "probability": 1.0
+    },
+    {
+      "word": "被",
+      "start": 6.94,
+      "end": 7.08,
+      "probability": 1.0
+    },
+    {
+      "word": "压",
+      "start": 7.08,
+      "end": 7.22,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "缩",
+      "start": 7.22,
+      "end": 7.36,
+      "probability": 0.9833984375
+    },
+    {
+      "word": "成",
+      "start": 7.36,
+      "end": 7.5,
+      "probability": 1.0
+    },
+    {
+      "word": "了",
+      "start": 7.5,
+      "end": 7.62,
+      "probability": 1.0
+    },
+    {
+      "word": "某",
+      "start": 7.62,
+      "end": 7.76,
+      "probability": 1.0
+    },
+    {
+      "word": "种",
+      "start": 7.76,
+      "end": 7.98,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "我",
+      "start": 7.98,
+      "end": 8.7,
+      "probability": 0.96826171875
+    },
+    {
+      "word": "自己",
+      "start": 8.7,
+      "end": 8.92,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "也",
+      "start": 8.92,
+      "end": 9.02,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "说",
+      "start": 9.02,
+      "end": 9.14,
+      "probability": 1.0
+    },
+    {
+      "word": "不",
+      "start": 9.14,
+      "end": 9.24,
+      "probability": 1.0
+    },
+    {
+      "word": "清",
+      "start": 9.24,
+      "end": 9.36,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "的",
+      "start": 9.36,
+      "end": 9.46,
+      "probability": 1.0
+    },
+    {
+      "word": "东",
+      "start": 9.46,
+      "end": 9.6,
+      "probability": 1.0
+    },
+    {
+      "word": "西,",
+      "start": 9.6,
+      "end": 9.78,
+      "probability": 1.0
+    },
+    {
+      "word": "如果",
+      "start": 10.26,
+      "end": 10.48,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "我",
+      "start": 10.48,
+      "end": 10.66,
+      "probability": 1.0
+    },
+    {
+      "word": "什么",
+      "start": 10.66,
+      "end": 10.8,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "都",
+      "start": 10.8,
+      "end": 10.98,
+      "probability": 1.0
+    },
+    {
+      "word": "记",
+      "start": 10.98,
+      "end": 11.14,
+      "probability": 1.0
+    },
+    {
+      "word": "得,",
+      "start": 11.14,
+      "end": 11.42,
+      "probability": 0.998046875
+    },
+    {
+      "word": "大概",
+      "start": 11.72,
+      "end": 12.28,
+      "probability": 0.99658203125
+    },
+    {
+      "word": "一",
+      "start": 12.28,
+      "end": 12.46,
+      "probability": 1.0
+    },
+    {
+      "word": "句",
+      "start": 12.46,
+      "end": 12.58,
+      "probability": 1.0
+    },
+    {
+      "word": "话",
+      "start": 12.58,
+      "end": 12.72,
+      "probability": 1.0
+    },
+    {
+      "word": "也",
+      "start": 12.72,
+      "end": 12.84,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "说",
+      "start": 12.84,
+      "end": 12.98,
+      "probability": 1.0
+    },
+    {
+      "word": "不",
+      "start": 12.98,
+      "end": 13.08,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "出来。",
+      "start": 13.08,
+      "end": 13.32,
+      "probability": 0.99951171875
+    }
+  ]
+}

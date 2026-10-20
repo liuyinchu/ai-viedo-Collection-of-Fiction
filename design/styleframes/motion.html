@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>墙 · 动态样张</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@200..500&family=Noto+Serif+SC:wght@200..700&display=block">
+<style>
+  :root { --bg: #161513; --fg: #d9d2c1; --dim: #8a8373; --line: #2c2a26; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Noto Sans SC", system-ui, sans-serif; }
+  main { max-width: 1280px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-weight: 400; font-size: 20px; margin: 0 0 4px; }
+  p { color: var(--dim); margin: 0 0 20px; }
+  a { color: var(--fg); }
+  canvas { display: block; width: 100%; height: auto; background: #EAE3D2; }
+  #controls { display: flex; gap: 12px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+  #controls[hidden] { display: none; }
+  button { background: none; color: var(--fg); border: 1px solid var(--dim); border-radius: 4px; padding: 4px 14px; font: inherit; cursor: pointer; }
+  input[type=range] { flex: 1; min-width: 200px; accent-color: #A8322A; }
+  #time { color: var(--dim); font-variant-numeric: tabular-nums; min-width: 14em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>墙 · 动态样张</h1>
+  <p>S02 → S03：停在原点，一行字凝结出来 → 全片第一次移动 → 落地，另一行字凝结出来。半分辨率预览，30fps 循环播放。
+     <span id="status">加载字体中……</span>
+     · <a id="blur" href="#"></a> · <a href="./">静帧样张</a></p>
+  <canvas id="view"></canvas>
+  <div id="controls" hidden>
+    <button id="play">暂停</button>
+    <input id="scrub" type="range" min="0" value="0">
+    <span id="time"></span>
+  </div>
+</main>
+<script type="module" src="./motion.js"></script>
+</body>
+</html>

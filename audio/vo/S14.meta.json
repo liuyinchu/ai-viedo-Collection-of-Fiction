@@ -1,0 +1,25 @@
+{
+  "id": "S14",
+  "source": "audio/vo/raw/S14.mp3",
+  "sourceSha256": "6ec9ca5f376e98b3aeefadc0ce005d137543f6a7659186406576bcda5ee8c8d8",
+  "wavSha256": "e4dfbde96c4e078e23fef7af68cd60ad73082911515272da0c83de30666345fd",
+  "generationSha256": "f2f433ff22b3cec62a9ca4d90a17a678f5b47730058396076509ca1eca33f343",
+  "textSha256": "eafa1b6877d69987435c6ad1dbd5a3753de25fa63fb13078e57220827bc10783",
+  "ttsText": "那么，你现在听到的这些话呢？它们是我写的。如果一个人写下一模一样的句子，那还是同一句话吗？",
+  "samples": 415174,
+  "duration": 8.649458333333333,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

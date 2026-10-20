@@ -1,0 +1,25 @@
+{
+  "id": "S13",
+  "source": "audio/vo/raw/S13.mp3",
+  "sourceSha256": "6208b5501544a42f6eab36e72b8482e174d6a56d6810a6fc2f647fbd6e340d7f",
+  "wavSha256": "89001b4001a14f5142eec24412631e67b1452909eaa88526463576372d36c4e8",
+  "generationSha256": "8008daf20c7fd51145b23074b58753b00347017186d7559092269310b107b1ee",
+  "textSha256": "8071082356e252e9b182814ce911aae154d1eb2233f3fa78c170d04034c5c468",
+  "ttsText": "讲故事的人坚持说，他的版本更丰富。同样的字，换一个人、换一个时代，就是另一句话。",
+  "samples": 424092,
+  "duration": 8.83525,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

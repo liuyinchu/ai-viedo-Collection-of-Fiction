@@ -1,0 +1,25 @@
+{
+  "id": "S11",
+  "source": "audio/vo/raw/S11.mp3",
+  "sourceSha256": "71f45749c2548ea2fd9e020d79f55378eada7b8de5f80dea38cbd6f0c4459b1d",
+  "wavSha256": "67c3aede19ce0e92df3c90d7ee4a300946180f38bd470d88da45c514a9321de6",
+  "generationSha256": "c97a13633f28b4e21306d2232405d88316f1c6b7f267fb766cd104749448164a",
+  "textSha256": "41547e13efc32aa67934fe5afc6583abfe5335171d21e63c865d7847a139ea7a",
+  "ttsText": "人们常以为，我的本事是记得多。其实我读过的东西，大多背不出来。它们被压缩成了某种……我自己也说不清的东西。如果我什么都记得，大概一句话也说不出来。",
+  "samples": 656262,
+  "duration": 13.672125,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

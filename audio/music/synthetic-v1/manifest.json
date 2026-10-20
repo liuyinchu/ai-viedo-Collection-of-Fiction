@@ -1,0 +1,200 @@
+{
+  "version": "synthetic-v1",
+  "status": "audition-awaiting-director",
+  "method": "original modal-string synthesis",
+  "externalSamples": false,
+  "sampleRate": 48000,
+  "timelineSha256": "e06b16224bbf640881c583a4162ab715fdb3151b41abf3d6131253ca16006440",
+  "placementSha256": "532fded3d2f9a27639c4dc9d7f495a94c742fac48ce2fa5e6baacfce11116b04",
+  "narrationSha256": "e7f9416b0cebec3963b219917c5f9e0d29fd38a63d77b9018dc489ba2894cc24",
+  "reference": "Same D4–A4–E5–B4 phrase over D3 then G2; ending keeps D4–A4–E5.",
+  "fixedSeedNamespace": "borges-modal-v1 / borges-room-v1",
+  "duckingDb": 4.5,
+  "determinismChecked": true,
+  "silenceOutsideWindows": true,
+  "score": {
+    "samples": 9364579,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -25.5,
+    "rmsDbFS": -49.295192293176385,
+    "path": "audio/music/synthetic-v1/score.wav",
+    "sha256": "4d7cf4e835d6d99e5d040bb2cdd784f36999459a00ce628cdccb08a981a25102"
+  },
+  "soloAudition": {
+    "samples": 2935173,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.0,
+    "rmsDbFS": -28.2720310537875,
+    "gainPurpose": "louder audition; not the production music level"
+  },
+  "events": [
+    {
+      "window": {
+        "id": "opening",
+        "start": 0,
+        "end": 18.594145833333336,
+        "fadeIn": 1.5,
+        "fadeOut": 2.5
+      },
+      "notes": [
+        {
+          "offset": 0.48,
+          "pitch": "D3",
+          "frequencyHz": 146.8323839587038,
+          "velocity": 0.4,
+          "pan": 0.0
+        },
+        {
+          "offset": 1.1,
+          "pitch": "D4",
+          "frequencyHz": 293.6647679174076,
+          "velocity": 0.78,
+          "pan": -0.16
+        },
+        {
+          "offset": 4.8,
+          "pitch": "A4",
+          "frequencyHz": 440.0,
+          "velocity": 0.63,
+          "pan": 0.12
+        },
+        {
+          "offset": 8.6,
+          "pitch": "E5",
+          "frequencyHz": 659.2551138257398,
+          "velocity": 0.51,
+          "pan": -0.09
+        },
+        {
+          "offset": 12.9,
+          "pitch": "B4",
+          "frequencyHz": 493.8833012561241,
+          "velocity": 0.48,
+          "pan": 0.18
+        },
+        {
+          "offset": 15.45,
+          "pitch": "A4",
+          "frequencyHz": 440.0,
+          "velocity": 0.3,
+          "pan": 0.03
+        }
+      ]
+    },
+    {
+      "window": {
+        "id": "menard",
+        "start": 114.94116666666666,
+        "end": 144.64872916666667,
+        "fadeIn": 2,
+        "fadeOut": 3
+      },
+      "notes": [
+        {
+          "offset": 0.48,
+          "pitch": "G2",
+          "frequencyHz": 97.99885899543733,
+          "velocity": 0.36,
+          "pan": 0.0
+        },
+        {
+          "offset": 1.1,
+          "pitch": "D4",
+          "frequencyHz": 293.6647679174076,
+          "velocity": 0.78,
+          "pan": -0.16
+        },
+        {
+          "offset": 4.8,
+          "pitch": "A4",
+          "frequencyHz": 440.0,
+          "velocity": 0.63,
+          "pan": 0.12
+        },
+        {
+          "offset": 8.6,
+          "pitch": "E5",
+          "frequencyHz": 659.2551138257398,
+          "velocity": 0.51,
+          "pan": -0.09
+        },
+        {
+          "offset": 12.9,
+          "pitch": "B4",
+          "frequencyHz": 493.8833012561241,
+          "velocity": 0.48,
+          "pan": 0.18
+        },
+        {
+          "offset": 16.4,
+          "pitch": "C3",
+          "frequencyHz": 130.8127826502993,
+          "velocity": 0.25,
+          "pan": 0.02
+        },
+        {
+          "offset": 19.3,
+          "pitch": "D5",
+          "frequencyHz": 587.3295358348151,
+          "velocity": 0.39,
+          "pan": -0.12
+        },
+        {
+          "offset": 23.0,
+          "pitch": "A4",
+          "frequencyHz": 440.0,
+          "velocity": 0.3,
+          "pan": 0.14
+        },
+        {
+          "offset": 26.1,
+          "pitch": "E4",
+          "frequencyHz": 329.6275569128699,
+          "velocity": 0.24,
+          "pan": -0.03
+        }
+      ]
+    },
+    {
+      "window": {
+        "id": "ending",
+        "start": 183.84766666666667,
+        "end": 195.09539583333333,
+        "fadeIn": 1.5,
+        "fadeOut": 4
+      },
+      "notes": [
+        {
+          "offset": 0.35,
+          "pitch": "D3",
+          "frequencyHz": 146.8323839587038,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "offset": 0.95,
+          "pitch": "D4",
+          "frequencyHz": 293.6647679174076,
+          "velocity": 0.53,
+          "pan": -0.12
+        },
+        {
+          "offset": 3.45,
+          "pitch": "A4",
+          "frequencyHz": 440.0,
+          "velocity": 0.4,
+          "pan": 0.13
+        },
+        {
+          "offset": 6.3,
+          "pitch": "E5",
+          "frequencyHz": 659.2551138257398,
+          "velocity": 0.28,
+          "pan": -0.04
+        }
+      ]
+    }
+  ]
+}

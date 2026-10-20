@@ -1,0 +1,192 @@
+{
+  "text": "可图书馆里的人穷尽一生,也几乎找不到一行读得懂的字。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.28,
+      "text": "可图书馆里的人穷尽一生,也几乎找不到一行读得懂的字。",
+      "tokens": [
+        50365,
+        4429,
+        3919,
+        122,
+        2930,
+        99,
+        11748,
+        228,
+        15759,
+        29979,
+        13740,
+        115,
+        1530,
+        121,
+        2257,
+        8244,
+        11,
+        6404,
+        6336,
+        254,
+        2930,
+        236,
+        25085,
+        35728,
+        2257,
+        8082,
+        5233,
+        119,
+        5916,
+        29624,
+        1546,
+        22381,
+        1543,
+        50580
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.049661963326590404,
+      "compression_ratio": 0.8735632183908046,
+      "no_speech_prob": 8.260697681450324e-12,
+      "words": [
+        {
+          "word": "可",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "图",
+          "start": 0.28,
+          "end": 0.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "书",
+          "start": 0.44,
+          "end": 0.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "馆",
+          "start": 0.58,
+          "end": 0.8,
+          "probability": 0.998046875
+        },
+        {
+          "word": "里",
+          "start": 0.8,
+          "end": 0.86,
+          "probability": 0.998046875
+        },
+        {
+          "word": "的人",
+          "start": 0.86,
+          "end": 1.08,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "穷",
+          "start": 1.08,
+          "end": 1.3,
+          "probability": 0.982421875
+        },
+        {
+          "word": "尽",
+          "start": 1.3,
+          "end": 1.46,
+          "probability": 0.9873046875
+        },
+        {
+          "word": "一",
+          "start": 1.46,
+          "end": 1.62,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "生,",
+          "start": 1.62,
+          "end": 1.82,
+          "probability": 0.89501953125
+        },
+        {
+          "word": "也",
+          "start": 2.06,
+          "end": 2.54,
+          "probability": 0.98876953125
+        },
+        {
+          "word": "几",
+          "start": 2.54,
+          "end": 2.74,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "乎",
+          "start": 2.74,
+          "end": 2.86,
+          "probability": 1.0
+        },
+        {
+          "word": "找",
+          "start": 2.86,
+          "end": 3.0,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "不到",
+          "start": 3.0,
+          "end": 3.22,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一",
+          "start": 3.22,
+          "end": 3.38,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "行",
+          "start": 3.38,
+          "end": 3.54,
+          "probability": 0.99609375
+        },
+        {
+          "word": "读",
+          "start": 3.54,
+          "end": 3.72,
+          "probability": 0.99609375
+        },
+        {
+          "word": "得",
+          "start": 3.72,
+          "end": 3.82,
+          "probability": 0.91796875
+        },
+        {
+          "word": "懂",
+          "start": 3.82,
+          "end": 3.96,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "的",
+          "start": 3.96,
+          "end": 4.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "字。",
+          "start": 4.1,
+          "end": 4.28,
+          "probability": 0.99609375
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "1a284390d7d024baa0d0c07e02bec944cf8d4eda2bd7322dfbf3133036b33fe0",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

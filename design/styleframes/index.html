@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>墙 · 样张</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@200..500&family=Noto+Serif+SC:wght@200..700&display=block">
+<style>
+  :root { --bg: #161513; --fg: #d9d2c1; --dim: #8a8373; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Noto Sans SC", system-ui, sans-serif; }
+  main { max-width: 1280px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-weight: 400; font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--dim); margin: 0 0 32px; }
+  figure { margin: 0 0 40px; }
+  canvas { display: block; width: 100%; height: auto; background: #EAE3D2; }
+  figcaption { margin-top: 10px; color: var(--dim); }
+  figcaption b { color: var(--fg); font-weight: 400; margin-right: 10px; }
+  .status { color: var(--dim); }
+  /* solo 模式：只有一张 1920×1080 的画布，供截图 */
+  body.solo main { padding: 0; max-width: none; }
+  body.solo h1, body.solo .sub, body.solo figcaption { display: none; }
+  body.solo figure { margin: 0; }
+  body.solo canvas { width: 1920px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>墙 · 样张</h1>
+  <p class="sub">3 分钟版的四个瞬间。1920×1080 原尺寸渲染。<span class="status" id="status">加载字体中……</span></p>
+  <div id="frames"></div>
+</main>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

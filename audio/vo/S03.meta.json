@@ -1,0 +1,25 @@
+{
+  "id": "S03",
+  "source": "audio/vo/raw/S03.mp3",
+  "sourceSha256": "a41bf219c6f18261f0f3847a66931e14852313a7239c23c9c2296b089c50da59",
+  "wavSha256": "6c54c5124891a84805607da2763a98b9d239406e5599c8f1bb335b7dad3fe5bb",
+  "generationSha256": "a30ec53c189d9d64e0993843213638c906b06b190d09e73ebf4d14750471d287",
+  "textSha256": "5b29b1435905e11110214f561019edde6e71a0a474adeeafca1a08faf22d7dfd",
+  "ttsText": "八十多年前，阿根廷有一个图书馆员，写过一座图书馆。里面就装着所有可能的句子。",
+  "samples": 358889,
+  "duration": 7.476854166666667,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "reviewer": "导演",
+  "result": "approved",
+  "userStatement": "读音可以，继续",
+  "segments": [
+    {
+      "id": "S04",
+      "wavSha256": "d6bd41c18416d3df2698f20d4edf91e6f738e27b4cb8b4d0aa002bd60c4e6cab"
+    },
+    {
+      "id": "S10",
+      "wavSha256": "7c0541eeeb02eea7fbd060571f828517fc046f516523bfb09958ab69a93603da"
+    },
+    {
+      "id": "S12",
+      "wavSha256": "fa863ce6e1b040730bc0c48efe43feeb63f098890b043431ce1bde6075b652c6"
+    },
+    {
+      "id": "S16",
+      "wavSha256": "b669eaf03428a63b05af672f1850253cc2f6701798231d9d7f52e6a873cbea65"
+    },
+    {
+      "id": "S18",
+      "wavSha256": "3ac227d8e510b7889802fcc56b6e6776fc655a9a75aef1ebb9aa621495ea864d"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "S19",
+  "source": "audio/vo/raw/S19.mp3",
+  "sourceSha256": "fd45b6391f02546b9a1cba5ea5b20e92fa30026eed599f38219efb4c664efad8",
+  "wavSha256": "a0373a8fd549d7c009582a712704ccdb3d79a89a463a2089223e49439ce20add",
+  "generationSha256": "91cd6ae1a6661d2e06a507f504e863869a344c9be29887a29c9529fe411a77e1",
+  "textSha256": "0cde83dec2e89ffda8120fa86eae845921bbda19d15d4b622960e5fa6e501524",
+  "ttsText": "对了。这期视频里的每一句话，也都在那座图书馆里。",
+  "samples": 251891,
+  "duration": 5.247729166666667,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

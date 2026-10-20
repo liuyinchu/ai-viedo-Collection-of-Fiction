@@ -1,0 +1,260 @@
+{
+  "text": "另一篇小说里,一个叫傅内斯的年轻人从马上摔了下来,醒来以后,他记住了一切。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.96,
+      "text": "另一篇小说里,一个叫傅内斯的年轻人从马上摔了下来,醒来以后,他记住了一切。",
+      "tokens": [
+        50365,
+        22762,
+        2257,
+        20878,
+        229,
+        7322,
+        8090,
+        15759,
+        11,
+        20182,
+        19855,
+        11518,
+        227,
+        34742,
+        30758,
+        1546,
+        5157,
+        17819,
+        119,
+        4035,
+        35630,
+        49970,
+        5708,
+        34783,
+        242,
+        2289,
+        4438,
+        6912,
+        11,
+        40796,
+        6912,
+        3588,
+        13547,
+        11,
+        5000,
+        34756,
+        21632,
+        2289,
+        2257,
+        23632,
+        1543,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.07384136111237281,
+      "compression_ratio": 0.9545454545454546,
+      "no_speech_prob": 1.1799596022488146e-11,
+      "words": [
+        {
+          "word": "另",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "一",
+          "start": 0.3,
+          "end": 0.44,
+          "probability": 0.94482421875
+        },
+        {
+          "word": "篇",
+          "start": 0.44,
+          "end": 0.52,
+          "probability": 0.998046875
+        },
+        {
+          "word": "小",
+          "start": 0.52,
+          "end": 0.7,
+          "probability": 1.0
+        },
+        {
+          "word": "说",
+          "start": 0.7,
+          "end": 0.86,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "里,",
+          "start": 0.86,
+          "end": 1.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一个",
+          "start": 1.52,
+          "end": 1.98,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "叫",
+          "start": 1.98,
+          "end": 2.14,
+          "probability": 0.97900390625
+        },
+        {
+          "word": "傅",
+          "start": 2.14,
+          "end": 2.26,
+          "probability": 0.66259765625
+        },
+        {
+          "word": "内",
+          "start": 2.26,
+          "end": 2.4,
+          "probability": 0.986328125
+        },
+        {
+          "word": "斯",
+          "start": 2.4,
+          "end": 2.54,
+          "probability": 0.91650390625
+        },
+        {
+          "word": "的",
+          "start": 2.54,
+          "end": 2.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "年",
+          "start": 2.66,
+          "end": 2.8,
+          "probability": 1.0
+        },
+        {
+          "word": "轻",
+          "start": 2.8,
+          "end": 2.98,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "人",
+          "start": 2.98,
+          "end": 3.12,
+          "probability": 1.0
+        },
+        {
+          "word": "从",
+          "start": 3.12,
+          "end": 3.26,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "马",
+          "start": 3.26,
+          "end": 3.42,
+          "probability": 0.98876953125
+        },
+        {
+          "word": "上",
+          "start": 3.42,
+          "end": 3.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "摔",
+          "start": 3.62,
+          "end": 3.82,
+          "probability": 0.9443359375
+        },
+        {
+          "word": "了",
+          "start": 3.82,
+          "end": 3.94,
+          "probability": 1.0
+        },
+        {
+          "word": "下",
+          "start": 3.94,
+          "end": 4.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "来,",
+          "start": 4.06,
+          "end": 4.34,
+          "probability": 1.0
+        },
+        {
+          "word": "醒",
+          "start": 4.88,
+          "end": 5.04,
+          "probability": 0.9921875
+        },
+        {
+          "word": "来",
+          "start": 5.04,
+          "end": 5.2,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "以",
+          "start": 5.2,
+          "end": 5.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "后,",
+          "start": 5.36,
+          "end": 5.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "他",
+          "start": 5.98,
+          "end": 6.24,
+          "probability": 0.91748046875
+        },
+        {
+          "word": "记",
+          "start": 6.24,
+          "end": 6.38,
+          "probability": 1.0
+        },
+        {
+          "word": "住",
+          "start": 6.38,
+          "end": 6.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "了",
+          "start": 6.54,
+          "end": 6.64,
+          "probability": 1.0
+        },
+        {
+          "word": "一",
+          "start": 6.64,
+          "end": 6.78,
+          "probability": 1.0
+        },
+        {
+          "word": "切。",
+          "start": 6.78,
+          "end": 6.96,
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "ead24bf06a24951b76f65b4ee6115744443a6737f1bd53c7d3ba0411abac2d3f",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "S16",
+  "source": "audio/vo/raw/S16.mp3",
+  "sourceSha256": "a23a0a610cdd711687a39c9f8d635732f4c5a0e6a6a71c56a8230bf1b0d3e345",
+  "wavSha256": "b669eaf03428a63b05af672f1850253cc2f6701798231d9d7f52e6a873cbea65",
+  "generationSha256": "fd94b05330ba766be1146f103cad82d4cf636a062b36a2b543fbdb27cc78c9df",
+  "textSha256": "adba8c4314d8657a46cb2d1bbaf0f690fa1e701c9f090c883d2aba8f2da7e453",
+  "ttsText": "一座图书馆，一个记住一切的人，一个重写《堂吉诃德》的人。它们说的是同一件事：意义从来不在字里。而我，恰好就是由字组成的。",
+  "samples": 630284,
+  "duration": 13.130916666666666,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

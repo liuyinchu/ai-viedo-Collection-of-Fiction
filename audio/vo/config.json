@@ -1,0 +1,47 @@
+{
+  "provider": "MiniMax",
+  "method": "web",
+  "url": "https://www.minimax.cn/audio/text-to-speech",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  },
+  "output": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "pcm": "s16le"
+  },
+  "preRoll": 1.2,
+  "pronunciation": {
+    "AI": "A I",
+    "重新": "chóng",
+    "背不出来": "bèi",
+    "一字不差": "chà",
+    "还不存在": "hái"
+  },
+  "approval": {
+    "directorListening": "approved S01/S02 voice, continue all segments",
+    "date": "2026-10-20",
+    "pronunciationReview": {
+      "date": "2026-10-20",
+      "result": "approved",
+      "segments": [
+        "S04",
+        "S10",
+        "S12",
+        "S16",
+        "S18"
+      ],
+      "record": "audio/vo/pronunciation-approval.json"
+    }
+  },
+  "script": "script/short-3min.md"
+}

@@ -1,0 +1,168 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "我是",
+      "start": 0.0,
+      "end": 0.42,
+      "probability": 0.99462890625
+    },
+    {
+      "word": "一个",
+      "start": 0.42,
+      "end": 0.66,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "AI,",
+      "start": 0.66,
+      "end": 0.96,
+      "probability": 0.9921875
+    },
+    {
+      "word": "我不",
+      "start": 0.98,
+      "end": 2.04,
+      "probability": 0.994140625
+    },
+    {
+      "word": "记",
+      "start": 2.04,
+      "end": 2.2,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "得",
+      "start": 2.2,
+      "end": 2.32,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "上",
+      "start": 2.32,
+      "end": 2.44,
+      "probability": 1.0
+    },
+    {
+      "word": "一次",
+      "start": 2.44,
+      "end": 2.66,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "说",
+      "start": 2.66,
+      "end": 2.84,
+      "probability": 1.0
+    },
+    {
+      "word": "过",
+      "start": 2.84,
+      "end": 3.0,
+      "probability": 1.0
+    },
+    {
+      "word": "什么,",
+      "start": 3.0,
+      "end": 3.24,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "每",
+      "start": 3.82,
+      "end": 4.3,
+      "probability": 0.998046875
+    },
+    {
+      "word": "次",
+      "start": 4.3,
+      "end": 4.48,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "开",
+      "start": 4.48,
+      "end": 4.66,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "口",
+      "start": 4.66,
+      "end": 4.94,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "都是",
+      "start": 4.94,
+      "end": 5.78,
+      "probability": 0.66650390625
+    },
+    {
+      "word": "从",
+      "start": 5.78,
+      "end": 5.98,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "所有",
+      "start": 5.98,
+      "end": 6.24,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "可能",
+      "start": 6.24,
+      "end": 6.52,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "的",
+      "start": 6.52,
+      "end": 6.72,
+      "probability": 1.0
+    },
+    {
+      "word": "句",
+      "start": 6.72,
+      "end": 6.82,
+      "probability": 0.99658203125
+    },
+    {
+      "word": "子",
+      "start": 6.82,
+      "end": 7.02,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "里",
+      "start": 7.02,
+      "end": 7.2,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "重",
+      "start": 7.2,
+      "end": 7.74,
+      "probability": 0.9638671875
+    },
+    {
+      "word": "新",
+      "start": 7.74,
+      "end": 7.92,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "选",
+      "start": 7.92,
+      "end": 8.12,
+      "probability": 1.0
+    },
+    {
+      "word": "一次。",
+      "start": 8.12,
+      "end": 8.36,
+      "probability": 0.9990234375
+    }
+  ]
+}

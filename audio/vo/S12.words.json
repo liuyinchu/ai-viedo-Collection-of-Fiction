@@ -1,0 +1,228 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "还",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.93115234375
+    },
+    {
+      "word": "有一",
+      "start": 0.3,
+      "end": 0.52,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "篇",
+      "start": 0.52,
+      "end": 0.7,
+      "probability": 0.9951171875
+    },
+    {
+      "word": "更",
+      "start": 0.7,
+      "end": 0.84,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "奇怪",
+      "start": 0.84,
+      "end": 1.2,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "一个",
+      "start": 2.1599999999999997,
+      "end": 2.48,
+      "probability": 0.383544921875
+    },
+    {
+      "word": "叫",
+      "start": 2.48,
+      "end": 2.66,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "梅",
+      "start": 2.66,
+      "end": 2.82,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "纳",
+      "start": 2.82,
+      "end": 2.96,
+      "probability": 0.91015625
+    },
+    {
+      "word": "尔",
+      "start": 2.96,
+      "end": 3.08,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "的",
+      "start": 3.08,
+      "end": 3.18,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "法",
+      "start": 3.18,
+      "end": 3.32,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "国",
+      "start": 3.32,
+      "end": 3.48,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "人",
+      "start": 3.48,
+      "end": 3.72,
+      "probability": 1.0
+    },
+    {
+      "word": "不是",
+      "start": 4.239999999999999,
+      "end": 4.56,
+      "probability": 0.97021484375
+    },
+    {
+      "word": "抄",
+      "start": 4.56,
+      "end": 4.78,
+      "probability": 0.9580078125
+    },
+    {
+      "word": "写",
+      "start": 4.78,
+      "end": 5.0,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "而",
+      "start": 5.72,
+      "end": 6.04,
+      "probability": 0.98193359375
+    },
+    {
+      "word": "是",
+      "start": 6.04,
+      "end": 6.2,
+      "probability": 1.0
+    },
+    {
+      "word": "一",
+      "start": 6.2,
+      "end": 6.36,
+      "probability": 0.99755859375
+    },
+    {
+      "word": "字",
+      "start": 6.36,
+      "end": 6.46,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "不",
+      "start": 6.46,
+      "end": 6.62,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "差",
+      "start": 6.62,
+      "end": 6.8,
+      "probability": 0.6611328125
+    },
+    {
+      "word": "地",
+      "start": 6.8,
+      "end": 7.04,
+      "probability": 0.76025390625
+    },
+    {
+      "word": "重",
+      "start": 7.04,
+      "end": 7.66,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "新",
+      "start": 7.66,
+      "end": 7.84,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "写",
+      "start": 7.84,
+      "end": 8.04,
+      "probability": 1.0
+    },
+    {
+      "word": "出",
+      "start": 8.04,
+      "end": 8.18,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "了",
+      "start": 8.18,
+      "end": 8.32,
+      "probability": 1.0
+    },
+    {
+      "word": "堂",
+      "start": 8.32,
+      "end": 8.46,
+      "probability": 0.5888671875
+    },
+    {
+      "word": "吉",
+      "start": 8.46,
+      "end": 8.58,
+      "probability": 0.57421875
+    },
+    {
+      "word": "赫",
+      "start": 8.58,
+      "end": 8.74,
+      "probability": 0.7890625
+    },
+    {
+      "word": "德",
+      "start": 8.74,
+      "end": 8.86,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "里",
+      "start": 8.86,
+      "end": 8.98,
+      "probability": 0.99365234375
+    },
+    {
+      "word": "的",
+      "start": 8.98,
+      "end": 9.12,
+      "probability": 1.0
+    },
+    {
+      "word": "几",
+      "start": 9.12,
+      "end": 9.3,
+      "probability": 0.99609375
+    },
+    {
+      "word": "章",
+      "start": 9.3,
+      "end": 9.44,
+      "probability": 0.87890625
+    }
+  ]
+}

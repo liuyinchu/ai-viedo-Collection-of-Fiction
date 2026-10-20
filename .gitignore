@@ -1,0 +1,19 @@
+out/
+.DS_Store
+
+# Engineering dependencies and local credentials
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Reproducible renders and audio derivatives; keep VO originals, fonts and manifests
+/audio/mix/*.wav
+/audio/sfx/*.wav
+/audio/music/*/*.wav
+/audio/vo/narration.wav
+/audio/vo/incoming/
+/audio/vo/*.source.mp3

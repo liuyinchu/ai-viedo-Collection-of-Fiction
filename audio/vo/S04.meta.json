@@ -1,0 +1,25 @@
+{
+  "id": "S04",
+  "source": "audio/vo/raw/S04.mp3",
+  "sourceSha256": "ae76b5d73540074fa3946efd9f66534f8b9dde8e3b8c26a7ae137d427cba8915",
+  "wavSha256": "d6bd41c18416d3df2698f20d4edf91e6f738e27b4cb8b4d0aa002bd60c4e6cab",
+  "generationSha256": "8e99fc2ebd21dddc13da1859e31195305fb14e339105a073c834d54f0c9e59ea",
+  "textSha256": "0c0baf749f5c4b4c779885aac5132b50da1c9c73943f092008ec23ad3b0b9afe",
+  "ttsText": "他叫博尔赫斯。这篇小说叫《巴别图书馆》，收在今天我想讲的这本书，《虚构集》里。",
+  "samples": 406308,
+  "duration": 8.46475,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

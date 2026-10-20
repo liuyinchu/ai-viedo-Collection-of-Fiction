@@ -1,0 +1,221 @@
+{
+  "text": "我是一个AI,我不记得上一次说过什么,每次开口都是从所有可能的句子里重新选一次。",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.36,
+      "text": "我是一个AI,我不记得上一次说过什么,每次开口都是从所有可能的句子里重新选一次。",
+      "tokens": [
+        50365,
+        15914,
+        20182,
+        48698,
+        11,
+        25395,
+        34756,
+        5916,
+        5708,
+        27505,
+        8090,
+        16866,
+        10440,
+        11,
+        23664,
+        9487,
+        18937,
+        18144,
+        22796,
+        35630,
+        39300,
+        16657,
+        1546,
+        34592,
+        7626,
+        15759,
+        12624,
+        12560,
+        2215,
+        231,
+        27505,
+        1543,
+        50785
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08834312943851247,
+      "compression_ratio": 0.9333333333333333,
+      "no_speech_prob": 1.1753107168055443e-11,
+      "words": [
+        {
+          "word": "我是",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "一个",
+          "start": 0.42,
+          "end": 0.66,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "AI,",
+          "start": 0.66,
+          "end": 0.96,
+          "probability": 0.9921875
+        },
+        {
+          "word": "我不",
+          "start": 0.98,
+          "end": 2.04,
+          "probability": 0.994140625
+        },
+        {
+          "word": "记",
+          "start": 2.04,
+          "end": 2.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "得",
+          "start": 2.2,
+          "end": 2.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "上",
+          "start": 2.32,
+          "end": 2.44,
+          "probability": 1.0
+        },
+        {
+          "word": "一次",
+          "start": 2.44,
+          "end": 2.66,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "说",
+          "start": 2.66,
+          "end": 2.84,
+          "probability": 1.0
+        },
+        {
+          "word": "过",
+          "start": 2.84,
+          "end": 3.0,
+          "probability": 1.0
+        },
+        {
+          "word": "什么,",
+          "start": 3.0,
+          "end": 3.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "每",
+          "start": 3.82,
+          "end": 4.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": "次",
+          "start": 4.3,
+          "end": 4.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "开",
+          "start": 4.48,
+          "end": 4.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "口",
+          "start": 4.66,
+          "end": 4.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "都是",
+          "start": 4.94,
+          "end": 5.78,
+          "probability": 0.66650390625
+        },
+        {
+          "word": "从",
+          "start": 5.78,
+          "end": 5.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "所有",
+          "start": 5.98,
+          "end": 6.24,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "可能",
+          "start": 6.24,
+          "end": 6.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 6.52,
+          "end": 6.72,
+          "probability": 1.0
+        },
+        {
+          "word": "句",
+          "start": 6.72,
+          "end": 6.82,
+          "probability": 0.99658203125
+        },
+        {
+          "word": "子",
+          "start": 6.82,
+          "end": 7.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "里",
+          "start": 7.02,
+          "end": 7.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "重",
+          "start": 7.2,
+          "end": 7.74,
+          "probability": 0.9638671875
+        },
+        {
+          "word": "新",
+          "start": 7.74,
+          "end": 7.92,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "选",
+          "start": 7.92,
+          "end": 8.12,
+          "probability": 1.0
+        },
+        {
+          "word": "一次。",
+          "start": 8.12,
+          "end": 8.36,
+          "probability": 0.9990234375
+        }
+      ]
+    }
+  ],
+  "language": "zh",
+  "model": "mlx-community/whisper-large-v3-turbo-q4",
+  "wavSha256": "da479bf06f176ce01f00103cab05745a37fddc7dab5303ec3881b9f3e0904f44",
+  "scriptPromptUsed": false,
+  "modelRevision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+  "modelProvenance": "out/models/whisper-large-v3-turbo-q4/provenance.json"
+}

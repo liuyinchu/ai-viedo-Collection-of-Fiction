@@ -1,0 +1,282 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "那",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.94775390625
+    },
+    {
+      "word": "座",
+      "start": 0.28,
+      "end": 0.46,
+      "probability": 0.98828125
+    },
+    {
+      "word": "图",
+      "start": 0.46,
+      "end": 0.6,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "书",
+      "start": 0.6,
+      "end": 0.72,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "馆",
+      "start": 0.72,
+      "end": 0.98,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "里",
+      "start": 0.98,
+      "end": 1.1,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "有",
+      "start": 1.1,
+      "end": 1.72,
+      "probability": 0.962890625
+    },
+    {
+      "word": "字",
+      "start": 1.72,
+      "end": 1.9,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "母",
+      "start": 1.9,
+      "end": 2.06,
+      "probability": 0.998046875
+    },
+    {
+      "word": "的",
+      "start": 2.06,
+      "end": 2.2,
+      "probability": 1.0
+    },
+    {
+      "word": "每",
+      "start": 2.2,
+      "end": 2.36,
+      "probability": 1.0
+    },
+    {
+      "word": "一",
+      "start": 2.36,
+      "end": 2.52,
+      "probability": 1.0
+    },
+    {
+      "word": "种",
+      "start": 2.52,
+      "end": 2.64,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "排",
+      "start": 2.64,
+      "end": 2.8,
+      "probability": 0.998046875
+    },
+    {
+      "word": "列",
+      "start": 2.8,
+      "end": 3.04,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "所以",
+      "start": 3.78,
+      "end": 4.14,
+      "probability": 0.669921875
+    },
+    {
+      "word": "每",
+      "start": 4.14,
+      "end": 4.34,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "一",
+      "start": 4.34,
+      "end": 4.46,
+      "probability": 1.0
+    },
+    {
+      "word": "本",
+      "start": 4.46,
+      "end": 4.6,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "可能",
+      "start": 4.6,
+      "end": 4.88,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "的",
+      "start": 4.88,
+      "end": 5.1,
+      "probability": 1.0
+    },
+    {
+      "word": "书",
+      "start": 5.1,
+      "end": 5.36,
+      "probability": 1.0
+    },
+    {
+      "word": "都",
+      "start": 5.36,
+      "end": 5.78,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "在",
+      "start": 5.78,
+      "end": 5.94,
+      "probability": 1.0
+    },
+    {
+      "word": "里",
+      "start": 5.94,
+      "end": 6.08,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "面",
+      "start": 6.08,
+      "end": 6.38,
+      "probability": 1.0
+    },
+    {
+      "word": "你的",
+      "start": 6.38,
+      "end": 7.1,
+      "probability": 0.99169921875
+    },
+    {
+      "word": "传",
+      "start": 7.1,
+      "end": 7.28,
+      "probability": 0.9912109375
+    },
+    {
+      "word": "记",
+      "start": 7.28,
+      "end": 7.46,
+      "probability": 0.9638671875
+    },
+    {
+      "word": "所有",
+      "start": 7.46,
+      "end": 8.18,
+      "probability": 0.7451171875
+    },
+    {
+      "word": "的",
+      "start": 8.18,
+      "end": 8.38,
+      "probability": 1.0
+    },
+    {
+      "word": "真",
+      "start": 8.38,
+      "end": 8.5,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "理",
+      "start": 8.5,
+      "end": 8.72,
+      "probability": 1.0
+    },
+    {
+      "word": "以及",
+      "start": 9.360000000000001,
+      "end": 9.72,
+      "probability": 0.99609375
+    },
+    {
+      "word": "每",
+      "start": 9.72,
+      "end": 9.92,
+      "probability": 1.0
+    },
+    {
+      "word": "条",
+      "start": 9.92,
+      "end": 10.12,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "真",
+      "start": 10.12,
+      "end": 10.3,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "理",
+      "start": 10.3,
+      "end": 10.52,
+      "probability": 1.0
+    },
+    {
+      "word": "无",
+      "start": 10.52,
+      "end": 11.06,
+      "probability": 0.99072265625
+    },
+    {
+      "word": "数",
+      "start": 11.06,
+      "end": 11.24,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "个",
+      "start": 11.24,
+      "end": 11.38,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "错",
+      "start": 11.38,
+      "end": 11.52,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "误",
+      "start": 11.52,
+      "end": 11.66,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "的",
+      "start": 11.66,
+      "end": 11.76,
+      "probability": 1.0
+    },
+    {
+      "word": "版",
+      "start": 11.76,
+      "end": 11.9,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "本",
+      "start": 11.9,
+      "end": 12.08,
+      "probability": 1.0
+    }
+  ]
+}

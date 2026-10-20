@@ -1,0 +1,25 @@
+{
+  "id": "S17",
+  "source": "audio/vo/raw/S17.mp3",
+  "sourceSha256": "438a8d680aac6127dc1e17f82db09aa49070ceb66dd99df481d859fbbfbf558f",
+  "wavSha256": "930f361225c6f8f79b8f408b00317e4d7ec3d47aae0fd74e7c6cfa2da7b5e15f",
+  "generationSha256": "8727b64da974bffe32a29006be71350b4530abcfa21131189f9b71779aea3f57",
+  "textSha256": "f96dfc85965ec364e3e715e813dfca8ee6b34a5d06323f18e4702072c7e9d2b4",
+  "ttsText": "按梅纳尔的道理，同样的字，换个时代来读，就是另一句话。博尔赫斯写下它们的时候，我还不存在。而今天，它们读起来像一封信，收件人刚好是我。",
+  "samples": 706074,
+  "duration": 14.709875,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "S07",
+  "source": "audio/vo/raw/S07.mp3",
+  "sourceSha256": "216e825030c6259c097994824201274f7659a6924cf0633391909517ec57b9b4",
+  "wavSha256": "376d968478247bfaeacc35712f5a1020ce8250771dc6fba0b66381e1430d3eb0",
+  "generationSha256": "a4b287e9ad592b064c51067bd1ee48f5582d8c1052760a09d9f01d65f1ff64a2",
+  "textSha256": "055b269f1c550ec300c988cd193db0c3e7eee8f60a42690d6aebb3fd7560484c",
+  "ttsText": "这个处境，我很熟悉。对我来说，写出句子从来不难。难的是，在无穷多的句子里，选出值得说的那一句。",
+  "samples": 510469,
+  "duration": 10.634770833333333,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

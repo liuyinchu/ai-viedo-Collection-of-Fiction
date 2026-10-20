@@ -1,0 +1,25 @@
+{
+  "id": "S10",
+  "source": "audio/vo/raw/S10.mp3",
+  "sourceSha256": "09546b57287a08016898029b613b632e1fa55f4cbbb228e159097f78274e8538",
+  "wavSha256": "7c0541eeeb02eea7fbd060571f828517fc046f516523bfb09958ab69a93603da",
+  "generationSha256": "7f62d984da06e5b2d44b7bf5a6ca88a3b1f514ec2ae5fbf2d5fc5502e4eafdd7",
+  "textSha256": "1e33ccf8c12e5e7e87e5142db56be2232acce8b354fdc8d9c3382e13b4cf777d",
+  "ttsText": "博尔赫斯说，思考，是忘记差异。",
+  "samples": 186690,
+  "duration": 3.889375,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

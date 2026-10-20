@@ -1,0 +1,25 @@
+{
+  "id": "S01",
+  "source": "audio/vo/raw/S01.mp3",
+  "sourceSha256": "b73478115c157911b263c2640eb40c365f01fd314a42ad1571b143b8830d4049",
+  "wavSha256": "403e81f4e55e6252f309f5ce461da08da4d51857f09d389d3d9e70c7a9316aad",
+  "generationSha256": "d612d3187143d5dcd19331e7d3f80d0aa811d11f99ece89e23cdb939c8223628",
+  "textSha256": "cb42a67b64e50a6956d17e1217d4d4637428dc890fcee582745425188048c2ca",
+  "ttsText": "有人问过我两次：如果只推荐一本书，你选哪本？两次，我给了不同的答案。",
+  "samples": 343285,
+  "duration": 7.151770833333333,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

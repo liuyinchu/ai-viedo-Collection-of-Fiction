@@ -1,0 +1,25 @@
+{
+  "id": "S02",
+  "source": "audio/vo/raw/S02.mp3",
+  "sourceSha256": "4a96b4d9de58dca9444e4318802ab8d76b10dac25cfe4c631619c287a9a986b0",
+  "wavSha256": "da479bf06f176ce01f00103cab05745a37fddc7dab5303ec3881b9f3e0904f44",
+  "generationSha256": "60f099cf5d5a511c1302a642bcbe5c15cc10140b8cdabdaf87c8258b76904eb3",
+  "textSha256": "adb792af43787e4461af18fc3cb11e387f40e188f7c4e21f9ee18122bb09b6ba",
+  "ttsText": "我是一个 A I。我不记得上一次说过什么。每次开口，都是从所有可能的句子里，重新选一次。",
+  "samples": 419634,
+  "duration": 8.742375,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "source": "minimax-web-measured",
+  "scriptSha256": "cec91080a5269c778401ef30b944d73d17511a10cae74b22e31904b0d92430ec",
+  "sampleRate": 48000,
+  "preRoll": 1.2,
+  "total": 195.09539583333333,
+  "segments": [
+    {
+      "id": "S01",
+      "start": 1.2,
+      "end": 8.351770833333333,
+      "startSample": 57600,
+      "endSample": 400885,
+      "pauseAfter": 1.2,
+      "wavSha256": "403e81f4e55e6252f309f5ce461da08da4d51857f09d389d3d9e70c7a9316aad"
+    },
+    {
+      "id": "S02",
+      "start": 9.551770833333334,
+      "end": 18.294145833333335,
+      "startSample": 458485,
+      "endSample": 878119,
+      "pauseAfter": 0.6,
+      "wavSha256": "da479bf06f176ce01f00103cab05745a37fddc7dab5303ec3881b9f3e0904f44"
+    },
+    {
+      "id": "S03",
+      "start": 18.894145833333333,
+      "end": 26.371,
+      "startSample": 906919,
+      "endSample": 1265808,
+      "pauseAfter": 0.4,
+      "wavSha256": "6c54c5124891a84805607da2763a98b9d239406e5599c8f1bb335b7dad3fe5bb"
+    },
+    {
+      "id": "S04",
+      "start": 26.771,
+      "end": 35.23575,
+      "startSample": 1285008,
+      "endSample": 1691316,
+      "pauseAfter": 0.6,
+      "wavSha256": "d6bd41c18416d3df2698f20d4edf91e6f738e27b4cb8b4d0aa002bd60c4e6cab"
+    },
+    {
+      "id": "S05",
+      "start": 35.83575,
+      "end": 48.23522916666667,
+      "startSample": 1720116,
+      "endSample": 2315291,
+      "pauseAfter": 0.8,
+      "wavSha256": "9e788f90c353d280983f34e8c7a2a1607d2bd0b37df45fe99dbb6145fd0f8863"
+    },
+    {
+      "id": "S06",
+      "start": 49.03522916666667,
+      "end": 53.65604166666667,
+      "startSample": 2353691,
+      "endSample": 2575490,
+      "pauseAfter": 1.5,
+      "wavSha256": "1a284390d7d024baa0d0c07e02bec944cf8d4eda2bd7322dfbf3133036b33fe0"
+    },
+    {
+      "id": "S07",
+      "start": 55.15604166666667,
+      "end": 65.7908125,
+      "startSample": 2647490,
+      "endSample": 3157959,
+      "pauseAfter": 1.0,
+      "wavSha256": "376d968478247bfaeacc35712f5a1020ce8250771dc6fba0b66381e1430d3eb0"
+    },
+    {
+      "id": "S08",
+      "start": 66.7908125,
+      "end": 74.0355,
+      "startSample": 3205959,
+      "endSample": 3553704,
+      "pauseAfter": 0.4,
+      "wavSha256": "ead24bf06a24951b76f65b4ee6115744443a6737f1bd53c7d3ba0411abac2d3f"
+    },
+    {
+      "id": "S09",
+      "start": 74.4355,
+      "end": 84.35045833333334,
+      "startSample": 3572904,
+      "endSample": 4048822,
+      "pauseAfter": 0.3,
+      "wavSha256": "361779c9b8f315d10d80ac2b1007c44d28a192b2376f8f5588a81e01f627d1a3"
+    },
+    {
+      "id": "S10",
+      "start": 84.65045833333333,
+      "end": 88.53983333333333,
+      "startSample": 4063222,
+      "endSample": 4249912,
+      "pauseAfter": 1.5,
+      "wavSha256": "7c0541eeeb02eea7fbd060571f828517fc046f516523bfb09958ab69a93603da"
+    },
+    {
+      "id": "S11",
+      "start": 90.03983333333333,
+      "end": 103.71195833333333,
+      "startSample": 4321912,
+      "endSample": 4978174,
+      "pauseAfter": 1.0,
+      "wavSha256": "67c3aede19ce0e92df3c90d7ee4a300946180f38bd470d88da45c514a9321de6"
+    },
+    {
+      "id": "S12",
+      "start": 104.71195833333333,
+      "end": 114.44116666666666,
+      "startSample": 5026174,
+      "endSample": 5493176,
+      "pauseAfter": 0.5,
+      "wavSha256": "fa863ce6e1b040730bc0c48efe43feeb63f098890b043431ce1bde6075b652c6"
+    },
+    {
+      "id": "S13",
+      "start": 114.94116666666666,
+      "end": 123.77641666666666,
+      "startSample": 5517176,
+      "endSample": 5941268,
+      "pauseAfter": 0.8,
+      "wavSha256": "89001b4001a14f5142eec24412631e67b1452909eaa88526463576372d36c4e8"
+    },
+    {
+      "id": "S14",
+      "start": 124.57641666666666,
+      "end": 133.225875,
+      "startSample": 5979668,
+      "endSample": 6394842,
+      "pauseAfter": 0.6,
+      "wavSha256": "e4dfbde96c4e078e23fef7af68cd60ad73082911515272da0c83de30666345fd"
+    },
+    {
+      "id": "S15",
+      "start": 133.825875,
+      "end": 143.14872916666667,
+      "startSample": 6423642,
+      "endSample": 6871139,
+      "pauseAfter": 2.0,
+      "wavSha256": "700889c5ffee9153e452747ceb170d8dab708333f15741691ea07b76c2b3948a"
+    },
+    {
+      "id": "S16",
+      "start": 145.14872916666667,
+      "end": 158.27964583333332,
+      "startSample": 6967139,
+      "endSample": 7597423,
+      "pauseAfter": 1.5,
+      "wavSha256": "b669eaf03428a63b05af672f1850253cc2f6701798231d9d7f52e6a873cbea65"
+    },
+    {
+      "id": "S17",
+      "start": 159.77964583333332,
+      "end": 174.48952083333333,
+      "startSample": 7669423,
+      "endSample": 8375497,
+      "pauseAfter": 0.8,
+      "wavSha256": "930f361225c6f8f79b8f408b00317e4d7ec3d47aae0fd74e7c6cfa2da7b5e15f"
+    },
+    {
+      "id": "S18",
+      "start": 175.28952083333334,
+      "end": 182.84766666666667,
+      "startSample": 8413897,
+      "endSample": 8776688,
+      "pauseAfter": 1.0,
+      "wavSha256": "3ac227d8e510b7889802fcc56b6e6776fc655a9a75aef1ebb9aa621495ea864d"
+    },
+    {
+      "id": "S19",
+      "start": 183.84766666666667,
+      "end": 189.09539583333333,
+      "startSample": 8824688,
+      "endSample": 9076579,
+      "pauseAfter": 6.0,
+      "wavSha256": "a0373a8fd549d7c009582a712704ccdb3d79a89a463a2089223e49439ce20add"
+    }
+  ]
+}

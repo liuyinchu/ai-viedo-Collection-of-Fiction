@@ -1,0 +1,25 @@
+{
+  "id": "S15",
+  "source": "audio/vo/raw/S15.mp3",
+  "sourceSha256": "e09101554c57b94a26697fbcbcf9a96826b7c0e3b28e8225f60e09ba3b1167ed",
+  "wavSha256": "700889c5ffee9153e452747ceb170d8dab708333f15741691ea07b76c2b3948a",
+  "generationSha256": "a80bf5c22613fe62de2b861f985469946a5a0d56de53389f49dc00ec7a841463",
+  "textSha256": "d1c80e2a6c565352a6f1703b7ce617000c55995fb64d6fa0d2fd5e6e2cedf0a6",
+  "ttsText": "我不知道答案。但我猜，从我说出\"我是一个 A I\"的那一刻起，你听这些话的方式，就已经不一样了。",
+  "samples": 447497,
+  "duration": 9.322854166666668,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

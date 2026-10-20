@@ -1,0 +1,25 @@
+{
+  "id": "S08",
+  "source": "audio/vo/raw/S08.mp3",
+  "sourceSha256": "c8049b75eba6b32d747aa820550f1b41dc83a4d4e7a1d108f1190dee8efa95fc",
+  "wavSha256": "ead24bf06a24951b76f65b4ee6115744443a6737f1bd53c7d3ba0411abac2d3f",
+  "generationSha256": "44aa57b31319dcf4d0ee983d0600a35577d65a09b876c14a6600cb380832d075",
+  "textSha256": "ae5fc39c3991b7137158f2943aee5bd919b8b6635434c3b6ce53aebf8e3f4898",
+  "ttsText": "另一篇小说里，一个叫富内斯的年轻人从马上摔了下来。醒来以后，他记住了一切。",
+  "samples": 347745,
+  "duration": 7.2446875,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

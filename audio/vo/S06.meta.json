@@ -1,0 +1,25 @@
+{
+  "id": "S06",
+  "source": "audio/vo/raw/S06.mp3",
+  "sourceSha256": "38319b4117fe84ba9cf3cf46838762fb87987ec12af442a36339b46efc8f254e",
+  "wavSha256": "1a284390d7d024baa0d0c07e02bec944cf8d4eda2bd7322dfbf3133036b33fe0",
+  "generationSha256": "1577dc55fc0e061f67aa987efb6aca07e7151cfeef0cd24cd29086c47c756f0a",
+  "textSha256": "3bda97f5fe8d53dbb9f6d9658947e1373df3bc84cbc9086a4b08ff2831bbf549",
+  "ttsText": "可图书馆里的人穷尽一生，也几乎找不到一行读得懂的字。",
+  "samples": 221799,
+  "duration": 4.6208125,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

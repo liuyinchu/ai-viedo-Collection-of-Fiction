@@ -1,0 +1,186 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "八",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.72265625
+    },
+    {
+      "word": "十",
+      "start": 0.3,
+      "end": 0.44,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "多",
+      "start": 0.44,
+      "end": 0.56,
+      "probability": 1.0
+    },
+    {
+      "word": "年前,",
+      "start": 0.56,
+      "end": 0.92,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "阿",
+      "start": 1.38,
+      "end": 1.82,
+      "probability": 0.99365234375
+    },
+    {
+      "word": "根",
+      "start": 1.82,
+      "end": 1.96,
+      "probability": 0.9970703125
+    },
+    {
+      "word": "廷",
+      "start": 1.96,
+      "end": 2.16,
+      "probability": 0.998046875
+    },
+    {
+      "word": "有",
+      "start": 2.16,
+      "end": 2.36,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "一个",
+      "start": 2.36,
+      "end": 2.58,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "图",
+      "start": 2.58,
+      "end": 2.76,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "书",
+      "start": 2.76,
+      "end": 2.92,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "馆",
+      "start": 2.92,
+      "end": 3.08,
+      "probability": 0.99658203125
+    },
+    {
+      "word": "员",
+      "start": 3.08,
+      "end": 3.4,
+      "probability": 0.9951171875
+    },
+    {
+      "word": "写",
+      "start": 3.4,
+      "end": 3.82,
+      "probability": 0.9267578125
+    },
+    {
+      "word": "过",
+      "start": 3.82,
+      "end": 3.96,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "一",
+      "start": 3.96,
+      "end": 4.08,
+      "probability": 1.0
+    },
+    {
+      "word": "座",
+      "start": 4.08,
+      "end": 4.24,
+      "probability": 0.9951171875
+    },
+    {
+      "word": "图",
+      "start": 4.24,
+      "end": 4.4,
+      "probability": 1.0
+    },
+    {
+      "word": "书",
+      "start": 4.4,
+      "end": 4.54,
+      "probability": 1.0
+    },
+    {
+      "word": "馆,",
+      "start": 4.54,
+      "end": 4.78,
+      "probability": 1.0
+    },
+    {
+      "word": "里",
+      "start": 5.22,
+      "end": 5.66,
+      "probability": 0.998046875
+    },
+    {
+      "word": "面",
+      "start": 5.66,
+      "end": 5.8,
+      "probability": 1.0
+    },
+    {
+      "word": "就",
+      "start": 5.8,
+      "end": 5.94,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "装",
+      "start": 5.94,
+      "end": 6.1,
+      "probability": 0.994140625
+    },
+    {
+      "word": "着",
+      "start": 6.1,
+      "end": 6.22,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "所有",
+      "start": 6.22,
+      "end": 6.42,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "可能",
+      "start": 6.42,
+      "end": 6.72,
+      "probability": 1.0
+    },
+    {
+      "word": "的",
+      "start": 6.72,
+      "end": 6.88,
+      "probability": 1.0
+    },
+    {
+      "word": "句",
+      "start": 6.88,
+      "end": 6.98,
+      "probability": 0.93212890625
+    },
+    {
+      "word": "子。",
+      "start": 6.98,
+      "end": 7.18,
+      "probability": 1.0
+    }
+  ]
+}

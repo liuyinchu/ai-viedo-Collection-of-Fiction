@@ -1,0 +1,73 @@
+{
+  "files": [
+    {
+      "id": "S03",
+      "originalFilename": "1792461561195488804-454282128855120_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S04",
+      "originalFilename": "1792461677124205823-454282271002733_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S05",
+      "originalFilename": "1792461682573160293-454282279256355_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S06",
+      "originalFilename": "1792461708546093824-454282098262331_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S07",
+      "originalFilename": "1792461713412662589-454282463445301_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S08",
+      "originalFilename": "1792461718121072055-454282477617440_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S09",
+      "originalFilename": "1792461794469387455-454282898141287_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S10",
+      "originalFilename": "1792461799242995276-454282903490846_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S11",
+      "originalFilename": "1792461805578557580-454282718830695_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S12",
+      "originalFilename": "1792461841348337479-454282897916213_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S13",
+      "originalFilename": "1792461846614040939-454283052691756_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S14",
+      "originalFilename": "1792461851664669887-454282718830709_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S15",
+      "originalFilename": "1792461894414928412-454283147866426_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S16",
+      "originalFilename": "1792461899383963230-454283147866429_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S17",
+      "originalFilename": "1792461905051205838-454283537203474_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S18",
+      "originalFilename": "1792461929728630207-454283602022478_2026-10-20_speech-2.8-hd.mp3"
+    },
+    {
+      "id": "S19",
+      "originalFilename": "1792461934671812267-454283672633612_2026-10-20_speech-2.8-hd.mp3"
+    }
+  ],
+  "excluded": "One web generation accidentally combined S02 and S03; excluded and S03 regenerated independently."
+}

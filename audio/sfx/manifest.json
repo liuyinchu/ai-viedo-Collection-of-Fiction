@@ -1,0 +1,506 @@
+{
+  "version": 1,
+  "designCuesSha256": "394a311c5dd786591ccae3aeed2a019d3cd6a9de972ac5c661497957873cbd96",
+  "planSha256": "674522df620efa6f47560b24be825399a7137d642ca3c73f3aa27dbbf5d414ba",
+  "duration": 195.09539583333333,
+  "events": [
+    {
+      "index": 0,
+      "type": "move",
+      "time": 5.649,
+      "duration": 1.6,
+      "seed": 9926549819865511641,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 1,
+      "type": "settle",
+      "time": 7.8,
+      "duration": 0.12,
+      "seed": 6225531586558589942,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 2,
+      "type": "settle",
+      "time": 8.45,
+      "duration": 0.12,
+      "seed": 261311107101737072,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 3,
+      "type": "settle",
+      "time": 18.163,
+      "duration": 0.12,
+      "seed": 5111512733041516762,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 4,
+      "type": "move",
+      "time": 22.022,
+      "duration": 1.6,
+      "seed": 14385576566287612072,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 5,
+      "type": "settle",
+      "time": 26.248,
+      "duration": 0.12,
+      "seed": 13840235295665607168,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 6,
+      "type": "move",
+      "time": 26.871,
+      "duration": 1.0,
+      "seed": 13586523965836286569,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 7,
+      "type": "settle",
+      "time": 28.178,
+      "duration": 0.12,
+      "seed": 7914791696866912525,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 8,
+      "type": "settle",
+      "time": 30.711,
+      "duration": 0.12,
+      "seed": 2994957995982356915,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 9,
+      "type": "settle",
+      "time": 34.77,
+      "duration": 0.12,
+      "seed": 16977736022356347792,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 10,
+      "type": "move",
+      "time": 35.836,
+      "duration": 12.999,
+      "seed": 1338937560271333190,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 11,
+      "type": "settle",
+      "time": 43.183,
+      "duration": 0.12,
+      "seed": 7897622043784857087,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 12,
+      "type": "settle",
+      "time": 44.298,
+      "duration": 0.12,
+      "seed": 14903204524415568029,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 13,
+      "type": "settle",
+      "time": 46.074,
+      "duration": 0.12,
+      "seed": 17409069525037381263,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 14,
+      "type": "settle",
+      "time": 46.374,
+      "duration": 0.12,
+      "seed": 11951545256341341095,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 15,
+      "type": "settle",
+      "time": 46.674,
+      "duration": 0.12,
+      "seed": 9913552042012919757,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 16,
+      "type": "settle",
+      "time": 46.974,
+      "duration": 0.12,
+      "seed": 16870755668110333158,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 17,
+      "type": "settle",
+      "time": 47.274,
+      "duration": 0.12,
+      "seed": 9168771508196159071,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 18,
+      "type": "settle",
+      "time": 47.574,
+      "duration": 0.12,
+      "seed": 4532682714427983355,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 19,
+      "type": "settle",
+      "time": 47.874,
+      "duration": 0.12,
+      "seed": 6029215777627302779,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 20,
+      "type": "settle",
+      "time": 48.174,
+      "duration": 0.12,
+      "seed": 14212079946352839915,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 21,
+      "type": "settle",
+      "time": 48.474,
+      "duration": 0.12,
+      "seed": 223118366226398629,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 22,
+      "type": "move",
+      "time": 55.256,
+      "duration": 2.4,
+      "seed": 4375763622867112745,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 23,
+      "type": "settle",
+      "time": 65.646,
+      "duration": 0.12,
+      "seed": 10137813907492757851,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 24,
+      "type": "move",
+      "time": 66.891,
+      "duration": 2.0,
+      "seed": 15174957205882603901,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 25,
+      "type": "settle",
+      "time": 69.555,
+      "duration": 0.12,
+      "seed": 4999091041362612187,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 26,
+      "type": "settle",
+      "time": 73.913,
+      "duration": 0.12,
+      "seed": 10395664565870933217,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 27,
+      "type": "move",
+      "time": 74.436,
+      "duration": 10.215,
+      "seed": 13883206723819933521,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 28,
+      "type": "settle",
+      "time": 79.723,
+      "duration": 0.12,
+      "seed": 8231424161102207784,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 29,
+      "type": "settle",
+      "time": 82.367,
+      "duration": 0.12,
+      "seed": 2375820324234476437,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 30,
+      "type": "collapse",
+      "time": 84.7,
+      "duration": 0.4,
+      "seed": 10868457271105226222,
+      "targetPeakDbFS": -32.04119982655924
+    },
+    {
+      "index": 31,
+      "type": "move",
+      "time": 84.7,
+      "duration": 0.6,
+      "seed": 17542031068239178749,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 32,
+      "type": "settle",
+      "time": 88.371,
+      "duration": 0.12,
+      "seed": 3068953862874125611,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 33,
+      "type": "move",
+      "time": 90.04,
+      "duration": 0.9,
+      "seed": 17874806078122736953,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 34,
+      "type": "settle",
+      "time": 95.714,
+      "duration": 0.12,
+      "seed": 13800147097242092220,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 35,
+      "type": "settle",
+      "time": 98.005,
+      "duration": 0.12,
+      "seed": 415878839740064533,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 36,
+      "type": "move",
+      "time": 99.929,
+      "duration": 4.782,
+      "seed": 13446129904740601532,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 37,
+      "type": "move",
+      "time": 104.812,
+      "duration": 2.0,
+      "seed": 5811342590951233040,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 38,
+      "type": "settle",
+      "time": 112.434,
+      "duration": 0.12,
+      "seed": 15133881936159200584,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 39,
+      "type": "settle",
+      "time": 113.54,
+      "duration": 0.12,
+      "seed": 14701389865939252292,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 40,
+      "type": "move",
+      "time": 118.448,
+      "duration": 2.6,
+      "seed": 11384654863484588337,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 41,
+      "type": "settle",
+      "time": 122.926,
+      "duration": 0.12,
+      "seed": 17857009599188716883,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 42,
+      "type": "move",
+      "time": 124.676,
+      "duration": 1.0,
+      "seed": 11187049388386742401,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 43,
+      "type": "settle",
+      "time": 128.439,
+      "duration": 0.12,
+      "seed": 14502173897823366323,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 44,
+      "type": "settle",
+      "time": 129.339,
+      "duration": 0.12,
+      "seed": 6195703606909948121,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 45,
+      "type": "settle",
+      "time": 130.867,
+      "duration": 0.12,
+      "seed": 9027457100098138811,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 46,
+      "type": "settle",
+      "time": 132.096,
+      "duration": 0.12,
+      "seed": 621603354164600968,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 47,
+      "type": "move",
+      "time": 144.849,
+      "duration": 3.0,
+      "seed": 6865444778173286247,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 48,
+      "type": "settle",
+      "time": 145.749,
+      "duration": 0.12,
+      "seed": 8125223907046805313,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 49,
+      "type": "settle",
+      "time": 147.557,
+      "duration": 0.12,
+      "seed": 18305904175728556407,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 50,
+      "type": "settle",
+      "time": 149.602,
+      "duration": 0.12,
+      "seed": 4584193890763966974,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 51,
+      "type": "dim",
+      "operation": "ambience -8 dB fade"
+    },
+    {
+      "index": 52,
+      "type": "move",
+      "time": 155.378,
+      "duration": 3.2,
+      "seed": 7191810769654225002,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 53,
+      "type": "settle",
+      "time": 166.873,
+      "duration": 0.12,
+      "seed": 12351275120266546935,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 54,
+      "type": "settle",
+      "time": 173.326,
+      "duration": 0.12,
+      "seed": 8793705022927911464,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 55,
+      "type": "move",
+      "time": 175.29,
+      "duration": 1.2,
+      "seed": 249124824770191313,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 56,
+      "type": "settle",
+      "time": 177.962,
+      "duration": 0.12,
+      "seed": 3275606301175269874,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 57,
+      "type": "settle",
+      "time": 182.508,
+      "duration": 0.12,
+      "seed": 4853970085315636565,
+      "targetPeakDbFS": -35.91760034688151
+    },
+    {
+      "index": 58,
+      "type": "move",
+      "time": 187.576,
+      "duration": 5.919,
+      "seed": 10517264103770933318,
+      "targetPeakDbFS": -40.9151498112135
+    },
+    {
+      "index": 59,
+      "type": "pullback",
+      "time": 187.576,
+      "duration": 5.919,
+      "seed": 7431158949870928246,
+      "targetPeakDbFS": -47.95880017344075
+    }
+  ],
+  "stems": [
+    {
+      "path": "audio/sfx/sfx.wav",
+      "samples": 9364579,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -34.52789995169978,
+      "rmsDbFS": -63.756097659791386,
+      "sha256": "f90d4858b487fe1fe601dfa7925c0aeb82bce566b48c0df588b5ab09441fe44d"
+    },
+    {
+      "path": "audio/sfx/ambience.wav",
+      "samples": 9364579,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -43.263642282355505,
+      "rmsDbFS": -58.89782428631155,
+      "sha256": "fc97dad5772651e444c4cbab421ea660a8de0ec1086ef6c66d4e93fa3f640f23"
+    }
+  ],
+  "directorListening": "pending"
+}

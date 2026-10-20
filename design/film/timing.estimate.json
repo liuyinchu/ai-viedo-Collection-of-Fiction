@@ -1,0 +1,121 @@
+{
+  "source": "estimate",
+  "note": "由 design/tools/estimate-timing.mjs 按 4.3 字/秒估算，不是真实配音时长",
+  "total": 190.42,
+  "segments": [
+    {
+      "id": "S01",
+      "start": 1.2,
+      "end": 7.94,
+      "pauseAfter": 1.2
+    },
+    {
+      "id": "S02",
+      "start": 9.14,
+      "end": 17.74,
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "S03",
+      "start": 18.34,
+      "end": 26.25,
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "S04",
+      "start": 26.65,
+      "end": 33.86,
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "S05",
+      "start": 34.46,
+      "end": 46.32,
+      "pauseAfter": 0.8
+    },
+    {
+      "id": "S06",
+      "start": 47.12,
+      "end": 52.7,
+      "pauseAfter": 1.5
+    },
+    {
+      "id": "S07",
+      "start": 54.2,
+      "end": 63.5,
+      "pauseAfter": 1
+    },
+    {
+      "id": "S08",
+      "start": 64.5,
+      "end": 72.17,
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "S09",
+      "start": 72.57,
+      "end": 83.73,
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "S10",
+      "start": 84.03,
+      "end": 86.82,
+      "pauseAfter": 1.5
+    },
+    {
+      "id": "S11",
+      "start": 88.32,
+      "end": 103.2,
+      "pauseAfter": 1
+    },
+    {
+      "id": "S12",
+      "start": 104.2,
+      "end": 113.73,
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "S13",
+      "start": 114.23,
+      "end": 122.14,
+      "pauseAfter": 0.8
+    },
+    {
+      "id": "S14",
+      "start": 122.94,
+      "end": 132.24,
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "S15",
+      "start": 132.84,
+      "end": 141.91,
+      "pauseAfter": 2
+    },
+    {
+      "id": "S16",
+      "start": 143.91,
+      "end": 155.77,
+      "pauseAfter": 1.5
+    },
+    {
+      "id": "S17",
+      "start": 157.27,
+      "end": 170.76,
+      "pauseAfter": 0.8
+    },
+    {
+      "id": "S18",
+      "start": 171.56,
+      "end": 178.54,
+      "pauseAfter": 1
+    },
+    {
+      "id": "S19",
+      "start": 179.54,
+      "end": 184.42,
+      "pauseAfter": 6
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "S09",
+  "source": "audio/vo/raw/S09.mp3",
+  "sourceSha256": "c777bf4e2489231e4f4f97407e07213e1c5e547eb3acfd62bd8180ee519afcd7",
+  "wavSha256": "361779c9b8f315d10d80ac2b1007c44d28a192b2376f8f5588a81e01f627d1a3",
+  "generationSha256": "1771197e17ef9184c5a777965cbacbee73b46aa5dc6aa6f8c60f2c040a70c82d",
+  "textSha256": "9ec4d71c13afc6a209d8f607619a451df68f9466a649432e9492b4069be55086",
+  "ttsText": "可他也因此没法思考了。他想不通：三点十四分从侧面看到的狗，和三点十五分从正面看到的狗，凭什么叫同一个名字。",
+  "samples": 475918,
+  "duration": 9.914958333333333,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

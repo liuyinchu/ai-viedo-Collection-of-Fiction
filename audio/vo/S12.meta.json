@@ -1,0 +1,25 @@
+{
+  "id": "S12",
+  "source": "audio/vo/raw/S12.mp3",
+  "sourceSha256": "5ff1d8b476f21ad2684341a7939c0640f986beddae17e83c744e23540d228ec2",
+  "wavSha256": "fa863ce6e1b040730bc0c48efe43feeb63f098890b043431ce1bde6075b652c6",
+  "generationSha256": "382218924ad5a42bf456ac48b89363a5a451b767644f41f0895fe20ad54a6f44",
+  "textSha256": "a573025d5560db836331a4e599e577cc440e7689c75f08db8ee6f9993670d28e",
+  "ttsText": "还有一篇更奇怪。一个叫梅纳尔的法国人，不是抄写，而是一字不差地，重新写出了《堂吉诃德》里的几章。",
+  "samples": 467002,
+  "duration": 9.729208333333334,
+  "provider": "MiniMax",
+  "method": "web",
+  "model": "speech-2.8-hd",
+  "voice": {
+    "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+    "id": "Chinese (Mandarin)_Reliable_Executive"
+  },
+  "settings": {
+    "speed": 0.95,
+    "pitch": 0,
+    "volume": 1,
+    "emotion": "automatic; no inline emotion tags",
+    "language": "Chinese Mandarin (auto detection)"
+  }
+}

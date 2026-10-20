@@ -1,0 +1,180 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "他",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.4912109375
+    },
+    {
+      "word": "叫",
+      "start": 0.28,
+      "end": 0.44,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "博",
+      "start": 0.44,
+      "end": 0.58,
+      "probability": 0.7724609375
+    },
+    {
+      "word": "尔",
+      "start": 0.58,
+      "end": 0.72,
+      "probability": 0.9873046875
+    },
+    {
+      "word": "赫",
+      "start": 0.72,
+      "end": 0.92,
+      "probability": 0.9912109375
+    },
+    {
+      "word": "斯",
+      "start": 0.92,
+      "end": 1.14,
+      "probability": 0.98974609375
+    },
+    {
+      "word": "这",
+      "start": 1.5800000000000005,
+      "end": 1.94,
+      "probability": 0.7587890625
+    },
+    {
+      "word": "篇",
+      "start": 1.94,
+      "end": 2.1,
+      "probability": 0.99658203125
+    },
+    {
+      "word": "小",
+      "start": 2.1,
+      "end": 2.24,
+      "probability": 1.0
+    },
+    {
+      "word": "说",
+      "start": 2.24,
+      "end": 2.38,
+      "probability": 0.9921875
+    },
+    {
+      "word": "叫",
+      "start": 2.38,
+      "end": 2.64,
+      "probability": 1.0
+    },
+    {
+      "word": "巴",
+      "start": 2.64,
+      "end": 3.26,
+      "probability": 0.71630859375
+    },
+    {
+      "word": "别",
+      "start": 3.26,
+      "end": 3.42,
+      "probability": 0.9892578125
+    },
+    {
+      "word": "图",
+      "start": 3.42,
+      "end": 3.6,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "书",
+      "start": 3.6,
+      "end": 3.76,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "馆",
+      "start": 3.76,
+      "end": 4.0,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "说",
+      "start": 5.44,
+      "end": 5.56,
+      "probability": 0.5185546875
+    },
+    {
+      "word": "在",
+      "start": 5.56,
+      "end": 5.74,
+      "probability": 0.9892578125
+    },
+    {
+      "word": "今天",
+      "start": 5.74,
+      "end": 5.94,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "我想",
+      "start": 5.94,
+      "end": 6.22,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "讲",
+      "start": 6.22,
+      "end": 6.4,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "的",
+      "start": 6.4,
+      "end": 6.52,
+      "probability": 1.0
+    },
+    {
+      "word": "这",
+      "start": 6.52,
+      "end": 6.64,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "本",
+      "start": 6.64,
+      "end": 6.8,
+      "probability": 0.998046875
+    },
+    {
+      "word": "书",
+      "start": 6.8,
+      "end": 7.46,
+      "probability": 1.0
+    },
+    {
+      "word": "虚",
+      "start": 7.46,
+      "end": 7.66,
+      "probability": 0.78662109375
+    },
+    {
+      "word": "构",
+      "start": 7.66,
+      "end": 7.82,
+      "probability": 0.96630859375
+    },
+    {
+      "word": "极",
+      "start": 7.82,
+      "end": 8.0,
+      "probability": 0.62451171875
+    },
+    {
+      "word": "力",
+      "start": 8.0,
+      "end": 8.16,
+      "probability": 0.351318359375
+    }
+  ]
+}

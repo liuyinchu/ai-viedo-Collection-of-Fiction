@@ -1,0 +1,26 @@
+{
+  "source": "audio/vo/timing.json",
+  "windows": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 18.594145833333336,
+      "fadeIn": 1.5,
+      "fadeOut": 2.5
+    },
+    {
+      "id": "menard",
+      "start": 114.94116666666666,
+      "end": 144.64872916666667,
+      "fadeIn": 2,
+      "fadeOut": 3
+    },
+    {
+      "id": "ending",
+      "start": 183.84766666666667,
+      "end": 195.09539583333333,
+      "fadeIn": 1.5,
+      "fadeOut": 4
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "有人",
+      "start": 0.0,
+      "end": 0.34,
+      "probability": 0.98828125
+    },
+    {
+      "word": "问",
+      "start": 0.34,
+      "end": 0.52,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "过",
+      "start": 0.52,
+      "end": 0.68,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "我",
+      "start": 0.68,
+      "end": 0.82,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "两",
+      "start": 0.82,
+      "end": 0.96,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "次",
+      "start": 0.96,
+      "end": 1.22,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "如果",
+      "start": 1.88,
+      "end": 2.2,
+      "probability": 0.7998046875
+    },
+    {
+      "word": "只",
+      "start": 2.2,
+      "end": 2.42,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "推",
+      "start": 2.42,
+      "end": 2.54,
+      "probability": 1.0
+    },
+    {
+      "word": "荐",
+      "start": 2.54,
+      "end": 2.7,
+      "probability": 0.99560546875
+    },
+    {
+      "word": "一",
+      "start": 2.7,
+      "end": 2.84,
+      "probability": 1.0
+    },
+    {
+      "word": "本",
+      "start": 2.84,
+      "end": 3.0,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "书",
+      "start": 3.0,
+      "end": 3.26,
+      "probability": 1.0
+    },
+    {
+      "word": "你",
+      "start": 3.26,
+      "end": 3.68,
+      "probability": 0.8486328125
+    },
+    {
+      "word": "选",
+      "start": 3.68,
+      "end": 3.84,
+      "probability": 1.0
+    },
+    {
+      "word": "哪",
+      "start": 3.84,
+      "end": 3.96,
+      "probability": 0.98681640625
+    },
+    {
+      "word": "本",
+      "start": 3.96,
+      "end": 4.16,
+      "probability": 0.90966796875
+    },
+    {
+      "word": "两",
+      "start": 4.58,
+      "end": 4.9,
+      "probability": 0.70654296875
+    },
+    {
+      "word": "次",
+      "start": 4.9,
+      "end": 5.2,
+      "probability": 1.0
+    },
+    {
+      "word": "我",
+      "start": 5.66,
+      "end": 5.98,
+      "probability": 0.9921875
+    },
+    {
+      "word": "给",
+      "start": 5.98,
+      "end": 6.12,
+      "probability": 0.99853515625
+    },
+    {
+      "word": "了",
+      "start": 6.12,
+      "end": 6.22,
+      "probability": 1.0
+    },
+    {
+      "word": "不同",
+      "start": 6.22,
+      "end": 6.38,
+      "probability": 1.0
+    },
+    {
+      "word": "的",
+      "start": 6.38,
+      "end": 6.56,
+      "probability": 1.0
+    },
+    {
+      "word": "答",
+      "start": 6.56,
+      "end": 6.7,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "案",
+      "start": 6.7,
+      "end": 6.84,
+      "probability": 1.0
+    }
+  ]
+}

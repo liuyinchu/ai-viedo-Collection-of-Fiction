@@ -1,0 +1,78 @@
+{
+  "source": "independent-asr-estimated",
+  "relativeTo": "segment audio start",
+  "words": [
+    {
+      "word": "波",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.419921875
+    },
+    {
+      "word": "尔",
+      "start": 0.3,
+      "end": 0.44,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "赫",
+      "start": 0.44,
+      "end": 0.58,
+      "probability": 0.96435546875
+    },
+    {
+      "word": "斯",
+      "start": 0.58,
+      "end": 0.72,
+      "probability": 0.9443359375
+    },
+    {
+      "word": "说",
+      "start": 0.72,
+      "end": 0.94,
+      "probability": 0.9990234375
+    },
+    {
+      "word": "思",
+      "start": 1.6199999999999997,
+      "end": 1.96,
+      "probability": 0.4814453125
+    },
+    {
+      "word": "考",
+      "start": 1.96,
+      "end": 2.26,
+      "probability": 0.99951171875
+    },
+    {
+      "word": "是",
+      "start": 2.26,
+      "end": 2.96,
+      "probability": 0.99169921875
+    },
+    {
+      "word": "忘",
+      "start": 2.96,
+      "end": 3.1,
+      "probability": 0.9619140625
+    },
+    {
+      "word": "记",
+      "start": 3.1,
+      "end": 3.26,
+      "probability": 0.97265625
+    },
+    {
+      "word": "差",
+      "start": 3.26,
+      "end": 3.42,
+      "probability": 0.97119140625
+    },
+    {
+      "word": "异",
+      "start": 3.42,
+      "end": 3.6,
+      "probability": 0.9775390625
+    }
+  ]
+}
