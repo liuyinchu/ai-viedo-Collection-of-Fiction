@@ -35,7 +35,8 @@ def file_info(path):
 
 
 def frozen_inputs(plan):
-    for item in plan["inputs"] + [plan["master"], plan["audio"]]:
+    browser_inputs = read_json(ROOT / "engine/film3-final-render-inputs.json")["inputs"]
+    for item in plan["inputs"] + browser_inputs + [plan["master"], plan["audio"]]:
         if digest((ROOT / item["path"]).read_bytes()) != item["sha256"]:
             raise RuntimeError("Input changed after freeze: " + item["path"])
     approval = read_json(ROOT / plan["approval"])
@@ -210,12 +211,14 @@ def assemble(plan):
                        "frameTimeGridPassed": True, "maxTimestampErrorSeconds": max_error,
                        "picturePacketsUnchanged": True, "picturePacketHash": picture_hash,
                        "audioPacketsMatchApprovedPreview": True, "inputsUnchanged": True,
-                       "rasterVerificationPassedWithinTolerance": True, "exactPixelMatch": not bool(warnings),
+                       "rasterVerificationPassedWithinTolerance": True, "exactPixelMatchAtSampledTimes": not bool(warnings),
                        "rasterFindings": warnings},
         "render": {**plan["render"], "sourceRevision": plan["sourceRevision"],
                    "log": plan["renderLog"], "result": render_result},
         "verification": {"log": plan["verifyLog"], "result": verify_result},
         "inputs": plan["inputs"],
+        "actualBrowserInputs": file_info(ROOT / "engine/film3-final-render-inputs.json"),
+        "exportScript": file_info(Path(__file__).resolve()),
     }
     write_json(DEST / "delivery.json", delivery)
     write_json(ROOT / "engine/film3-final-delivery.json", delivery)
