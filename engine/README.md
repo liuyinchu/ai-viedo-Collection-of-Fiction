@@ -223,3 +223,11 @@ engine/.venv/bin/python engine/finalize-film3.py assemble
 
 交付目录 `out/final-v3/`；可提交的记录位于 `engine/film3-final-delivery.json`。
 输出文件不入 Git，源码与来源、校验记录持续提交至远端机器的本地仓库。
+
+
+正式导出已完成：`out/final-v3/borges-fiction-3min-v3.mp4`，
+1920×1080 / 30 fps / 5853 帧 / 195.1 秒。最终 AAC 实测 −14.20 LUFS / −1.36 dBTP，
+与导演通过预览的音频压缩数据完全相同。
+独立 SRT 共 43 条；`out/final-v3/stills/contact-sheet.png` 包含指定的 13 个成片时间点。
+完整解码、视频时间网格、字幕台本、输入哈希、音画封装一致性检查均通过。
+正式版静帧已供 Claude 做最后画面复核；工程导出完成不替代该设计验收。
