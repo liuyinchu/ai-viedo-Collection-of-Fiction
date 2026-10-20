@@ -1,0 +1,88 @@
+{
+  "version": "synthetic-v2",
+  "status": "awaiting-director-listening",
+  "levelDefinition": "Original stems before final common mix normalization; RMS over complete placement window, stereo mean-square. Active-voice comparison gates 100 ms voice blocks above -35 dBFS.",
+  "curveDefinition": "250 ms block RMS; display floor -65 dBFS; no per-track display normalization.",
+  "windows": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 18.594145833333336,
+      "voiceRmsDbFS": -21.991493025338173,
+      "v1MusicRmsDbFS": -42.70458734621995,
+      "v2MusicRmsDbFS": -34.74656450538026,
+      "musicIncreaseDb": 7.958022840839689,
+      "voiceMinusV1Db": 20.71309432088178,
+      "voiceMinusV2Db": 12.75507148004209,
+      "voiceActiveMinusV1Db": 24.718676829318042,
+      "voiceActiveMinusV2Db": 15.817139219331892,
+      "v1Notes": 6,
+      "v2Notes": 10
+    },
+    {
+      "id": "menard",
+      "start": 114.94116666666666,
+      "end": 144.64872916666667,
+      "voiceRmsDbFS": -20.914184085606678,
+      "v1MusicRmsDbFS": -45.063421409414616,
+      "v2MusicRmsDbFS": -35.75098523974593,
+      "musicIncreaseDb": 9.312436169668686,
+      "voiceMinusV1Db": 24.149237323807938,
+      "voiceMinusV2Db": 14.836801154139252,
+      "voiceActiveMinusV1Db": 27.90714150662442,
+      "voiceActiveMinusV2Db": 17.59455596886191,
+      "v1Notes": 9,
+      "v2Notes": 14
+    },
+    {
+      "id": "ending",
+      "start": 183.84766666666667,
+      "end": 195.09539583333333,
+      "voiceRmsDbFS": -24.332479962876953,
+      "v1MusicRmsDbFS": -44.81242918114823,
+      "v2MusicRmsDbFS": -34.56694743703501,
+      "musicIncreaseDb": 10.24548174411322,
+      "voiceMinusV1Db": 20.47994921827128,
+      "voiceMinusV2Db": 10.234467474158059,
+      "voiceActiveMinusV1Db": 25.989594830280755,
+      "voiceActiveMinusV2Db": 16.011184399807345,
+      "v1Notes": 4,
+      "v2Notes": 7
+    }
+  ],
+  "mixedWav": {
+    "input_i": "-13.98",
+    "input_tp": "-1.08",
+    "input_lra": "4.50",
+    "input_thresh": "-25.54",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "4.30",
+    "output_thresh": "-25.68",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "files": [
+    {
+      "path": "audio/music/synthetic-v1/score.wav",
+      "sha256": "4d7cf4e835d6d99e5d040bb2cdd784f36999459a00ce628cdccb08a981a25102"
+    },
+    {
+      "path": "audio/music/synthetic-v2/score.wav",
+      "sha256": "e3509e7d847fc989a89501a820b5071d3b6d02631ce820dfbaf2c6ed73ff35eb"
+    },
+    {
+      "path": "audio/vo/narration.wav",
+      "sha256": "e7f9416b0cebec3963b219917c5f9e0d29fd38a63d77b9018dc489ba2894cc24"
+    },
+    {
+      "path": "audio/music/synthetic-v2/score-plan.json",
+      "sha256": "c73ea2cc2646ac92524a216bcb5c2bc37b2a4d95e1be035c004a186ed50193a0"
+    },
+    {
+      "path": "audio/mix/synthetic-v2-review.wav",
+      "sha256": "f8776b89e6fff8e856cd27a85f5cd3f942010a2c7266194b809bdd5d5e704d8b"
+    }
+  ],
+  "approvalBoundary": "Claude 可核对时刻、强弱与乐句结构；悦耳程度和人声遮盖感由导演听审。"
+}

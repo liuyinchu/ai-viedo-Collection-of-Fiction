@@ -1,0 +1,232 @@
+{
+  "version": "synthetic-v2",
+  "status": "audition-awaiting-director",
+  "intent": "提高实际音量与主题辨识度；无鼓、无固定节拍，仅使用既定三个音乐窗口。",
+  "peakBeforeDuckingDbFS": -18.5,
+  "duckingDb": 2,
+  "notes": {
+    "opening": [
+      {
+        "offset": 0.45,
+        "pitch": "D3",
+        "velocity": 0.5,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 1.1,
+        "pitch": "D4",
+        "velocity": 0.82,
+        "pan": -0.18,
+        "role": "motif"
+      },
+      {
+        "offset": 3.15,
+        "pitch": "A3",
+        "velocity": 0.3,
+        "pan": 0.2,
+        "role": "answer"
+      },
+      {
+        "offset": 4.8,
+        "pitch": "A4",
+        "velocity": 0.73,
+        "pan": 0.12,
+        "role": "motif"
+      },
+      {
+        "offset": 7.1,
+        "pitch": "E4",
+        "velocity": 0.27,
+        "pan": -0.14,
+        "role": "answer"
+      },
+      {
+        "offset": 8.6,
+        "pitch": "E5",
+        "velocity": 0.65,
+        "pan": -0.08,
+        "role": "motif"
+      },
+      {
+        "offset": 9.1,
+        "pitch": "D3",
+        "velocity": 0.32,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 11.1,
+        "pitch": "A3",
+        "velocity": 0.27,
+        "pan": 0.16,
+        "role": "answer"
+      },
+      {
+        "offset": 12.9,
+        "pitch": "B4",
+        "velocity": 0.64,
+        "pan": 0.18,
+        "role": "motif"
+      },
+      {
+        "offset": 15.45,
+        "pitch": "A4",
+        "velocity": 0.51,
+        "pan": 0.03,
+        "role": "answer"
+      }
+    ],
+    "menard": [
+      {
+        "offset": 0.45,
+        "pitch": "G2",
+        "velocity": 0.5,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 1.1,
+        "pitch": "D4",
+        "velocity": 0.82,
+        "pan": -0.18,
+        "role": "motif"
+      },
+      {
+        "offset": 3.15,
+        "pitch": "D3",
+        "velocity": 0.3,
+        "pan": 0.18,
+        "role": "answer"
+      },
+      {
+        "offset": 4.8,
+        "pitch": "A4",
+        "velocity": 0.73,
+        "pan": 0.12,
+        "role": "motif"
+      },
+      {
+        "offset": 7.1,
+        "pitch": "B3",
+        "velocity": 0.29,
+        "pan": -0.15,
+        "role": "answer"
+      },
+      {
+        "offset": 8.6,
+        "pitch": "E5",
+        "velocity": 0.65,
+        "pan": -0.08,
+        "role": "motif"
+      },
+      {
+        "offset": 10.25,
+        "pitch": "G3",
+        "velocity": 0.29,
+        "pan": 0.14,
+        "role": "answer"
+      },
+      {
+        "offset": 12.9,
+        "pitch": "B4",
+        "velocity": 0.64,
+        "pan": 0.18,
+        "role": "motif"
+      },
+      {
+        "offset": 15.6,
+        "pitch": "C3",
+        "velocity": 0.44,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 17,
+        "pitch": "D5",
+        "velocity": 0.65,
+        "pan": -0.15,
+        "role": "response"
+      },
+      {
+        "offset": 19.45,
+        "pitch": "B4",
+        "velocity": 0.58,
+        "pan": 0.16,
+        "role": "response"
+      },
+      {
+        "offset": 21.2,
+        "pitch": "G3",
+        "velocity": 0.29,
+        "pan": -0.12,
+        "role": "answer"
+      },
+      {
+        "offset": 22.4,
+        "pitch": "A4",
+        "velocity": 0.53,
+        "pan": 0.13,
+        "role": "response"
+      },
+      {
+        "offset": 25.6,
+        "pitch": "E4",
+        "velocity": 0.48,
+        "pan": -0.04,
+        "role": "response"
+      }
+    ],
+    "ending": [
+      {
+        "offset": 0.35,
+        "pitch": "D3",
+        "velocity": 0.48,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 0.95,
+        "pitch": "D4",
+        "velocity": 0.73,
+        "pan": -0.16,
+        "role": "motif"
+      },
+      {
+        "offset": 2.65,
+        "pitch": "A3",
+        "velocity": 0.29,
+        "pan": 0.15,
+        "role": "answer"
+      },
+      {
+        "offset": 3.45,
+        "pitch": "A4",
+        "velocity": 0.64,
+        "pan": 0.12,
+        "role": "motif"
+      },
+      {
+        "offset": 5.65,
+        "pitch": "E5",
+        "velocity": 0.59,
+        "pan": -0.08,
+        "role": "motif"
+      },
+      {
+        "offset": 6.25,
+        "pitch": "D3",
+        "velocity": 0.32,
+        "pan": 0,
+        "role": "bass"
+      },
+      {
+        "offset": 7.55,
+        "pitch": "D5",
+        "velocity": 0.53,
+        "pan": 0.12,
+        "role": "cadence"
+      }
+    ]
+  }
+}

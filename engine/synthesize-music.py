@@ -8,6 +8,9 @@ from common import ROOT, read_json, write_json, digest
 SR = 48000
 VERSION = "synthetic-v1"
 OUT = ROOT/"audio/music"/VERSION
+TARGET_PEAK_DB = -25.5
+DUCK_DB = 4.5
+SYNTHESIS_INFO = {"reference":"Same D4–A4–E5–B4 phrase over D3 then G2; ending keeps D4–A4–E5.", "fixedSeedNamespace":"borges-modal-v1 / borges-room-v1"}
 # The same four-note phrase is heard over different bass notes in the first two cues.
 # All offsets are seconds relative to the approved placement windows.
 PHRASE = [
@@ -112,14 +115,14 @@ def build_score():
         clips.append((window,x))
         events.append({"window":window,"notes":notes})
     # One fixed gain for all three cues, retaining their relative dynamics.
-    gain=db(-25.5)/max(np.max(np.abs(score)),1e-12)
+    gain=db(TARGET_PEAK_DB)/max(np.max(np.abs(score)),1e-12)
     score*=gain
     # Smooth 4.5 dB attenuation under actual narration, with 50 ms attack / 450 ms recovery.
     voice,sr=sf.read(ROOT/"audio/vo/narration.wav")
     if sr!=SR or len(voice)!=n:raise ValueError("Narration and music timeline differ")
     hop=480
     frame_levels=np.array([np.sqrt(np.mean(voice[i:i+hop]**2)) for i in range(0,n,hop)])
-    target=1-(1-db(-4.5))*smooth((frame_levels-db(-44))/(db(-31)-db(-44)))
+    target=1-(1-db(-DUCK_DB))*smooth((frame_levels-db(-44))/(db(-31)-db(-44)))
     current=1.0;envelope=[]
     for v in target:
         alpha=math.exp(-0.01/(0.05 if v<current else 0.45))
@@ -158,8 +161,7 @@ def main():
        "externalSamples":False,"sampleRate":SR,"timelineSha256":digest((ROOT/"audio/vo/timing.json").read_bytes()),
        "placementSha256":digest((ROOT/"audio/music/placement.json").read_bytes()),
        "narrationSha256":digest((ROOT/"audio/vo/narration.wav").read_bytes()),
-       "reference":"Same D4–A4–E5–B4 phrase over D3 then G2; ending keeps D4–A4–E5.",
-       "fixedSeedNamespace":"borges-modal-v1 / borges-room-v1","duckingDb":4.5,
+       **SYNTHESIS_INFO,"peakBeforeDuckingDbFS":TARGET_PEAK_DB,"duckingDb":DUCK_DB,
        "determinismChecked":deterministic,"silenceOutsideWindows":True,
        "score":{**metrics(x),"path":str(score.relative_to(ROOT)),"sha256":digest(score.read_bytes())},
        "soloAudition":{**metrics(solo),"gainPurpose":"louder audition; not the production music level"},

@@ -1,0 +1,52 @@
+{
+  "kind": "music-included",
+  "target": {
+    "integratedLUFS": -14,
+    "maxTruePeakDbTP": -1
+  },
+  "firstPass": {
+    "input_i": "-17.61",
+    "input_tp": "-0.25",
+    "input_lra": "4.50",
+    "input_thresh": "-29.35",
+    "output_i": "-14.75",
+    "output_tp": "-1.50",
+    "output_lra": "4.20",
+    "output_thresh": "-26.27",
+    "normalization_type": "dynamic",
+    "target_offset": "0.75"
+  },
+  "verified": {
+    "input_i": "-13.98",
+    "input_tp": "-1.08",
+    "input_lra": "4.50",
+    "input_thresh": "-25.54",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "4.30",
+    "output_thresh": "-25.68",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "passed": true,
+  "duration": 195.09539583333333,
+  "inputs": [
+    {
+      "path": "audio/vo/narration.wav",
+      "sha256": "e7f9416b0cebec3963b219917c5f9e0d29fd38a63d77b9018dc489ba2894cc24"
+    },
+    {
+      "path": "audio/sfx/sfx.wav",
+      "sha256": "0400d33caa5b4af3bc228855b2303e22daab779e6175600a4120c0b8d4ae0390"
+    },
+    {
+      "path": "audio/sfx/ambience.wav",
+      "sha256": "b655833762890e9b93f79dbe50c96a7e3be8b51ddb21b6f187d401fdd3a2d914"
+    },
+    {
+      "path": "audio/music/synthetic-v2/score.wav",
+      "sha256": "e3509e7d847fc989a89501a820b5071d3b6d02631ce820dfbaf2c6ed73ff35eb"
+    }
+  ],
+  "outputSha256": "f8776b89e6fff8e856cd27a85f5cd3f942010a2c7266194b809bdd5d5e704d8b"
+}

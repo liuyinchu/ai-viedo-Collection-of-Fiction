@@ -71,8 +71,8 @@ ASR 直接载入已转换的 MLX 权重，不使用 PyTorch 转换工具。requi
 运行 node engine/export-audio-plan.mjs 导出真实镜头速度包络及音乐窗口，再运行
 engine/.venv/bin/python engine/synthesize-sfx.py 生成确定性的纸响、气流和环境声。
 engine/.venv/bin/python engine/mix.py 生成无配乐听审混音；实测响度结果保存在同名 JSON。
-Suno 音乐确认并铺好全片时间轴之后，可用 --music audio/music/score.wav 加入总混音。
-正式视频导出前要让 Claude 验收 10 秒样片，让导演确认读音疑点及配乐。
+音乐确认并铺好全片时间轴之后，可用 --music <score.wav> 加入总混音。
+10 秒样片和配音读音已通过；整片画面与新版配乐仍分别待 Claude、导演验收。
 
 当前听审：out/review/preview-10s-sfx.mp4，out/review/voice-sfx-review.mp3。
 字幕：out/film.zh-CN.srt。字幕段内时间按字数估算，段落边界为实测。
@@ -86,3 +86,38 @@ engine/.venv/bin/python engine/mix.py --music audio/music/synthetic-v1/score.wav
 生产声轨严格限制在三处配乐窗口；纯配乐试听版单独提高了电平。
 小样：out/review/synthetic-v1-solo.mp3 与 synthetic-v1-with-voice.mp3。
 两者均约 61 秒，顺序为开场、梅纳尔、片尾。参数与音符见 audio/music/synthetic-v1/manifest.json。
+
+
+## 配乐 v2 与可视化听审
+
+导演要求提高配乐音量和存在感。v2 的音符与力度由
+audio/music/synthetic-v2/score-plan.json 描述，原 v1 保留用于比较。
+
+```sh
+engine/.venv/bin/python engine/synthesize-music-v2.py --verify
+engine/.venv/bin/python engine/mix.py --music audio/music/synthetic-v1/score.wav --out audio/mix/synthetic-v1-word-sync-review.wav
+engine/.venv/bin/python engine/mix.py --music audio/music/synthetic-v2/score.wav --out audio/mix/synthetic-v2-review.wav
+engine/.venv/bin/python engine/review-music.py
+```
+
+报告：out/review/music-v2/index.html。两张图分别是 levels.png、score-map.png，
+测量数据保存到 audio/music/synthetic-v2/analysis.json。RMS 比较使用真实声轨和共同刻度，
+不要把图表当成听感通过。含口播试听沿用生产混音音量；solo 版本单独抬高试听电平。
+
+## 整片画面验收
+
+```sh
+node engine/run.mjs verify --at 16.6,83.9,120,150,186 --workers 2 --json
+node engine/run.mjs render --workers 2 --out out/review/film-picture-v1.mp4 --json
+engine/.venv/bin/python engine/review-film.py
+```
+
+review-film.py 从编码后的整片取出 Claude 指定的 11 个时间点，并检查帧率、尺寸、5853 帧、
+完整解码与 195.1 秒视频时长。报告和联系表位于 out/review/full-film-stills/。
+视频相对 195.095396 秒音频多 4.604 毫秒，是 30 fps 的整帧取整，属于片尾黑场。
+
+## Git 备份范围
+
+按制作节点提交本远端仓库。台本、设计、工程、配音原始素材、批准的逐段 WAV、
+ASR、字体和生成参数都纳入版本控制；可再生成的整段声轨、视频、图表、下载缓存和依赖忽略。
+目前没有 Git remote；提交历史保存在这台制作机器。
