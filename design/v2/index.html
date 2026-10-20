@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>墙 · 第二版样张</title>
+<link rel="stylesheet" href="../film/fonts.css">
+<style>
+  :root { --bg: #161513; --fg: #d9d2c1; --dim: #8a8373; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Noto Sans SC", system-ui, sans-serif; }
+  main { max-width: 1280px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-weight: 400; font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--dim); margin: 0 0 32px; }
+  figure { margin: 0 0 36px; }
+  canvas { display: block; width: 100%; height: auto; background: #0d0c0b; }
+  figcaption { margin-top: 10px; color: var(--dim); }
+  figcaption b { color: var(--fg); font-weight: 400; margin-right: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>墙 · 第二版样张</h1>
+  <p class="sub">光、景深、灰尘、前景视差、大字号、富内斯转暗。铜版画插图等 Codex 生成后再加。<span id="status">加载字体中……</span></p>
+  <div id="frames"></div>
+</main>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -22,19 +22,22 @@
       "type": "settle",
       "seg": "S01",
       "offset": 6.92,
-      "t": 8.12
+      "t": 8.12,
+      "line": "t1"
     },
     {
       "type": "settle",
       "seg": "S01",
       "offset": 7.57,
-      "t": 8.77
+      "t": 8.77,
+      "line": "t2"
     },
     {
       "type": "settle",
       "seg": "S02",
       "offset": 8.36,
-      "t": 17.912
+      "t": 17.912,
+      "line": "s02"
     },
     {
       "type": "move",
@@ -47,7 +50,8 @@
       "type": "settle",
       "seg": "S03",
       "offset": 7.18,
-      "t": 26.074
+      "t": 26.074,
+      "line": "s03"
     },
     {
       "type": "move",
@@ -60,19 +64,22 @@
       "type": "settle",
       "seg": "S04",
       "offset": 1.34,
-      "t": 28.111
+      "t": 28.111,
+      "line": "bio"
     },
     {
       "type": "settle",
       "seg": "S04",
       "offset": 3.64,
-      "t": 30.411
+      "t": 30.411,
+      "line": "babel"
     },
     {
       "type": "settle",
       "seg": "S04",
       "offset": 8.16,
-      "t": 34.931
+      "t": 34.931,
+      "line": "in"
     },
     {
       "type": "move",
@@ -85,67 +92,78 @@
       "type": "settle",
       "seg": "S05",
       "offset": 6.96,
-      "t": 42.796
+      "t": 42.796,
+      "line": "bio2"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 8.11,
-      "t": 43.946
+      "t": 43.946,
+      "line": "truth"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 10.42,
-      "t": 46.256
+      "t": 46.256,
+      "line": "err0"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 10.72,
-      "t": 46.556
+      "t": 46.556,
+      "line": "err1"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 11.02,
-      "t": 46.856
+      "t": 46.856,
+      "line": "err2"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 11.32,
-      "t": 47.156
+      "t": 47.156,
+      "line": "err3"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 11.62,
-      "t": 47.456
+      "t": 47.456,
+      "line": "err4"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 11.92,
-      "t": 47.756
+      "t": 47.756,
+      "line": "err5"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 12.22,
-      "t": 48.056
+      "t": 48.056,
+      "line": "err6"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 12.52,
-      "t": 48.356
+      "t": 48.356,
+      "line": "err7"
     },
     {
       "type": "settle",
       "seg": "S05",
       "offset": 12.82,
-      "t": 48.656
+      "t": 48.656,
+      "line": "err8"
     },
     {
       "type": "move",
@@ -158,7 +176,8 @@
       "type": "settle",
       "seg": "S07",
       "offset": 10.32,
-      "t": 65.476
+      "t": 65.476,
+      "line": "s07"
     },
     {
       "type": "move",
@@ -171,13 +190,15 @@
       "type": "settle",
       "seg": "S08",
       "offset": 2.94,
-      "t": 69.731
+      "t": 69.731,
+      "line": "funes"
     },
     {
       "type": "settle",
       "seg": "S08",
       "offset": 6.96,
-      "t": 73.751
+      "t": 73.751,
+      "line": "all"
     },
     {
       "type": "move",
@@ -190,13 +211,15 @@
       "type": "settle",
       "seg": "S09",
       "offset": 5.5,
-      "t": 79.936
+      "t": 79.936,
+      "line": "dog1"
     },
     {
       "type": "settle",
       "seg": "S09",
       "offset": 7.98,
-      "t": 82.416
+      "t": 82.416,
+      "line": "dog2"
     },
     {
       "type": "collapse",
@@ -216,7 +239,8 @@
       "type": "settle",
       "seg": "S10",
       "offset": 3.6,
-      "t": 88.25
+      "t": 88.25,
+      "line": "think"
     },
     {
       "type": "move",
@@ -229,13 +253,15 @@
       "type": "settle",
       "seg": "S11",
       "offset": 5.72,
-      "t": 95.76
+      "t": 95.76,
+      "line": "s11a"
     },
     {
       "type": "settle",
       "seg": "S11",
       "offset": 8.38,
-      "t": 98.42
+      "t": 98.42,
+      "line": "s11b"
     },
     {
       "type": "move",
@@ -255,13 +281,15 @@
       "type": "settle",
       "seg": "S12",
       "offset": 8.04,
-      "t": 112.752
+      "t": 112.752,
+      "line": "ma"
     },
     {
       "type": "settle",
       "seg": "S12",
       "offset": 9.32,
-      "t": 114.032
+      "t": 114.032,
+      "line": "maSig"
     },
     {
       "type": "move",
@@ -274,7 +302,8 @@
       "type": "settle",
       "seg": "S13",
       "offset": 8.24,
-      "t": 123.181
+      "t": 123.181,
+      "line": "mbSig"
     },
     {
       "type": "move",
@@ -287,25 +316,29 @@
       "type": "settle",
       "seg": "S14",
       "offset": 4,
-      "t": 128.576
+      "t": 128.576,
+      "line": "me1"
     },
     {
       "type": "settle",
       "seg": "S14",
       "offset": 4.9,
-      "t": 129.476
+      "t": 129.476,
+      "line": "me1Sig"
     },
     {
       "type": "settle",
       "seg": "S14",
       "offset": 6.35,
-      "t": 130.926
+      "t": 130.926,
+      "line": "me2"
     },
     {
       "type": "settle",
       "seg": "S14",
       "offset": 7.56,
-      "t": 132.136
+      "t": 132.136,
+      "line": "me2Sig"
     },
     {
       "type": "move",
@@ -318,19 +351,22 @@
       "type": "settle",
       "seg": "S16",
       "offset": 0.6,
-      "t": 145.749
+      "t": 145.749,
+      "line": "k1"
     },
     {
       "type": "settle",
       "seg": "S16",
       "offset": 2.48,
-      "t": 147.629
+      "t": 147.629,
+      "line": "k2"
     },
     {
       "type": "settle",
       "seg": "S16",
       "offset": 4.3,
-      "t": 149.449
+      "t": 149.449,
+      "line": "k3"
     },
     {
       "type": "dim",
@@ -350,13 +386,15 @@
       "type": "settle",
       "seg": "S17",
       "offset": 7.2,
-      "t": 166.98
+      "t": 166.98,
+      "line": "from"
     },
     {
       "type": "settle",
       "seg": "S17",
       "offset": 13.2,
-      "t": 172.98
+      "t": 172.98,
+      "line": "to"
     },
     {
       "type": "move",
@@ -369,13 +407,15 @@
       "type": "settle",
       "seg": "S18",
       "offset": 2.7,
-      "t": 177.99
+      "t": 177.99,
+      "line": "card2"
     },
     {
       "type": "settle",
       "seg": "S18",
       "offset": 7.56,
-      "t": 182.85
+      "t": 182.85,
+      "line": "card1"
     },
     {
       "type": "move",

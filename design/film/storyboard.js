@@ -29,7 +29,7 @@ export const ease = {
 
 export const PAGES = [
   { c0: -50, c1: 230, r0: -100, r1: 320, gutter: 'left' },   // 右页：墙所在的那一页
-  { c0: -334, c1: -54, r0: -100, r1: 320, gutter: 'right' }, // 左页
+  { c0: -330, c1: -50, r0: -100, r1: 320, gutter: 'right' }, // 左页：和右页在书脊处直接相接，接缝只靠两侧阴影（留缝会露出一道黑条）
 ];
 
 const STYLE = {
@@ -141,7 +141,7 @@ export function build(timing, script, words = {}) {
   const defaultDur = (id) => Math.min(1.4, Math.max(0.5, 0.3 + 0.07 * [...lines[id].text].length));
   const reveal = (id, t, dur = defaultDur(id)) => {
     lines[id].events.push({ type: 'reveal', t, dur });
-    cue('settle', t + dur);
+    cues.push({ type: 'settle', t: t + dur, line: id }); // line：哪一行字凝结完成（配乐用它挑强拍）
   };
   /** 跟着口播凝结：从说到 from 开始，到说完 to 结束 */
   const revealSpoken = (id, seg, from, to = from) => {
@@ -310,7 +310,7 @@ export function build(timing, script, words = {}) {
   const restoreAt = word('S19', '这期视频里'), restoreDur = 1.6;
   const pullAt = word('S19', '那座图书馆');
   const fadeOutDur = 1.4;
-  move(pullAt, total - 1.6 - pullAt, { x: -52, y: 110, zoom: 0.0095 }, 'inOutSine');
+  move(pullAt, total - 1.6 - pullAt, { x: -50, y: 110, zoom: 0.0095 }, 'inOutSine'); // 停在书脊正中
   cue('pullback', pullAt, total - 1.6 - pullAt);
 
   // ─── 求值 ─────────────────────────────────────────────────────────

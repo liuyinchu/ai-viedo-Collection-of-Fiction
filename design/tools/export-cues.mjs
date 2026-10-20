@@ -3,7 +3,9 @@
 // 用法：node design/tools/export-cues.mjs
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
-import { build } from '../film/storyboard.js';
+// 第三版：node design/tools/export-cues.mjs film3  → design/cues3.json
+const V3 = process.argv[2] === 'film3';
+const { build } = await import(V3 ? '../film3/storyboard3.js' : '../film/storyboard.js');
 
 const real = 'audio/vo/timing.json';
 const timing = JSON.parse(readFileSync(existsSync(real) ? real : 'design/film/timing.estimate.json', 'utf8'));
@@ -35,8 +37,9 @@ const out = {
   },
   cues: board.cues.map((c) => {
     const s = segOf(c.t);
-    return { type: c.type, seg: s.id, offset: r(c.t - s.start), t: r(c.t), ...(c.dur ? { dur: r(c.dur) } : {}) };
+    return { type: c.type, seg: s.id, offset: r(c.t - s.start), t: r(c.t), ...(c.dur ? { dur: r(c.dur) } : {}), ...(c.line ? { line: c.line } : {}) };
   }),
 };
-writeFileSync('design/cues.json', JSON.stringify(out, null, 2) + '\n');
-console.log(`${out.cues.length} cues → design/cues.json (${out.timing}; 逐字对齐 ${board.wordSync} 段)`);
+const outFile = V3 ? 'design/cues3.json' : 'design/cues.json';
+writeFileSync(outFile, JSON.stringify(out, null, 2) + '\n');
+console.log(`${out.cues.length} cues → ${outFile} (${out.timing}; 逐字对齐 ${board.wordSync} 段)`);
