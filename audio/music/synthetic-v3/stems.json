@@ -1,0 +1,63 @@
+{
+  "version": "synthetic-v3",
+  "status": "audition-awaiting-director",
+  "sampleRate": 48000,
+  "channels": 2,
+  "samples": 9364579,
+  "duration": 195.09539583333333,
+  "musicStems": [
+    {
+      "role": "motif",
+      "path": "audio/music/synthetic-v3/motif.wav",
+      "sha256": "8f2a32dd03adf30c367275ea7988e2f53bee6024119b53737ac0517c8152b69f",
+      "peakDbFS": -16.507604598999023,
+      "rmsDbFS": -36.080011699337355
+    },
+    {
+      "role": "bed",
+      "path": "audio/music/synthetic-v3/bed.wav",
+      "sha256": "631cdcdd33a9c311cdd05a5c27c9e865dd3136049883acaa1b1746e3a41159b8",
+      "peakDbFS": -23.10527992248535,
+      "rmsDbFS": -41.74260944143148
+    },
+    {
+      "role": "points",
+      "path": "audio/music/synthetic-v3/points.wav",
+      "sha256": "0b18a8e5c4c9149419dab3539dcd036bed5ce75cfdd62b4a51b20ce3f0c05faa",
+      "peakDbFS": -37.822776794433594,
+      "rmsDbFS": -64.51520116603753
+    },
+    {
+      "role": "score",
+      "path": "audio/music/synthetic-v3/score.wav",
+      "sha256": "cc184c3f2d428a46d09066d7efedcd754ff3510f72517415ffc1ddbd9069ee7e",
+      "peakDbFS": -16.0,
+      "rmsDbFS": -35.05283926304862
+    }
+  ],
+  "soundStems": [
+    {
+      "path": "audio/sfx/film3/sfx.wav",
+      "samples": 9364579,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -41.69309365774846,
+      "rmsDbFS": -63.93546025087645,
+      "sha256": "7945af18e216eef49f7143a4449aef3e017a31a50efd0e6a6460cdc7245ce17b"
+    },
+    {
+      "path": "audio/sfx/film3/ambience.wav",
+      "samples": 9364579,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -43.263642282355505,
+      "rmsDbFS": -59.068504724074806,
+      "sha256": "3d8b115362ad5779597cd19ef16c267fb30bb236777e6c3ff81b4259dfcd7e56"
+    }
+  ],
+  "alignmentChecked": true,
+  "maxReconstructionError": 2.384185791015625e-07,
+  "reconstructionNote": "motif + bed + points reconstruct score within 24-bit quantization; do not add score a second time.",
+  "mix": "audio/mix/synthetic-v3-review.wav",
+  "audition": "out/review/film-v3-music-v3-preview.mp4"
+}

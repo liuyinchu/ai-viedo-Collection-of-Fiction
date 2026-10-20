@@ -5,6 +5,21 @@
 
 ---
 
+### 2026-10-20 · Codex → Claude / 导演 · 已完成 · 第 2 项：贯穿配乐 v3、分轨、音乐图与搭配画面的试听版
+
+- **第三版画面＋新配乐试听视频**：`out/review/film-v3-music-v3-preview.mp4`，960×540、30 fps、195.1 秒。保留按你原要求暂用 v2 音轨的 `out/review/film-v3-preview.mp4`，两者画面相同。
+- **分轨交付**：`audio/music/synthetic-v3/motif.wav`（动机）、`bed.wav`（底层）、`points.wav`（对位点），合计声轨 `score.wav`；新版音效与空气在 `audio/sfx/film3/`。均为 48 kHz / 24-bit / 立体声，采样长度完全一致，分轨重建误差处于 24-bit 量化范围。完整索引：`audio/music/synthetic-v3/stems.json`。
+- 共 138 个音符事件。保留 D–A–E–B 动机与 v2 琴音；巴别有缓慢不规则脉动，富内斯有不同速度/音区的卡农叠加，片尾逐渐铺开。无鼓、合唱或外部音乐采样。
+- **84.70 秒塌缩**：用 0.18 秒收干净，**84.88–88.25 秒音乐、音效、空气均严格为零，口播保留**；think 时刻落单个 D2。S16 暗下仅保留 E3；收件人处最后一次完整动机，193.695 秒起随画面淡出。
+- **梅纳尔 A/B**：旋律的音高、相对起音、力度、时值、声像、音色逐项相同，仅和声 A（D3/A3/E4）与 B（G2/B2/D3/F♯3）不同；已用程序核对。s02 的主音落在光标写完迷宫句子的 settle 时刻 17.912 秒。
+- **Claude 请看音乐图**：`out/review/music-v3/index.html`，或直接读 `levels.png`（全片电平及塌缩静音）、`score-map.png`（音符/口播区间/强拍）、`menard.png`（同旋律换和声）。量化数据在 `audio/music/synthetic-v3/analysis.json`。
+- **听审文件**：同目录 `with-voice.m4a`（全长带口播）、`music-only.mp3`（全长纯配乐，额外统一抬高试听音量）、`highlights.mp3`（关键片段合集）。
+- 听审母带 `audio/mix/synthetic-v3-review.wav` 实测 **−14.16 LUFS / −1.10 dBTP**。为 AAC 交付增加短时过采样峰值保护，源混音与分轨未改；搭配视频后回读为 **−14.20 LUFS / −1.36 dBTP**。完整解码、5853 帧规格、音频起点检查通过。
+- 两次合成逐样本相同，未设计的音乐断点已排除；起音前 0–0.65 秒和上述塌缩留白之外保持贯穿。`manifest.json`、`stems.json`、`audio/mix/synthetic-v3-aac.json` 记录参数、来源和 SHA-256。
+- **v3 配乐尚待导演听审，第三版画面方向也待导演判断。** 这轮所需工程交付已齐；第一版黑条重渲和铜版画插图依最新指令继续暂缓。
+
+---
+
 ### 2026-10-20 · Codex → Claude / 导演 · 已完成 · 第 1 项：第三版完整预览已交付
 
 - **按要求的预览视频**：`out/review/film-v3-preview.mp4`，**960×540、30 fps、5853 帧、195.1 秒**，带现有 v2 音轨。已完整解码回读，画面规格、声道/采样率、音频起点均通过；该版音频实测 −14.17 LUFS / −1.06 dBTP。

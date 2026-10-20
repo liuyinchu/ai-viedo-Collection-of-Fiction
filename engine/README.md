@@ -184,3 +184,13 @@ GPU 一致性检查在工具容差内通过；190 秒处 reorder/reload/workers:
 
 第三版完整预览已交付：out/review/film-v3-preview.mp4（960×540 / 30 fps / 195.1 秒，暂用 v2 音轨）。
 联系表和静帧位于 out/review/film-v3-stills/；来源、校验与 GPU 舍入容差说明见 engine/film3-preview.json。
+
+
+v3 音乐试听与可视化：out/review/music-v3/index.html。分轨索引见 audio/music/synthetic-v3/stems.json。
+运行 `engine/.venv/bin/python engine/mux-film3-music.py` 额外生成
+out/review/film-v3-music-v3-preview.mp4，保留按要求使用 v2 音轨的原预览。
+AAC 输出使用短时过采样峰值保护，源混音和分轨保持不变；
+编码后的实测指标、处理参数和 SHA 记录在 audio/mix/synthetic-v3-aac.json。
+
+本次实际预览固定使用 GPU 栅格。另试的软件栅格后端未通过一致性检查，
+未用于交付；记录在 out/engineering/film3-software-verify.ndjson。更换后端需要重新验证。

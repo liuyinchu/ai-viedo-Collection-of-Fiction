@@ -1,0 +1,69 @@
+{
+  "status": "audition-awaiting-director",
+  "encodingHeadroom": {
+    "filter": "aresample=192000,alimiter=limit=0.812830516:attack=2:release=80:level=false:latency=true,aresample=48000",
+    "sourceMeasurement": {
+      "input_i": "-14.43",
+      "input_tp": "-1.80",
+      "input_lra": "4.30",
+      "input_thresh": "-25.49",
+      "output_i": "-14.14",
+      "output_tp": "-1.50",
+      "output_lra": "4.10",
+      "output_thresh": "-25.18",
+      "normalization_type": "dynamic",
+      "target_offset": "0.14"
+    }
+  },
+  "pictureVersion": "film3",
+  "musicVersion": "synthetic-v3",
+  "gainDb": 0.25,
+  "master": {
+    "path": "audio/mix/synthetic-v3-review.wav",
+    "sha256": "2dab8990969600624d8497bff4348d3af5a858de0958ef4eede84883c77686f9"
+  },
+  "audio": {
+    "path": "out/review/music-v3/with-voice.m4a",
+    "sha256": "35124e6ec609f44070bb47620127038970b19cd735d015fa5b961ea5f610a50f",
+    "attempts": [
+      {
+        "gainDb": 0.25,
+        "measurement": {
+          "input_i": "-14.20",
+          "input_tp": "-1.36",
+          "input_lra": "4.30",
+          "input_thresh": "-25.26",
+          "output_i": "-14.14",
+          "output_tp": "-1.50",
+          "output_lra": "4.10",
+          "output_thresh": "-25.19",
+          "normalization_type": "dynamic",
+          "target_offset": "0.14"
+        }
+      }
+    ]
+  },
+  "video": {
+    "path": "out/review/film-v3-music-v3-preview.mp4",
+    "sha256": "14fc4a2a63085feed0f5e8f82a263c70ffaadf7cf1414a0733608903a47e8645",
+    "width": 960,
+    "height": 540,
+    "frames": 5853,
+    "fps": 30,
+    "duration": 195.1
+  },
+  "verified": {
+    "input_i": "-14.20",
+    "input_tp": "-1.36",
+    "input_lra": "4.30",
+    "input_thresh": "-25.26",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "4.10",
+    "output_thresh": "-25.19",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fullDecodePassed": true,
+  "passed": true
+}
