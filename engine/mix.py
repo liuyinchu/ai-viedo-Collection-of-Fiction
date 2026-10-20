@@ -19,6 +19,9 @@ timing=read_json(ROOT/"audio/vo/timing.json")
 sfx=read_json(ROOT/"audio/sfx/manifest.json")
 if sfx["designCuesSha256"]!=digest((ROOT/"design/cues.json").read_bytes()):
     raise RuntimeError("SFX cues are stale; synthesize again before mixing")
+for item in sfx.get("inputs",[])+sfx["stems"]:
+    if digest((ROOT/item["path"]).read_bytes())!=item["sha256"]:
+        raise RuntimeError("SFX input or stem changed: "+item["path"])
 paths=[ROOT/"audio/vo/narration.wav",ROOT/"audio/sfx/sfx.wav",ROOT/"audio/sfx/ambience.wav"]
 if a.music:paths.append(a.music.resolve())
 a.out.parent.mkdir(parents=True,exist_ok=True)

@@ -1,13 +1,112 @@
 {
-  "version": 1,
-  "designCuesSha256": "394a311c5dd786591ccae3aeed2a019d3cd6a9de972ac5c661497957873cbd96",
-  "planSha256": "674522df620efa6f47560b24be825399a7137d642ca3c73f3aa27dbbf5d414ba",
+  "version": 2,
+  "wordSync": 19,
+  "inputs": [
+    {
+      "path": "design/cues.json",
+      "sha256": "5e18e33ded8eadd2eb58cea99edd05dff903a703dd3111a6f57f091a06501d3c"
+    },
+    {
+      "path": "design/film/storyboard.js",
+      "sha256": "422cd8057ada9c1ec6048756ebb4e459e94583ae7655b1d840ecda95f3d7d4a6"
+    },
+    {
+      "path": "design/film/script.json",
+      "sha256": "8ec95c2488a62d6e9f0115bc3cab1e1a5c11dfa38de13d122146ef726cb90135"
+    },
+    {
+      "path": "design/lib/blur.js",
+      "sha256": "dd57049f91b42719db2e775f2fca751fa1ab14b541528504a8c96a19fed5761c"
+    },
+    {
+      "path": "audio/vo/timing.json",
+      "sha256": "e06b16224bbf640881c583a4162ab715fdb3151b41abf3d6131253ca16006440"
+    },
+    {
+      "path": "audio/vo/S01.words.json",
+      "sha256": "78008ac543b07c45c4c4c1f5108a71731a231b93ca7944563214510da495d516"
+    },
+    {
+      "path": "audio/vo/S02.words.json",
+      "sha256": "2a533225e412198f814de5ba8225e7d29308ef6a797dd5f12844a0886cad16ee"
+    },
+    {
+      "path": "audio/vo/S03.words.json",
+      "sha256": "f85638e498d525f97d569756a02f0de58eb2dbcf5e92aa33d45909753b7f13c7"
+    },
+    {
+      "path": "audio/vo/S04.words.json",
+      "sha256": "c748092c269165cf719bfd0fee0348de0f01a59253cd457fce1f66e86f295fe1"
+    },
+    {
+      "path": "audio/vo/S05.words.json",
+      "sha256": "634798d71a86871d87c900f5c467faf552fe6e210d7e375a5e9019ca6f02bdd7"
+    },
+    {
+      "path": "audio/vo/S06.words.json",
+      "sha256": "715194b6f08da180fd824e92a1c5b57f4bf22a7686eca0368f215199c23b8381"
+    },
+    {
+      "path": "audio/vo/S07.words.json",
+      "sha256": "f8ec21aa9e42541c9d87b60d80ccc98e457e3cbaa2b48419360fb8f896d4d6ec"
+    },
+    {
+      "path": "audio/vo/S08.words.json",
+      "sha256": "d12531ac395baae4e38b1395da4faad1481de60c67bee66d467a8f03315f8d69"
+    },
+    {
+      "path": "audio/vo/S09.words.json",
+      "sha256": "35b5b0fc1a10ed53ba4e99306f5f741ab780603be5fe4b7e030b4f9abe394f3f"
+    },
+    {
+      "path": "audio/vo/S10.words.json",
+      "sha256": "8bf93af7b396e5a5d506939b96ce1a6c0aba29f522e79cced01914f3d7def8ef"
+    },
+    {
+      "path": "audio/vo/S11.words.json",
+      "sha256": "43fad004e79c217c7c5c67bfc6498d11bdc343c27d75c0de45a5f36b76320237"
+    },
+    {
+      "path": "audio/vo/S12.words.json",
+      "sha256": "d2f04478c35c2821601db05674ac31897ff9854516e39d82c974e6c24105aa07"
+    },
+    {
+      "path": "audio/vo/S13.words.json",
+      "sha256": "7a63bf9b7061f8da90f1f83ebbed896465996adff5bf7dea000e5502bb0e96d1"
+    },
+    {
+      "path": "audio/vo/S14.words.json",
+      "sha256": "064fd76d52193840aca1dae16b1abaaa39518f90ee55c7c799e9f97baee0e5ed"
+    },
+    {
+      "path": "audio/vo/S15.words.json",
+      "sha256": "c8dd705f872e38f813d066048a44e411d1ab2a0690a91ef4330f0bb909bbb40f"
+    },
+    {
+      "path": "audio/vo/S16.words.json",
+      "sha256": "e2d01b8989df3c34650f5bbf07dcda5539bdb17170f187460ffb6d9ab065ad6c"
+    },
+    {
+      "path": "audio/vo/S17.words.json",
+      "sha256": "a4798b038c2234c04fac00643a143dd96b4e1ddd98efc599752ec11a2820967e"
+    },
+    {
+      "path": "audio/vo/S18.words.json",
+      "sha256": "3a807ff169fdeb1305317db60c493b0f233e5d63efc5b49a644711b7edcd7ea6"
+    },
+    {
+      "path": "audio/vo/S19.words.json",
+      "sha256": "f41fb1a095843ea8a6042fa9af28f44200d5e01a7c4f35b38779a17b5a7dfb4a"
+    }
+  ],
+  "designCuesSha256": "5e18e33ded8eadd2eb58cea99edd05dff903a703dd3111a6f57f091a06501d3c",
+  "planSha256": "be83099686c5313b2f1b4b65c612c743ea15162fbd37e0907401e6bba56bc989",
   "duration": 195.09539583333333,
   "events": [
     {
       "index": 0,
       "type": "move",
-      "time": 5.649,
+      "time": 5.58,
       "duration": 1.6,
       "seed": 9926549819865511641,
       "targetPeakDbFS": -40.9151498112135
@@ -15,7 +114,7 @@
     {
       "index": 1,
       "type": "settle",
-      "time": 7.8,
+      "time": 8.12,
       "duration": 0.12,
       "seed": 6225531586558589942,
       "targetPeakDbFS": -35.91760034688151
@@ -23,7 +122,7 @@
     {
       "index": 2,
       "type": "settle",
-      "time": 8.45,
+      "time": 8.77,
       "duration": 0.12,
       "seed": 261311107101737072,
       "targetPeakDbFS": -35.91760034688151
@@ -31,7 +130,7 @@
     {
       "index": 3,
       "type": "settle",
-      "time": 18.163,
+      "time": 17.912,
       "duration": 0.12,
       "seed": 5111512733041516762,
       "targetPeakDbFS": -35.91760034688151
@@ -39,7 +138,7 @@
     {
       "index": 4,
       "type": "move",
-      "time": 22.022,
+      "time": 22.094,
       "duration": 1.6,
       "seed": 14385576566287612072,
       "targetPeakDbFS": -40.9151498112135
@@ -47,7 +146,7 @@
     {
       "index": 5,
       "type": "settle",
-      "time": 26.248,
+      "time": 26.074,
       "duration": 0.12,
       "seed": 13840235295665607168,
       "targetPeakDbFS": -35.91760034688151
@@ -63,7 +162,7 @@
     {
       "index": 7,
       "type": "settle",
-      "time": 28.178,
+      "time": 28.111,
       "duration": 0.12,
       "seed": 7914791696866912525,
       "targetPeakDbFS": -35.91760034688151
@@ -71,7 +170,7 @@
     {
       "index": 8,
       "type": "settle",
-      "time": 30.711,
+      "time": 30.411,
       "duration": 0.12,
       "seed": 2994957995982356915,
       "targetPeakDbFS": -35.91760034688151
@@ -79,7 +178,7 @@
     {
       "index": 9,
       "type": "settle",
-      "time": 34.77,
+      "time": 34.931,
       "duration": 0.12,
       "seed": 16977736022356347792,
       "targetPeakDbFS": -35.91760034688151
@@ -95,7 +194,7 @@
     {
       "index": 11,
       "type": "settle",
-      "time": 43.183,
+      "time": 42.796,
       "duration": 0.12,
       "seed": 7897622043784857087,
       "targetPeakDbFS": -35.91760034688151
@@ -103,7 +202,7 @@
     {
       "index": 12,
       "type": "settle",
-      "time": 44.298,
+      "time": 43.946,
       "duration": 0.12,
       "seed": 14903204524415568029,
       "targetPeakDbFS": -35.91760034688151
@@ -111,7 +210,7 @@
     {
       "index": 13,
       "type": "settle",
-      "time": 46.074,
+      "time": 46.256,
       "duration": 0.12,
       "seed": 17409069525037381263,
       "targetPeakDbFS": -35.91760034688151
@@ -119,7 +218,7 @@
     {
       "index": 14,
       "type": "settle",
-      "time": 46.374,
+      "time": 46.556,
       "duration": 0.12,
       "seed": 11951545256341341095,
       "targetPeakDbFS": -35.91760034688151
@@ -127,7 +226,7 @@
     {
       "index": 15,
       "type": "settle",
-      "time": 46.674,
+      "time": 46.856,
       "duration": 0.12,
       "seed": 9913552042012919757,
       "targetPeakDbFS": -35.91760034688151
@@ -135,7 +234,7 @@
     {
       "index": 16,
       "type": "settle",
-      "time": 46.974,
+      "time": 47.156,
       "duration": 0.12,
       "seed": 16870755668110333158,
       "targetPeakDbFS": -35.91760034688151
@@ -143,7 +242,7 @@
     {
       "index": 17,
       "type": "settle",
-      "time": 47.274,
+      "time": 47.456,
       "duration": 0.12,
       "seed": 9168771508196159071,
       "targetPeakDbFS": -35.91760034688151
@@ -151,7 +250,7 @@
     {
       "index": 18,
       "type": "settle",
-      "time": 47.574,
+      "time": 47.756,
       "duration": 0.12,
       "seed": 4532682714427983355,
       "targetPeakDbFS": -35.91760034688151
@@ -159,7 +258,7 @@
     {
       "index": 19,
       "type": "settle",
-      "time": 47.874,
+      "time": 48.056,
       "duration": 0.12,
       "seed": 6029215777627302779,
       "targetPeakDbFS": -35.91760034688151
@@ -167,7 +266,7 @@
     {
       "index": 20,
       "type": "settle",
-      "time": 48.174,
+      "time": 48.356,
       "duration": 0.12,
       "seed": 14212079946352839915,
       "targetPeakDbFS": -35.91760034688151
@@ -175,7 +274,7 @@
     {
       "index": 21,
       "type": "settle",
-      "time": 48.474,
+      "time": 48.656,
       "duration": 0.12,
       "seed": 223118366226398629,
       "targetPeakDbFS": -35.91760034688151
@@ -191,7 +290,7 @@
     {
       "index": 23,
       "type": "settle",
-      "time": 65.646,
+      "time": 65.476,
       "duration": 0.12,
       "seed": 10137813907492757851,
       "targetPeakDbFS": -35.91760034688151
@@ -207,7 +306,7 @@
     {
       "index": 25,
       "type": "settle",
-      "time": 69.555,
+      "time": 69.731,
       "duration": 0.12,
       "seed": 4999091041362612187,
       "targetPeakDbFS": -35.91760034688151
@@ -215,7 +314,7 @@
     {
       "index": 26,
       "type": "settle",
-      "time": 73.913,
+      "time": 73.751,
       "duration": 0.12,
       "seed": 10395664565870933217,
       "targetPeakDbFS": -35.91760034688151
@@ -231,7 +330,7 @@
     {
       "index": 28,
       "type": "settle",
-      "time": 79.723,
+      "time": 79.936,
       "duration": 0.12,
       "seed": 8231424161102207784,
       "targetPeakDbFS": -35.91760034688151
@@ -239,7 +338,7 @@
     {
       "index": 29,
       "type": "settle",
-      "time": 82.367,
+      "time": 82.416,
       "duration": 0.12,
       "seed": 2375820324234476437,
       "targetPeakDbFS": -35.91760034688151
@@ -263,7 +362,7 @@
     {
       "index": 32,
       "type": "settle",
-      "time": 88.371,
+      "time": 88.25,
       "duration": 0.12,
       "seed": 3068953862874125611,
       "targetPeakDbFS": -35.91760034688151
@@ -279,7 +378,7 @@
     {
       "index": 34,
       "type": "settle",
-      "time": 95.714,
+      "time": 95.76,
       "duration": 0.12,
       "seed": 13800147097242092220,
       "targetPeakDbFS": -35.91760034688151
@@ -287,7 +386,7 @@
     {
       "index": 35,
       "type": "settle",
-      "time": 98.005,
+      "time": 98.42,
       "duration": 0.12,
       "seed": 415878839740064533,
       "targetPeakDbFS": -35.91760034688151
@@ -295,8 +394,8 @@
     {
       "index": 36,
       "type": "move",
-      "time": 99.929,
-      "duration": 4.782,
+      "time": 100.3,
+      "duration": 4.412,
       "seed": 13446129904740601532,
       "targetPeakDbFS": -40.9151498112135
     },
@@ -311,7 +410,7 @@
     {
       "index": 38,
       "type": "settle",
-      "time": 112.434,
+      "time": 112.752,
       "duration": 0.12,
       "seed": 15133881936159200584,
       "targetPeakDbFS": -35.91760034688151
@@ -319,7 +418,7 @@
     {
       "index": 39,
       "type": "settle",
-      "time": 113.54,
+      "time": 114.032,
       "duration": 0.12,
       "seed": 14701389865939252292,
       "targetPeakDbFS": -35.91760034688151
@@ -327,7 +426,7 @@
     {
       "index": 40,
       "type": "move",
-      "time": 118.448,
+      "time": 118.221,
       "duration": 2.6,
       "seed": 11384654863484588337,
       "targetPeakDbFS": -40.9151498112135
@@ -335,7 +434,7 @@
     {
       "index": 41,
       "type": "settle",
-      "time": 122.926,
+      "time": 123.181,
       "duration": 0.12,
       "seed": 17857009599188716883,
       "targetPeakDbFS": -35.91760034688151
@@ -351,7 +450,7 @@
     {
       "index": 43,
       "type": "settle",
-      "time": 128.439,
+      "time": 128.576,
       "duration": 0.12,
       "seed": 14502173897823366323,
       "targetPeakDbFS": -35.91760034688151
@@ -359,7 +458,7 @@
     {
       "index": 44,
       "type": "settle",
-      "time": 129.339,
+      "time": 129.476,
       "duration": 0.12,
       "seed": 6195703606909948121,
       "targetPeakDbFS": -35.91760034688151
@@ -367,7 +466,7 @@
     {
       "index": 45,
       "type": "settle",
-      "time": 130.867,
+      "time": 130.926,
       "duration": 0.12,
       "seed": 9027457100098138811,
       "targetPeakDbFS": -35.91760034688151
@@ -375,7 +474,7 @@
     {
       "index": 46,
       "type": "settle",
-      "time": 132.096,
+      "time": 132.136,
       "duration": 0.12,
       "seed": 621603354164600968,
       "targetPeakDbFS": -35.91760034688151
@@ -399,7 +498,7 @@
     {
       "index": 49,
       "type": "settle",
-      "time": 147.557,
+      "time": 147.629,
       "duration": 0.12,
       "seed": 18305904175728556407,
       "targetPeakDbFS": -35.91760034688151
@@ -407,7 +506,7 @@
     {
       "index": 50,
       "type": "settle",
-      "time": 149.602,
+      "time": 149.449,
       "duration": 0.12,
       "seed": 4584193890763966974,
       "targetPeakDbFS": -35.91760034688151
@@ -420,7 +519,7 @@
     {
       "index": 52,
       "type": "move",
-      "time": 155.378,
+      "time": 155.409,
       "duration": 3.2,
       "seed": 7191810769654225002,
       "targetPeakDbFS": -40.9151498112135
@@ -428,7 +527,7 @@
     {
       "index": 53,
       "type": "settle",
-      "time": 166.873,
+      "time": 166.98,
       "duration": 0.12,
       "seed": 12351275120266546935,
       "targetPeakDbFS": -35.91760034688151
@@ -436,7 +535,7 @@
     {
       "index": 54,
       "type": "settle",
-      "time": 173.326,
+      "time": 172.98,
       "duration": 0.12,
       "seed": 8793705022927911464,
       "targetPeakDbFS": -35.91760034688151
@@ -452,7 +551,7 @@
     {
       "index": 56,
       "type": "settle",
-      "time": 177.962,
+      "time": 177.99,
       "duration": 0.12,
       "seed": 3275606301175269874,
       "targetPeakDbFS": -35.91760034688151
@@ -460,7 +559,7 @@
     {
       "index": 57,
       "type": "settle",
-      "time": 182.508,
+      "time": 182.85,
       "duration": 0.12,
       "seed": 4853970085315636565,
       "targetPeakDbFS": -35.91760034688151
@@ -468,16 +567,16 @@
     {
       "index": 58,
       "type": "move",
-      "time": 187.576,
-      "duration": 5.919,
+      "time": 187.928,
+      "duration": 5.568,
       "seed": 10517264103770933318,
       "targetPeakDbFS": -40.9151498112135
     },
     {
       "index": 59,
       "type": "pullback",
-      "time": 187.576,
-      "duration": 5.919,
+      "time": 187.928,
+      "duration": 5.568,
       "seed": 7431158949870928246,
       "targetPeakDbFS": -47.95880017344075
     }
@@ -489,8 +588,8 @@
       "sampleRate": 48000,
       "channels": 2,
       "peakDbFS": -34.52789995169978,
-      "rmsDbFS": -63.756097659791386,
-      "sha256": "f90d4858b487fe1fe601dfa7925c0aeb82bce566b48c0df588b5ab09441fe44d"
+      "rmsDbFS": -63.777987129288356,
+      "sha256": "0400d33caa5b4af3bc228855b2303e22daab779e6175600a4120c0b8d4ae0390"
     },
     {
       "path": "audio/sfx/ambience.wav",
@@ -498,8 +597,8 @@
       "sampleRate": 48000,
       "channels": 2,
       "peakDbFS": -43.263642282355505,
-      "rmsDbFS": -58.89782428631155,
-      "sha256": "fc97dad5772651e444c4cbab421ea660a8de0ec1086ef6c66d4e93fa3f640f23"
+      "rmsDbFS": -58.89869399650789,
+      "sha256": "b655833762890e9b93f79dbe50c96a7e3be8b51ddb21b6f187d401fdd3a2d914"
     }
   ],
   "directorListening": "pending"

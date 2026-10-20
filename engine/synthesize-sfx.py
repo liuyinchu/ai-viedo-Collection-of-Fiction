@@ -75,6 +75,6 @@ for name,x in [("sfx.wav",fx),("ambience.wav",air)]:
     path=OUT/name
     sf.write(path,x,SR,subtype="PCM_24")
     outputs.append(metrics(path,x))
-write_json(OUT/"manifest.json",{"version":1,"designCuesSha256":digest((ROOT/"design/cues.json").read_bytes()),"planSha256":digest((OUT/"plan.json").read_bytes()),"duration":plan["duration"],"events":notes,"stems":outputs,"directorListening":"pending"})
+write_json(OUT/"manifest.json",{"version":2,"wordSync":plan["wordSync"],"inputs":plan["inputs"],"designCuesSha256":digest((ROOT/"design/cues.json").read_bytes()),"planSha256":digest((OUT/"plan.json").read_bytes()),"duration":plan["duration"],"events":notes,"stems":outputs,"directorListening":"pending"})
 print(f"{len(notes)} cues synthesized; {plan['duration']:.6f}s, 48 kHz stereo.")
 for o in outputs:print(o["path"],"peak",round(o["peakDbFS"],2),"dBFS")

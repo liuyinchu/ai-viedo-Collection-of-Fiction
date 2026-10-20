@@ -1,11 +1,27 @@
-import {readFileSync, writeFileSync, mkdirSync} from 'node:fs';
+import {readFileSync, writeFileSync, mkdirSync, existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import {build} from '../design/film/storyboard.js';
 import {shutterTravel} from '../design/lib/blur.js';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const timing=read('audio/vo/timing.json');
 const cues=read('design/cues.json');
 if(cues.timing!=='audio/vo/timing.json' || Math.abs(cues.duration-timing.total)>0.001) throw new Error('Re-export real-time cues first');
-const board=build(timing,read('design/film/script.json'));
+const words={};
+for(const seg of timing.segments){
+  const path='audio/vo/'+seg.id+'.words.json';
+  if(existsSync(path)) words[seg.id]=read(path);
+}
+const board=build(timing,read('design/film/script.json'),words);
+if(board.wordSync!==cues.wordSync || board.wordSync!==timing.segments.length) throw new Error('Word alignment differs from the accepted design');
+if(board.cues.length!==cues.cues.length || board.cues.some((c,i)=>{
+  const exported=cues.cues[i];
+  return c.type!==exported.type || Math.abs(c.t-exported.t)>0.00051 ||
+    Math.abs((c.dur||0)-(exported.dur||0))>0.00051;
+})) throw new Error('Design cues are stale relative to the aligned storyboard');
+const inputPaths=['design/cues.json','design/film/storyboard.js','design/film/script.json','design/lib/blur.js',
+  'audio/vo/timing.json',...timing.segments.map(s=>'audio/vo/'+s.id+'.words.json')];
+const inputs=inputPaths.map(path=>({path,sha256:createHash('sha256').update(readFileSync(path)).digest('hex')}));
+
 const events=cues.cues.map((cue,index)=>{
   const result={...cue,index};
   if(['move','pullback'].includes(cue.type)){
@@ -19,7 +35,7 @@ const events=cues.cues.map((cue,index)=>{
   return result;
 });
 mkdirSync('audio/sfx',{recursive:true});
-writeFileSync('audio/sfx/plan.json',JSON.stringify({source:'design/cues.json',duration:timing.total,events},null,2)+'\n');
+writeFileSync('audio/sfx/plan.json',JSON.stringify({source:'design/cues.json',wordSync:board.wordSync,inputs,duration:timing.total,events},null,2)+'\n');
 mkdirSync('audio/music',{recursive:true});
 const seg=Object.fromEntries(timing.segments.map(s=>[s.id,s]));
 writeFileSync('audio/music/placement.json',JSON.stringify({source:'audio/vo/timing.json',windows:[
