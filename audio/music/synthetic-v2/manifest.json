@@ -1,6 +1,6 @@
 {
   "version": "synthetic-v2",
-  "status": "audition-awaiting-director",
+  "status": "approved-for-current-cut",
   "method": "original modal-string synthesis",
   "externalSamples": false,
   "sampleRate": 48000,
@@ -288,5 +288,6 @@
         }
       ]
     }
-  ]
+  ],
+  "approval": "audio/music/approval.json"
 }

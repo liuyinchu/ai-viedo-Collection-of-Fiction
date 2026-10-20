@@ -56,7 +56,12 @@ for w in windows:
        "voiceActiveMinusV1Db":rms(vn)-rms(on),"voiceActiveMinusV2Db":rms(vn)-rms(nn),
        "v1Notes":len(next(e for e in old_manifest["events"] if e["window"]["id"]==w["id"])["notes"]),
        "v2Notes":len(plan["notes"][w["id"]])})
-metrics={"version":"synthetic-v2","status":"awaiting-director-listening",
+approval_path=ROOT/"audio/music/approval.json"
+approval=read_json(approval_path) if approval_path.exists() else {}
+approved=(approval.get("version")=="synthetic-v2" and
+          approval.get("score",{}).get("sha256")==digest((ROOT/"audio/music/synthetic-v2/score.wav").read_bytes()) and
+          approval.get("mix",{}).get("sha256")==digest((ROOT/"audio/mix/synthetic-v2-review.wav").read_bytes()))
+metrics={"version":"synthetic-v2","status":"approved-for-current-cut" if approved else "awaiting-director-listening",
  "levelDefinition":"Original stems before final common mix normalization; RMS over complete placement window, stereo mean-square. Active-voice comparison gates 100 ms voice blocks above -35 dBFS.",
  "curveDefinition":"250 ms block RMS; display floor -65 dBFS; no per-track display normalization.",
  "windows":rows,"mixedWav":read_json(ROOT/"audio/mix/synthetic-v2-review.json")["verified"],
@@ -103,7 +108,9 @@ for j,(w,r) in enumerate(zip(windows,rows)):
     bx.text(0,.47,f"人声活跃处电平差：{r['voiceActiveMinusV2Db']:.1f} dB",fontsize=11)
     bx.text(0,.33,f"音符起音：{r['v1Notes']} → {r['v2Notes']} 次",fontsize=11)
     bx.text(0,.14,{"opening":"主旋律保持，低音与短回应填补间隙。","menard":"同一动机换低音，再形成第二句回应。","ending":"口播后出现收束音，随后随画面消散。"}[w["id"]],fontsize=10,color="#53606a",wrap=True)
-fig.text(.055,.006,"测量使用实际声轨、统一刻度；未将每条曲线分别放大。整体混音实测 −13.98 LUFS / −1.08 dBTP。听感仍待导演验收。",fontsize=9,color="#53606a")
+footer="测量使用实际声轨、统一刻度；未将每条曲线分别放大。整体混音实测 −13.98 LUFS / −1.08 dBTP。"
+footer+="导演已确认当前版本采用 v2。" if approved else "听感仍待导演验收。"
+fig.text(.055,.006,footer,fontsize=9,color="#53606a")
 fig.savefig(OUT/"levels.png",dpi=140)
 plt.close(fig)
 
@@ -177,5 +184,7 @@ page="""<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="view
 <p>开场 A/B：前 18.59 秒为 v1，0.8 秒空隙后为 v2。两版使用同一套新版音效，均按约 −14 LUFS 混音。</p><audio controls preload="metadata" src="opening-v1-then-v2.mp3"></audio>
 <p>新版纯配乐：单独提高试听音量，不能用它判断配乐与人声的平衡。</p><audio controls preload="metadata" src="v2-solo.mp3"></audio>
 <p class="muted">生成与分析代码：engine/synthesize-music-v2.py、engine/review-music.py。<a href="analysis.json">测量数据和输入哈希</a>。声轨无外部音乐或乐器采样。</p></html>""".replace("TABLE",table)
+if approved:
+    page=page.replace("候选 v2 · 等待导演听审 · 2026-10-20","采用 v2 · 导演确认用于当前版本 · 2026-10-20")
 (OUT/"index.html").write_text(page)
 print(json.dumps({"windows":rows,"report":str(OUT/"index.html")},ensure_ascii=False,indent=2))

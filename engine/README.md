@@ -72,7 +72,7 @@ ASR 直接载入已转换的 MLX 权重，不使用 PyTorch 转换工具。requi
 engine/.venv/bin/python engine/synthesize-sfx.py 生成确定性的纸响、气流和环境声。
 engine/.venv/bin/python engine/mix.py 生成无配乐听审混音；实测响度结果保存在同名 JSON。
 音乐确认并铺好全片时间轴之后，可用 --music <score.wav> 加入总混音。
-10 秒样片和配音读音已通过；整片画面与新版配乐仍分别待 Claude、导演验收。
+10 秒样片和配音读音已通过；导演已确认当前版本采用配乐 v2，确认与音频哈希见 audio/music/approval.json；整片画面待 Claude 验收。
 
 当前听审：out/review/preview-10s-sfx.mp4，out/review/voice-sfx-review.mp3。
 字幕：out/film.zh-CN.srt。字幕段内时间按字数估算，段落边界为实测。

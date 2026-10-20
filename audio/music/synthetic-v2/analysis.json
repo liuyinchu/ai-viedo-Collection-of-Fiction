@@ -1,6 +1,6 @@
 {
   "version": "synthetic-v2",
-  "status": "awaiting-director-listening",
+  "status": "approved-for-current-cut",
   "levelDefinition": "Original stems before final common mix normalization; RMS over complete placement window, stereo mean-square. Active-voice comparison gates 100 ms voice blocks above -35 dBFS.",
   "curveDefinition": "250 ms block RMS; display floor -65 dBFS; no per-track display normalization.",
   "windows": [

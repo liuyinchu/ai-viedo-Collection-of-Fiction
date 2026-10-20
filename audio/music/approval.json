@@ -1,0 +1,20 @@
+{
+  "version": "synthetic-v2",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "directorStatement": "先用 v2 这版吧。",
+  "decision": "adopt-for-current-cut",
+  "score": {
+    "path": "audio/music/synthetic-v2/score.wav",
+    "sha256": "e3509e7d847fc989a89501a820b5071d3b6d02631ce820dfbaf2c6ed73ff35eb"
+  },
+  "mix": {
+    "path": "audio/mix/synthetic-v2-review.wav",
+    "sha256": "f8776b89e6fff8e856cd27a85f5cd3f942010a2c7266194b809bdd5d5e704d8b"
+  },
+  "audition": {
+    "path": "out/review/music-v2/v2-with-voice.mp3",
+    "sha256": "8bd4f1ac1deb4e17b162c9468540da83f7135001be8072c162266fe1ffa42180"
+  },
+  "scope": "当前版本采用 v2；整片画面仍待 Claude 验收。"
+}
