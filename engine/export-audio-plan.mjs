@@ -1,10 +1,14 @@
 import {readFileSync, writeFileSync, mkdirSync, existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {build} from '../design/film/storyboard.js';
+const V3=process.argv.includes('film3');
+const storyboard=V3?'design/film3/storyboard3.js':'design/film/storyboard.js';
+const {build}=await import('../'+storyboard);
+const cuesPath=V3?'design/cues3.json':'design/cues.json';
+const output=V3?'audio/sfx/film3':'audio/sfx';
 import {shutterTravel} from '../design/lib/blur.js';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const timing=read('audio/vo/timing.json');
-const cues=read('design/cues.json');
+const cues=read(cuesPath);
 if(cues.timing!=='audio/vo/timing.json' || Math.abs(cues.duration-timing.total)>0.001) throw new Error('Re-export real-time cues first');
 const words={};
 for(const seg of timing.segments){
@@ -18,7 +22,7 @@ if(board.cues.length!==cues.cues.length || board.cues.some((c,i)=>{
   return c.type!==exported.type || Math.abs(c.t-exported.t)>0.00051 ||
     Math.abs((c.dur||0)-(exported.dur||0))>0.00051;
 })) throw new Error('Design cues are stale relative to the aligned storyboard');
-const inputPaths=['design/cues.json','design/film/storyboard.js','design/film/script.json','design/lib/blur.js',
+const inputPaths=[cuesPath,storyboard,...(V3?['design/film3/images.js']:[]),'design/film/script.json','design/lib/blur.js',
   'audio/vo/timing.json',...timing.segments.map(s=>'audio/vo/'+s.id+'.words.json')];
 const inputs=inputPaths.map(path=>({path,sha256:createHash('sha256').update(readFileSync(path)).digest('hex')}));
 
@@ -34,8 +38,9 @@ const events=cues.cues.map((cue,index)=>{
   }
   return result;
 });
-mkdirSync('audio/sfx',{recursive:true});
-writeFileSync('audio/sfx/plan.json',JSON.stringify({source:'design/cues.json',wordSync:board.wordSync,inputs,duration:timing.total,events},null,2)+'\n');
+mkdirSync(output,{recursive:true});
+writeFileSync(output+'/plan.json',JSON.stringify({source:cuesPath,wordSync:board.wordSync,inputs,duration:timing.total,events},null,2)+'\n');
+if(!V3){
 mkdirSync('audio/music',{recursive:true});
 const seg=Object.fromEntries(timing.segments.map(s=>[s.id,s]));
 writeFileSync('audio/music/placement.json',JSON.stringify({source:'audio/vo/timing.json',windows:[
@@ -43,4 +48,5 @@ writeFileSync('audio/music/placement.json',JSON.stringify({source:'audio/vo/timi
   {id:'menard',start:seg.S13.start,end:seg.S15.end+1.5,fadeIn:2,fadeOut:3},
   {id:'ending',start:seg.S19.start,end:timing.total,fadeIn:1.5,fadeOut:4}
 ]},null,2)+'\n');
-console.log(events.length+' sound cues; 3 music windows exported');
+}
+console.log(events.length+' sound cues exported to '+output+'; wordSync='+board.wordSync);

@@ -151,3 +151,32 @@ engine/final-delivery.json 保留可提交的校验记录；out/ 产物可重建
 从最终 MP4 回读实测 −14.17 LUFS、−1.06 dBTP；前 5100 帧与原片解码结果逐帧一致，
 后 753 帧与新尾段逐帧一致，视频共 5853 帧、30 fps，无丢帧、重帧或时间漂移。
 `out/final/closing-review.png` 以及两张原尺寸帧供 Claude 复核片尾修正。
+
+
+## 第三版：字成画预览与贯穿配乐
+
+最新设计入口为 design/film3/film3.js，工程入口 engine/film3.html。
+engine/film3-shot.js 在每个运动模糊子帧调用 render，平均后只调用一次 post。
+半分辨率预览保留景深、光、灰尘和黑场；原版入口不变。
+
+```sh
+node engine/run.mjs verify --film3 --scale 0.5 --at 6,17.9,82,120,190 --workers 2 --json
+node engine/run.mjs render --film3 --scale 0.5 --workers 2 --out out/review/film-v3-picture-preview.mp4 --json
+engine/.venv/bin/python engine/review-film3.py
+node design/tools/export-cues.mjs film3
+node engine/export-audio-plan.mjs film3
+engine/.venv/bin/python engine/synthesize-sfx.py --profile film3
+engine/.venv/bin/python engine/synthesize-music-v3.py --verify
+engine/.venv/bin/python engine/mix.py --sfx-dir audio/sfx/film3 --music audio/music/synthetic-v3/score.wav --out audio/mix/synthetic-v3-review.wav
+engine/.venv/bin/python engine/review-music-v3.py
+```
+
+按设计要求，film-v3-preview.mp4 暂时复用现有已确认的 v2 AAC 音轨。
+v3 配乐另行听审，不能把 v2 的确认当作 v3 已通过。
+音乐分轨为 audio/music/synthetic-v3/{motif,bed,points,score}.wav；
+新版音效和空气位于 audio/sfx/film3/，原版声轨保留。
+v3 音乐与背景在 84.70 秒开始用 0.18 秒截断，84.88–88.25 秒严格静音，口播保留。
+梅纳尔 A/B 的旋律参数逐项相同、和声不同；参数和校验值见 manifest.json。
+
+GPU 一致性检查在工具容差内通过；190 秒处 reorder/reload/workers:2 各有 69 个像素，
+最大单通道差 1/255（gpu_raster_jitter）。该预览不宣称逐像素哈希完全一致。

@@ -17,3 +17,6 @@ __pycache__/
 /audio/vo/narration.wav
 /audio/vo/incoming/
 /audio/vo/*.source.mp3
+
+# Versioned audio render directories
+/audio/sfx/**/*.wav

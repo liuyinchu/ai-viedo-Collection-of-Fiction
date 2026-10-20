@@ -9,6 +9,9 @@ const here = dirname(fileURLToPath(import.meta.url));
 const root = resolve(here, '..');
 const args = process.argv.slice(2);
 const command = args.shift() || 'doctor';
+const film3 = args.includes('--film3');
+if (film3) args.splice(args.indexOf('--film3'),1);
+const shot = film3 ? 'engine/film3.html' : 'engine/film.html';
 const estimate = args.includes('--estimate');
 if (estimate) args.splice(args.indexOf('--estimate'), 1);
 const shotCommands = ['lint', 'inspect', 'stills', 'verify', 'render'];
@@ -21,7 +24,7 @@ if (command === 'render' && !estimate) {
   if (check.status !== 0) process.exit(check.status || 1);
 }
 const cli = resolve(here,'node_modules/.bin/multiplane');
-const argv = [cli, command, ...(shotCommands.includes(command) ? ['engine/film.html','--root',root] : []), ...args];
+const argv = [cli, command, ...(shotCommands.includes(command) ? [shot,'--root',root] : []), ...args];
 const result = spawnSync(process.execPath, argv, {
   cwd:root, stdio:'inherit',
   env:{...process.env, MULTIPLANE_HOME:resolve(root,'out/.multiplane'), MULTIPLANE_NO_INDEX:'1', MULTIPLANE_FFMPEG:ffmpeg}

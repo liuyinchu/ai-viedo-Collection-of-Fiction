@@ -12,17 +12,18 @@ def measure(path):
     return json.loads(re.findall(r'\{\s*"input_i"[\s\S]*?\}',p.stderr)[-1])
 ap=argparse.ArgumentParser()
 ap.add_argument("--music",type=Path)
+ap.add_argument("--sfx-dir",type=Path,default=ROOT/"audio/sfx")
 ap.add_argument("--out",type=Path,default=ROOT/"audio/mix/no-music-review.wav")
 a=ap.parse_args()
 checked_segments()
 timing=read_json(ROOT/"audio/vo/timing.json")
-sfx=read_json(ROOT/"audio/sfx/manifest.json")
-if sfx["designCuesSha256"]!=digest((ROOT/"design/cues.json").read_bytes()):
+sfx=read_json(a.sfx_dir/"manifest.json")
+if sfx["designCuesSha256"]!=digest((ROOT/sfx.get("source","design/cues.json")).read_bytes()):
     raise RuntimeError("SFX cues are stale; synthesize again before mixing")
 for item in sfx.get("inputs",[])+sfx["stems"]:
     if digest((ROOT/item["path"]).read_bytes())!=item["sha256"]:
         raise RuntimeError("SFX input or stem changed: "+item["path"])
-paths=[ROOT/"audio/vo/narration.wav",ROOT/"audio/sfx/sfx.wav",ROOT/"audio/sfx/ambience.wav"]
+paths=[ROOT/"audio/vo/narration.wav",a.sfx_dir.resolve()/"sfx.wav",a.sfx_dir.resolve()/"ambience.wav"]
 if a.music:paths.append(a.music.resolve())
 a.out.parent.mkdir(parents=True,exist_ok=True)
 raw=a.out.with_name(a.out.stem+".premix.wav")
@@ -41,7 +42,9 @@ verified=measure(a.out)
 # A small linear gain correction brings the measured integrated loudness onto target
 # when the true-peak budget permits it; measure the actual corrected file again.
 correction=-14-float(verified["input_i"])
-if abs(correction)>0.01 and float(verified["input_tp"])+correction<=-1.05:
+if correction>0:
+    correction=min(correction,max(0,-1.10-float(verified["input_tp"])))
+if abs(correction)>0.01:
     corrected=a.out.with_name(a.out.stem+".corrected.wav")
     ff(["-y","-i",a.out,"-af",f"volume={correction}dB","-ar","48000","-c:a","pcm_s24le",corrected])
     corrected.replace(a.out)

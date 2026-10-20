@@ -1,0 +1,1639 @@
+{
+  "version": "synthetic-v3",
+  "status": "audition-awaiting-director",
+  "sampleRate": 48000,
+  "samples": 9364579,
+  "duration": 195.09539583333333,
+  "externalSamples": false,
+  "gain": 0.09129101730118104,
+  "duckingDb": 3,
+  "determinismChecked": true,
+  "collapse": {
+    "start": 84.7,
+    "fadeSeconds": 0.18,
+    "silence": [
+      84.88000000000001,
+      88.25
+    ]
+  },
+  "dim": {
+    "start": 153.249,
+    "singleTone": "E3"
+  },
+  "finalFade": {
+    "start": 193.69539583333332,
+    "end": 195.09539583333333
+  },
+  "menard": {
+    "identicalMelody": true,
+    "A": 112.752,
+    "B": 120.821,
+    "offsets": [
+      0,
+      0.72,
+      1.48,
+      2.36
+    ],
+    "pitches": [
+      "D4",
+      "A4",
+      "E5",
+      "B4"
+    ],
+    "harmonyA": [
+      "D3",
+      "A3",
+      "E4"
+    ],
+    "harmonyB": [
+      "G2",
+      "B2",
+      "D3",
+      "F#3"
+    ]
+  },
+  "presencePlan": [
+    {
+      "time": 0,
+      "relativeGain": 2.0
+    },
+    {
+      "time": 18.6,
+      "relativeGain": 2.0
+    },
+    {
+      "time": 22.1,
+      "relativeGain": 1.6
+    },
+    {
+      "time": 34.5,
+      "relativeGain": 1.5
+    },
+    {
+      "time": 35.836,
+      "relativeGain": 1.35
+    },
+    {
+      "time": 47.7,
+      "relativeGain": 1.25
+    },
+    {
+      "time": 49,
+      "relativeGain": 1.8
+    },
+    {
+      "time": 55.1,
+      "relativeGain": 2.6
+    },
+    {
+      "time": 65.476,
+      "relativeGain": 2.6
+    },
+    {
+      "time": 66.791,
+      "relativeGain": 1.3
+    },
+    {
+      "time": 74.436,
+      "relativeGain": 1
+    },
+    {
+      "time": 84.7,
+      "relativeGain": 1
+    },
+    {
+      "time": 88.25,
+      "relativeGain": 1.7
+    },
+    {
+      "time": 90.04,
+      "relativeGain": 2.5
+    },
+    {
+      "time": 98.42,
+      "relativeGain": 2.5
+    },
+    {
+      "time": 104.712,
+      "relativeGain": 1.8
+    },
+    {
+      "time": 112.752,
+      "relativeGain": 2.0
+    },
+    {
+      "time": 120.821,
+      "relativeGain": 2.0
+    },
+    {
+      "time": 133.826,
+      "relativeGain": 2.1
+    },
+    {
+      "time": 145.15,
+      "relativeGain": 1.8
+    },
+    {
+      "time": 149.449,
+      "relativeGain": 1.4
+    },
+    {
+      "time": 153.249,
+      "relativeGain": 0.9
+    },
+    {
+      "time": 154.149,
+      "relativeGain": 2.2
+    },
+    {
+      "time": 159.8,
+      "relativeGain": 2.3
+    },
+    {
+      "time": 171.8,
+      "relativeGain": 1.5
+    },
+    {
+      "time": 172.98,
+      "relativeGain": 1.5
+    },
+    {
+      "time": 175.29,
+      "relativeGain": 2.3
+    },
+    {
+      "time": 183.848,
+      "relativeGain": 2.0
+    },
+    {
+      "time": 187.928,
+      "relativeGain": 1.4
+    },
+    {
+      "time": 191.25,
+      "relativeGain": 1.0
+    },
+    {
+      "time": 193.69539583333332,
+      "relativeGain": 0.9
+    },
+    {
+      "time": 195.09539583333333,
+      "relativeGain": 0.9
+    }
+  ],
+  "levelPlan": [
+    {
+      "time": 0,
+      "relativeGain": 0
+    },
+    {
+      "time": 0.6,
+      "relativeGain": 0.85
+    },
+    {
+      "time": 18.894145833333333,
+      "relativeGain": 0.78
+    },
+    {
+      "time": 22.094,
+      "relativeGain": 1.0
+    },
+    {
+      "time": 35.83575,
+      "relativeGain": 1.08
+    },
+    {
+      "time": 48.23522916666667,
+      "relativeGain": 1.65
+    },
+    {
+      "time": 49.13522916666667,
+      "relativeGain": 0.45
+    },
+    {
+      "time": 55.15604166666667,
+      "relativeGain": 0.48
+    },
+    {
+      "time": 65.476,
+      "relativeGain": 0.72
+    },
+    {
+      "time": 66.7908125,
+      "relativeGain": 0.65
+    },
+    {
+      "time": 74.4355,
+      "relativeGain": 0.95
+    },
+    {
+      "time": 84.42,
+      "relativeGain": 1.95
+    },
+    {
+      "time": 84.7,
+      "relativeGain": 1.95
+    },
+    {
+      "time": 84.88000000000001,
+      "relativeGain": 0
+    },
+    {
+      "time": 88.25,
+      "relativeGain": 0.75
+    },
+    {
+      "time": 90.03983333333333,
+      "relativeGain": 0.55
+    },
+    {
+      "time": 104.71195833333333,
+      "relativeGain": 0.8
+    },
+    {
+      "time": 112.752,
+      "relativeGain": 1.02
+    },
+    {
+      "time": 120.821,
+      "relativeGain": 1.1
+    },
+    {
+      "time": 133.825875,
+      "relativeGain": 0.45
+    },
+    {
+      "time": 145.14872916666667,
+      "relativeGain": 0.7
+    },
+    {
+      "time": 149.449,
+      "relativeGain": 1.05
+    },
+    {
+      "time": 153.249,
+      "relativeGain": 0.7
+    },
+    {
+      "time": 154.149,
+      "relativeGain": 0.2
+    },
+    {
+      "time": 159.77964583333332,
+      "relativeGain": 0.23
+    },
+    {
+      "time": 172.28,
+      "relativeGain": 0.34
+    },
+    {
+      "time": 172.98,
+      "relativeGain": 0.88
+    },
+    {
+      "time": 175.28952083333334,
+      "relativeGain": 0.7
+    },
+    {
+      "time": 183.84766666666667,
+      "relativeGain": 0.7
+    },
+    {
+      "time": 187.928,
+      "relativeGain": 1.1
+    },
+    {
+      "time": 191.25,
+      "relativeGain": 1.65
+    },
+    {
+      "time": 193.69539583333332,
+      "relativeGain": 1.05
+    },
+    {
+      "time": 195.09539583333333,
+      "relativeGain": 0
+    }
+  ],
+  "events": [
+    {
+      "role": "motif",
+      "time": 0.65,
+      "pitch": "D4",
+      "velocity": 0.72,
+      "duration": 7.8,
+      "pan": -0.12,
+      "group": "opening"
+    },
+    {
+      "role": "motif",
+      "time": 4.3500000000000005,
+      "pitch": "A4",
+      "velocity": 0.6335999999999999,
+      "duration": 7.8,
+      "pan": 0.1,
+      "group": "opening"
+    },
+    {
+      "role": "motif",
+      "time": 8.12,
+      "pitch": "E5",
+      "velocity": 0.5903999999999999,
+      "duration": 7.8,
+      "pan": -0.07,
+      "group": "opening"
+    },
+    {
+      "role": "motif",
+      "time": 12.450000000000001,
+      "pitch": "B4",
+      "velocity": 0.648,
+      "duration": 7.8,
+      "pan": 0.14,
+      "group": "opening"
+    },
+    {
+      "role": "motif",
+      "time": 17.912,
+      "pitch": "D4",
+      "velocity": 0.85,
+      "duration": 7.8,
+      "pan": 0,
+      "group": "opening-tonic",
+      "anchor": "s02"
+    },
+    {
+      "role": "bed",
+      "time": 18.894145833333333,
+      "pitch": "D3",
+      "velocity": 0.18,
+      "duration": 9,
+      "pan": -0.22,
+      "group": "babel-entry"
+    },
+    {
+      "role": "bed",
+      "time": 18.894145833333333,
+      "pitch": "A3",
+      "velocity": 0.18,
+      "duration": 9,
+      "pan": 0.22,
+      "group": "babel-entry"
+    },
+    {
+      "role": "bed",
+      "time": 22.094,
+      "pitch": "D3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": 0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "bed",
+      "time": 25.394000000000002,
+      "pitch": "A3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": -0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "points",
+      "time": 26.074,
+      "pitch": "A5",
+      "velocity": 0.2,
+      "duration": 2,
+      "pan": 0.16,
+      "group": "cue",
+      "anchor": "s03"
+    },
+    {
+      "role": "motif",
+      "time": 28.1,
+      "pitch": "D4",
+      "velocity": 0.5,
+      "duration": 7,
+      "pan": -0.12,
+      "group": "babel-phrase"
+    },
+    {
+      "role": "bed",
+      "time": 28.194000000000003,
+      "pitch": "E3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": 0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "bed",
+      "time": 28.5,
+      "pitch": "E3",
+      "velocity": 0.18,
+      "duration": 8,
+      "pan": -0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 28.5,
+      "pitch": "B3",
+      "velocity": 0.18,
+      "duration": 8,
+      "pan": 0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "points",
+      "time": 30.411,
+      "pitch": "D5",
+      "velocity": 0.2,
+      "duration": 2,
+      "pan": 0.16,
+      "group": "cue",
+      "anchor": "babel"
+    },
+    {
+      "role": "bed",
+      "time": 31.694000000000003,
+      "pitch": "A3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": -0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "motif",
+      "time": 32.300000000000004,
+      "pitch": "A4",
+      "velocity": 0.44,
+      "duration": 7,
+      "pan": 0.1,
+      "group": "babel-phrase"
+    },
+    {
+      "role": "bed",
+      "time": 35.294,
+      "pitch": "D3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": 0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "bed",
+      "time": 35.5,
+      "pitch": "D3",
+      "velocity": 0.24,
+      "duration": 8,
+      "pan": -0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 35.5,
+      "pitch": "A3",
+      "velocity": 0.24,
+      "duration": 8,
+      "pan": 0.0,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 35.5,
+      "pitch": "E4",
+      "velocity": 0.24,
+      "duration": 8,
+      "pan": 0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "motif",
+      "time": 35.800000000000004,
+      "pitch": "E5",
+      "velocity": 0.41,
+      "duration": 7,
+      "pan": -0.07,
+      "group": "babel-phrase"
+    },
+    {
+      "role": "bed",
+      "time": 38.194,
+      "pitch": "A3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": -0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "motif",
+      "time": 39.6,
+      "pitch": "B4",
+      "velocity": 0.45,
+      "duration": 7,
+      "pan": 0.14,
+      "group": "babel-phrase"
+    },
+    {
+      "role": "bed",
+      "time": 40.694,
+      "pitch": "E3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": 0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "motif",
+      "time": 40.8,
+      "pitch": "D5",
+      "velocity": 0.56,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "babel-high"
+    },
+    {
+      "role": "bed",
+      "time": 41.0,
+      "pitch": "G2",
+      "velocity": 0.27,
+      "duration": 8,
+      "pan": -0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 41.0,
+      "pitch": "D3",
+      "velocity": 0.27,
+      "duration": 8,
+      "pan": -0.07333333333333333,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 41.0,
+      "pitch": "B3",
+      "velocity": 0.27,
+      "duration": 8,
+      "pan": 0.07333333333333333,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "bed",
+      "time": 41.0,
+      "pitch": "E4",
+      "velocity": 0.27,
+      "duration": 8,
+      "pan": 0.22,
+      "group": "babel-expansion"
+    },
+    {
+      "role": "motif",
+      "time": 42.8,
+      "pitch": "A5",
+      "velocity": 0.49280000000000007,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "babel-high"
+    },
+    {
+      "role": "bed",
+      "time": 43.094,
+      "pitch": "A3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": -0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "motif",
+      "time": 44.8,
+      "pitch": "E5",
+      "velocity": 0.4592,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "babel-high"
+    },
+    {
+      "role": "bed",
+      "time": 45.294,
+      "pitch": "D3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": 0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "motif",
+      "time": 47.0,
+      "pitch": "B4",
+      "velocity": 0.5040000000000001,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "babel-high"
+    },
+    {
+      "role": "bed",
+      "time": 47.394000000000005,
+      "pitch": "A3",
+      "velocity": 0.42,
+      "duration": 3.2,
+      "pan": -0.12,
+      "group": "babel-pulse"
+    },
+    {
+      "role": "bed",
+      "time": 48.83522916666667,
+      "pitch": "E3",
+      "velocity": 0.19,
+      "duration": 7.020812499999996,
+      "pan": -0.22,
+      "group": "babel-suspension"
+    },
+    {
+      "role": "bed",
+      "time": 48.83522916666667,
+      "pitch": "B3",
+      "velocity": 0.19,
+      "duration": 7.020812499999996,
+      "pan": 0.22,
+      "group": "babel-suspension"
+    },
+    {
+      "role": "motif",
+      "time": 55.85604166666667,
+      "pitch": "D4",
+      "velocity": 0.53,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "selection"
+    },
+    {
+      "role": "motif",
+      "time": 58.05604166666667,
+      "pitch": "A4",
+      "velocity": 0.46640000000000004,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "selection"
+    },
+    {
+      "role": "motif",
+      "time": 60.25604166666667,
+      "pitch": "E5",
+      "velocity": 0.4346,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "selection"
+    },
+    {
+      "role": "motif",
+      "time": 62.45604166666667,
+      "pitch": "B4",
+      "velocity": 0.47700000000000004,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "selection"
+    },
+    {
+      "role": "motif",
+      "time": 65.476,
+      "pitch": "D4",
+      "velocity": 0.64,
+      "duration": 5,
+      "pan": 0,
+      "group": "selection-anchor",
+      "anchor": "s07"
+    },
+    {
+      "role": "bed",
+      "time": 66.7908125,
+      "pitch": "D3",
+      "velocity": 0.24,
+      "duration": 8,
+      "pan": -0.22,
+      "group": "funes-dark"
+    },
+    {
+      "role": "bed",
+      "time": 66.7908125,
+      "pitch": "A3",
+      "velocity": 0.24,
+      "duration": 8,
+      "pan": 0.22,
+      "group": "funes-dark"
+    },
+    {
+      "role": "motif",
+      "time": 67.2908125,
+      "pitch": "D3",
+      "velocity": 0.62,
+      "duration": 6,
+      "pan": -0.12,
+      "group": "funes-low"
+    },
+    {
+      "role": "motif",
+      "time": 69.7908125,
+      "pitch": "A3",
+      "velocity": 0.5456,
+      "duration": 6,
+      "pan": 0.1,
+      "group": "funes-low"
+    },
+    {
+      "role": "motif",
+      "time": 72.2908125,
+      "pitch": "E4",
+      "velocity": 0.5084,
+      "duration": 6,
+      "pan": -0.07,
+      "group": "funes-low"
+    },
+    {
+      "role": "bed",
+      "time": 74.4355,
+      "pitch": "D3",
+      "velocity": 0.28,
+      "duration": 10.3,
+      "pan": -0.22,
+      "group": "funes-build"
+    },
+    {
+      "role": "bed",
+      "time": 74.4355,
+      "pitch": "F3",
+      "velocity": 0.28,
+      "duration": 10.3,
+      "pan": 0.0,
+      "group": "funes-build"
+    },
+    {
+      "role": "bed",
+      "time": 74.4355,
+      "pitch": "B3",
+      "velocity": 0.28,
+      "duration": 10.3,
+      "pan": 0.22,
+      "group": "funes-build"
+    },
+    {
+      "role": "motif",
+      "time": 74.63550000000001,
+      "pitch": "D4",
+      "velocity": 0.58,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "funes-canon-0"
+    },
+    {
+      "role": "motif",
+      "time": 74.7908125,
+      "pitch": "B3",
+      "velocity": 0.558,
+      "duration": 6,
+      "pan": 0.14,
+      "group": "funes-low"
+    },
+    {
+      "role": "motif",
+      "time": 76.33550000000001,
+      "pitch": "A4",
+      "velocity": 0.5104,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "funes-canon-0"
+    },
+    {
+      "role": "motif",
+      "time": 76.5355,
+      "pitch": "D3",
+      "velocity": 0.6,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "funes-canon-1"
+    },
+    {
+      "role": "motif",
+      "time": 77.7355,
+      "pitch": "A3",
+      "velocity": 0.528,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "funes-canon-1"
+    },
+    {
+      "role": "motif",
+      "time": 78.03550000000001,
+      "pitch": "E5",
+      "velocity": 0.4755999999999999,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "funes-canon-0"
+    },
+    {
+      "role": "motif",
+      "time": 78.63550000000001,
+      "pitch": "D5",
+      "velocity": 0.57,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "funes-canon-2"
+    },
+    {
+      "role": "motif",
+      "time": 78.9355,
+      "pitch": "E4",
+      "velocity": 0.49199999999999994,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "funes-canon-1"
+    },
+    {
+      "role": "motif",
+      "time": 79.4855,
+      "pitch": "A5",
+      "velocity": 0.5015999999999999,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "funes-canon-2"
+    },
+    {
+      "role": "motif",
+      "time": 79.7355,
+      "pitch": "B4",
+      "velocity": 0.522,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "funes-canon-0"
+    },
+    {
+      "role": "motif",
+      "time": 80.1355,
+      "pitch": "B3",
+      "velocity": 0.54,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "funes-canon-1"
+    },
+    {
+      "role": "motif",
+      "time": 80.33550000000001,
+      "pitch": "E5",
+      "velocity": 0.4673999999999999,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "funes-canon-2"
+    },
+    {
+      "role": "motif",
+      "time": 80.63550000000001,
+      "pitch": "D4",
+      "velocity": 0.57,
+      "duration": 5,
+      "pan": -0.12,
+      "group": "funes-canon-3"
+    },
+    {
+      "role": "motif",
+      "time": 81.1855,
+      "pitch": "B4",
+      "velocity": 0.513,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "funes-canon-2"
+    },
+    {
+      "role": "motif",
+      "time": 81.28550000000001,
+      "pitch": "A4",
+      "velocity": 0.5015999999999999,
+      "duration": 5,
+      "pan": 0.1,
+      "group": "funes-canon-3"
+    },
+    {
+      "role": "motif",
+      "time": 81.9355,
+      "pitch": "E5",
+      "velocity": 0.4673999999999999,
+      "duration": 5,
+      "pan": -0.07,
+      "group": "funes-canon-3"
+    },
+    {
+      "role": "motif",
+      "time": 82.58550000000001,
+      "pitch": "B4",
+      "velocity": 0.513,
+      "duration": 5,
+      "pan": 0.14,
+      "group": "funes-canon-3"
+    },
+    {
+      "role": "motif",
+      "time": 88.25,
+      "pitch": "D2",
+      "velocity": 0.8,
+      "duration": 4.7,
+      "pan": 0,
+      "group": "think",
+      "anchor": "think"
+    },
+    {
+      "role": "motif",
+      "time": 90.53983333333333,
+      "pitch": "D4",
+      "velocity": 0.48,
+      "duration": 7.8,
+      "pan": 0,
+      "group": "self"
+    },
+    {
+      "role": "motif",
+      "time": 94.0,
+      "pitch": "A4",
+      "velocity": 0.43,
+      "duration": 7.8,
+      "pan": 0,
+      "group": "self"
+    },
+    {
+      "role": "motif",
+      "time": 98.42,
+      "pitch": "B4",
+      "velocity": 0.54,
+      "duration": 7.8,
+      "pan": 0,
+      "group": "self",
+      "anchor": "s11b"
+    },
+    {
+      "role": "bed",
+      "time": 104.71195833333333,
+      "pitch": "D3",
+      "velocity": 0.24,
+      "duration": 16.60904166666667,
+      "pan": -0.22,
+      "group": "harmony-A"
+    },
+    {
+      "role": "bed",
+      "time": 104.71195833333333,
+      "pitch": "A3",
+      "velocity": 0.24,
+      "duration": 16.60904166666667,
+      "pan": 0.0,
+      "group": "harmony-A"
+    },
+    {
+      "role": "bed",
+      "time": 104.71195833333333,
+      "pitch": "E4",
+      "velocity": 0.24,
+      "duration": 16.60904166666667,
+      "pan": 0.22,
+      "group": "harmony-A"
+    },
+    {
+      "role": "motif",
+      "time": 105.16195833333333,
+      "pitch": "D4",
+      "velocity": 0.47,
+      "duration": 7.8,
+      "pan": -0.1,
+      "group": "menard-pickup"
+    },
+    {
+      "role": "motif",
+      "time": 112.752,
+      "pitch": "D4",
+      "velocity": 0.69,
+      "duration": 5.3,
+      "pan": -0.12,
+      "group": "menard-A",
+      "anchor": "ma"
+    },
+    {
+      "role": "motif",
+      "time": 113.472,
+      "pitch": "A4",
+      "velocity": 0.6072,
+      "duration": 5.3,
+      "pan": 0.1,
+      "group": "menard-A"
+    },
+    {
+      "role": "points",
+      "time": 114.032,
+      "pitch": "A5",
+      "velocity": 0.15,
+      "duration": 2,
+      "pan": 0.16,
+      "group": "cue",
+      "anchor": "maSig"
+    },
+    {
+      "role": "motif",
+      "time": 114.232,
+      "pitch": "E5",
+      "velocity": 0.5658,
+      "duration": 5.3,
+      "pan": -0.07,
+      "group": "menard-A"
+    },
+    {
+      "role": "motif",
+      "time": 115.112,
+      "pitch": "B4",
+      "velocity": 0.621,
+      "duration": 5.3,
+      "pan": 0.14,
+      "group": "menard-A"
+    },
+    {
+      "role": "motif",
+      "time": 120.821,
+      "pitch": "D4",
+      "velocity": 0.69,
+      "duration": 5.3,
+      "pan": -0.12,
+      "group": "menard-B"
+    },
+    {
+      "role": "bed",
+      "time": 120.821,
+      "pitch": "G2",
+      "velocity": 0.27,
+      "duration": 7.2,
+      "pan": -0.22,
+      "group": "harmony-B"
+    },
+    {
+      "role": "bed",
+      "time": 120.821,
+      "pitch": "B2",
+      "velocity": 0.27,
+      "duration": 7.2,
+      "pan": -0.07333333333333333,
+      "group": "harmony-B"
+    },
+    {
+      "role": "bed",
+      "time": 120.821,
+      "pitch": "D3",
+      "velocity": 0.27,
+      "duration": 7.2,
+      "pan": 0.07333333333333333,
+      "group": "harmony-B"
+    },
+    {
+      "role": "bed",
+      "time": 120.821,
+      "pitch": "F#3",
+      "velocity": 0.27,
+      "duration": 7.2,
+      "pan": 0.22,
+      "group": "harmony-B"
+    },
+    {
+      "role": "motif",
+      "time": 121.541,
+      "pitch": "A4",
+      "velocity": 0.6072,
+      "duration": 5.3,
+      "pan": 0.1,
+      "group": "menard-B"
+    },
+    {
+      "role": "motif",
+      "time": 122.301,
+      "pitch": "E5",
+      "velocity": 0.5658,
+      "duration": 5.3,
+      "pan": -0.07,
+      "group": "menard-B"
+    },
+    {
+      "role": "motif",
+      "time": 123.181,
+      "pitch": "B4",
+      "velocity": 0.621,
+      "duration": 5.3,
+      "pan": 0.14,
+      "group": "menard-B",
+      "anchor": "mbSig"
+    },
+    {
+      "role": "bed",
+      "time": 128.356,
+      "pitch": "D3",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": -0.22,
+      "group": "signature-A"
+    },
+    {
+      "role": "bed",
+      "time": 128.356,
+      "pitch": "A3",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": 0.0,
+      "group": "signature-A"
+    },
+    {
+      "role": "bed",
+      "time": 128.356,
+      "pitch": "E4",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": 0.22,
+      "group": "signature-A"
+    },
+    {
+      "role": "motif",
+      "time": 128.576,
+      "pitch": "D4",
+      "velocity": 0.57,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-A",
+      "anchor": "me1"
+    },
+    {
+      "role": "motif",
+      "time": 129.146,
+      "pitch": "A4",
+      "velocity": 0.5015999999999999,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-A"
+    },
+    {
+      "role": "motif",
+      "time": 129.71599999999998,
+      "pitch": "E5",
+      "velocity": 0.4673999999999999,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-A"
+    },
+    {
+      "role": "bed",
+      "time": 130.706,
+      "pitch": "G2",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": -0.22,
+      "group": "signature-B"
+    },
+    {
+      "role": "bed",
+      "time": 130.706,
+      "pitch": "B2",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": -0.07333333333333333,
+      "group": "signature-B"
+    },
+    {
+      "role": "bed",
+      "time": 130.706,
+      "pitch": "D3",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": 0.07333333333333333,
+      "group": "signature-B"
+    },
+    {
+      "role": "bed",
+      "time": 130.706,
+      "pitch": "F#3",
+      "velocity": 0.23,
+      "duration": 2.8,
+      "pan": 0.22,
+      "group": "signature-B"
+    },
+    {
+      "role": "motif",
+      "time": 130.926,
+      "pitch": "D4",
+      "velocity": 0.57,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-B",
+      "anchor": "me2"
+    },
+    {
+      "role": "motif",
+      "time": 131.49599999999998,
+      "pitch": "A4",
+      "velocity": 0.5015999999999999,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-B"
+    },
+    {
+      "role": "motif",
+      "time": 132.06599999999997,
+      "pitch": "E5",
+      "velocity": 0.4673999999999999,
+      "duration": 3.2,
+      "pan": 0,
+      "group": "signature-B"
+    },
+    {
+      "role": "bed",
+      "time": 133.825875,
+      "pitch": "B2",
+      "velocity": 0.14,
+      "duration": 12.223125,
+      "pan": -0.22,
+      "group": "suspension"
+    },
+    {
+      "role": "bed",
+      "time": 133.825875,
+      "pitch": "F#3",
+      "velocity": 0.14,
+      "duration": 12.223125,
+      "pan": 0.0,
+      "group": "suspension"
+    },
+    {
+      "role": "bed",
+      "time": 133.825875,
+      "pitch": "E4",
+      "velocity": 0.14,
+      "duration": 12.223125,
+      "pan": 0.22,
+      "group": "suspension"
+    },
+    {
+      "role": "motif",
+      "time": 136.02587499999998,
+      "pitch": "B4",
+      "velocity": 0.3,
+      "duration": 7.8,
+      "pan": 0.05,
+      "group": "suspension"
+    },
+    {
+      "role": "bed",
+      "time": 145.749,
+      "pitch": "D3",
+      "velocity": 0.44,
+      "duration": 2.0,
+      "pan": 0,
+      "group": "recall-babel",
+      "anchor": "k1"
+    },
+    {
+      "role": "bed",
+      "time": 146.399,
+      "pitch": "A3",
+      "velocity": 0.44,
+      "duration": 2.0,
+      "pan": 0,
+      "group": "recall-babel"
+    },
+    {
+      "role": "motif",
+      "time": 147.629,
+      "pitch": "D3",
+      "velocity": 0.41,
+      "duration": 3.3,
+      "pan": -0.12,
+      "group": "recall-funes",
+      "anchor": "k2"
+    },
+    {
+      "role": "motif",
+      "time": 147.97899999999998,
+      "pitch": "A3",
+      "velocity": 0.36079999999999995,
+      "duration": 3.3,
+      "pan": 0.1,
+      "group": "recall-funes"
+    },
+    {
+      "role": "motif",
+      "time": 148.32899999999998,
+      "pitch": "E4",
+      "velocity": 0.33619999999999994,
+      "duration": 3.3,
+      "pan": -0.07,
+      "group": "recall-funes"
+    },
+    {
+      "role": "motif",
+      "time": 148.679,
+      "pitch": "B3",
+      "velocity": 0.369,
+      "duration": 3.3,
+      "pan": 0.14,
+      "group": "recall-funes"
+    },
+    {
+      "role": "bed",
+      "time": 149.449,
+      "pitch": "G2",
+      "velocity": 0.26,
+      "duration": 3.799999999999983,
+      "pan": -0.22,
+      "group": "recall-menard"
+    },
+    {
+      "role": "bed",
+      "time": 149.449,
+      "pitch": "B2",
+      "velocity": 0.26,
+      "duration": 3.799999999999983,
+      "pan": -0.07333333333333333,
+      "group": "recall-menard"
+    },
+    {
+      "role": "bed",
+      "time": 149.449,
+      "pitch": "D3",
+      "velocity": 0.26,
+      "duration": 3.799999999999983,
+      "pan": 0.07333333333333333,
+      "group": "recall-menard"
+    },
+    {
+      "role": "bed",
+      "time": 149.449,
+      "pitch": "F#3",
+      "velocity": 0.26,
+      "duration": 3.799999999999983,
+      "pan": 0.22,
+      "group": "recall-menard"
+    },
+    {
+      "role": "motif",
+      "time": 149.449,
+      "pitch": "B4",
+      "velocity": 0.52,
+      "duration": 3.8,
+      "pan": 0.1,
+      "group": "recall-menard",
+      "anchor": "k3"
+    },
+    {
+      "role": "bed",
+      "time": 153.249,
+      "pitch": "E3",
+      "velocity": 0.22,
+      "duration": 19.930999999999994,
+      "pan": -0.22,
+      "group": "single-held-tone"
+    },
+    {
+      "role": "motif",
+      "time": 172.98,
+      "pitch": "D4",
+      "velocity": 0.7,
+      "duration": 5.8,
+      "pan": -0.12,
+      "group": "recipient-last-full-theme",
+      "anchor": "to"
+    },
+    {
+      "role": "motif",
+      "time": 173.6,
+      "pitch": "A4",
+      "velocity": 0.616,
+      "duration": 5.8,
+      "pan": 0.1,
+      "group": "recipient-last-full-theme"
+    },
+    {
+      "role": "motif",
+      "time": 174.29999999999998,
+      "pitch": "E5",
+      "velocity": 0.574,
+      "duration": 5.8,
+      "pan": -0.07,
+      "group": "recipient-last-full-theme"
+    },
+    {
+      "role": "motif",
+      "time": 175.14999999999998,
+      "pitch": "B4",
+      "velocity": 0.63,
+      "duration": 5.8,
+      "pan": 0.14,
+      "group": "recipient-last-full-theme"
+    },
+    {
+      "role": "bed",
+      "time": 175.28952083333334,
+      "pitch": "D3",
+      "velocity": 0.22,
+      "duration": 8.908145833333327,
+      "pan": -0.22,
+      "group": "book-card"
+    },
+    {
+      "role": "bed",
+      "time": 175.28952083333334,
+      "pitch": "F#3",
+      "velocity": 0.22,
+      "duration": 8.908145833333327,
+      "pan": 0.0,
+      "group": "book-card"
+    },
+    {
+      "role": "bed",
+      "time": 175.28952083333334,
+      "pitch": "A3",
+      "velocity": 0.22,
+      "duration": 8.908145833333327,
+      "pan": 0.22,
+      "group": "book-card"
+    },
+    {
+      "role": "points",
+      "time": 177.99,
+      "pitch": "D5",
+      "velocity": 0.27,
+      "duration": 2,
+      "pan": 0.16,
+      "group": "cue",
+      "anchor": "card2"
+    },
+    {
+      "role": "bed",
+      "time": 183.84766666666667,
+      "pitch": "D3",
+      "velocity": 0.24,
+      "duration": 8.7,
+      "pan": -0.22,
+      "group": "outro"
+    },
+    {
+      "role": "bed",
+      "time": 183.84766666666667,
+      "pitch": "A3",
+      "velocity": 0.24,
+      "duration": 8.7,
+      "pan": 0.0,
+      "group": "outro"
+    },
+    {
+      "role": "bed",
+      "time": 183.84766666666667,
+      "pitch": "E4",
+      "velocity": 0.24,
+      "duration": 8.7,
+      "pan": 0.22,
+      "group": "outro"
+    },
+    {
+      "role": "bed",
+      "time": 187.928,
+      "pitch": "D2",
+      "velocity": 0.3,
+      "duration": 7.16739583333333,
+      "pan": -0.22,
+      "group": "outro-wide"
+    },
+    {
+      "role": "bed",
+      "time": 187.928,
+      "pitch": "A3",
+      "velocity": 0.3,
+      "duration": 7.16739583333333,
+      "pan": -0.07333333333333333,
+      "group": "outro-wide"
+    },
+    {
+      "role": "bed",
+      "time": 187.928,
+      "pitch": "E4",
+      "velocity": 0.3,
+      "duration": 7.16739583333333,
+      "pan": 0.07333333333333333,
+      "group": "outro-wide"
+    },
+    {
+      "role": "bed",
+      "time": 187.928,
+      "pitch": "A4",
+      "velocity": 0.3,
+      "duration": 7.16739583333333,
+      "pan": 0.22,
+      "group": "outro-wide"
+    },
+    {
+      "role": "motif",
+      "time": 187.928,
+      "pitch": "D5",
+      "velocity": 0.57,
+      "duration": 7,
+      "pan": -0.18,
+      "group": "outro-fragment"
+    },
+    {
+      "role": "motif",
+      "time": 189.628,
+      "pitch": "A5",
+      "velocity": 0.49,
+      "duration": 7,
+      "pan": 0.18,
+      "group": "outro-fragment"
+    },
+    {
+      "role": "points",
+      "time": 190.578,
+      "pitch": "E6",
+      "velocity": 0.15,
+      "duration": 3,
+      "pan": 0.22,
+      "group": "outro-light"
+    },
+    {
+      "role": "motif",
+      "time": 191.028,
+      "pitch": "E5",
+      "velocity": 0.54,
+      "duration": 7,
+      "pan": 0.1,
+      "group": "outro-fragment"
+    },
+    {
+      "role": "motif",
+      "time": 192.028,
+      "pitch": "D5",
+      "velocity": 0.43,
+      "duration": 7,
+      "pan": -0.18,
+      "group": "outro-fragment"
+    }
+  ],
+  "files": [
+    {
+      "role": "motif",
+      "path": "audio/music/synthetic-v3/motif.wav",
+      "sha256": "8f2a32dd03adf30c367275ea7988e2f53bee6024119b53737ac0517c8152b69f",
+      "peakDbFS": -16.507604598999023,
+      "rmsDbFS": -36.080011699337355
+    },
+    {
+      "role": "bed",
+      "path": "audio/music/synthetic-v3/bed.wav",
+      "sha256": "631cdcdd33a9c311cdd05a5c27c9e865dd3136049883acaa1b1746e3a41159b8",
+      "peakDbFS": -23.10527992248535,
+      "rmsDbFS": -41.74260944143148
+    },
+    {
+      "role": "points",
+      "path": "audio/music/synthetic-v3/points.wav",
+      "sha256": "0b18a8e5c4c9149419dab3539dcd036bed5ce75cfdd62b4a51b20ce3f0c05faa",
+      "peakDbFS": -37.822776794433594,
+      "rmsDbFS": -64.51520116603753
+    },
+    {
+      "role": "score",
+      "path": "audio/music/synthetic-v3/score.wav",
+      "sha256": "cc184c3f2d428a46d09066d7efedcd754ff3510f72517415ffc1ddbd9069ee7e",
+      "peakDbFS": -16.0,
+      "rmsDbFS": -35.05283926304862
+    }
+  ],
+  "inputs": [
+    {
+      "path": "docs/music-direction.md",
+      "sha256": "76a049f4605d9dc0fa6c9061dbfa816b49f2b4fb1cbb84df41897d4435535505"
+    },
+    {
+      "path": "design/cues3.json",
+      "sha256": "3de3c7d7d9e3d47bb9e4088a5fb65fba004f2bf7a2878cda584b3e1c52a253d9"
+    },
+    {
+      "path": "audio/vo/timing.json",
+      "sha256": "e06b16224bbf640881c583a4162ab715fdb3151b41abf3d6131253ca16006440"
+    },
+    {
+      "path": "audio/vo/narration.wav",
+      "sha256": "e7f9416b0cebec3963b219917c5f9e0d29fd38a63d77b9018dc489ba2894cc24"
+    },
+    {
+      "path": "engine/synthesize-music-v3.py",
+      "sha256": "931c9ed883cae80910e885ce6da91480c746837bd4f3b038f7de49dd20114847"
+    },
+    {
+      "path": "engine/synthesize-music-v2.py",
+      "sha256": "3663a1021de6fd3311d0913156e871c5173efbe9efbc977791d509df42236a1d"
+    },
+    {
+      "path": "engine/synthesize-music.py",
+      "sha256": "bc1b92c68593c3ffc67b007fe01722fce70009bba6b994d743858861eecc47a5"
+    }
+  ]
+}

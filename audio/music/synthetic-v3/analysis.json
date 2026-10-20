@@ -1,0 +1,185 @@
+{
+  "status": "audition-awaiting-director",
+  "sections": [
+    {
+      "section": "开场",
+      "start": 0,
+      "end": 18.894145833333333,
+      "musicRmsDbFS": -34.99714185787589,
+      "v2RmsDbFS": -34.794380670067035,
+      "voiceActiveGapDb": 18.690437008389786
+    },
+    {
+      "section": "巴别",
+      "start": 18.894145833333333,
+      "end": 55.15604166666667,
+      "musicRmsDbFS": -35.622529747722595,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 17.533834779916745
+    },
+    {
+      "section": "选择",
+      "start": 55.15604166666667,
+      "end": 66.7908125,
+      "musicRmsDbFS": -36.31470028554597,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 19.48010074382718
+    },
+    {
+      "section": "富内斯",
+      "start": 66.7908125,
+      "end": 84.7,
+      "musicRmsDbFS": -32.776272649532146,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 13.243650815924838
+    },
+    {
+      "section": "塌缩／思考",
+      "start": 84.7,
+      "end": 90.03983333333333,
+      "musicRmsDbFS": -34.63873683753307,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 30.72989096206578
+    },
+    {
+      "section": "我",
+      "start": 90.03983333333333,
+      "end": 104.71195833333333,
+      "musicRmsDbFS": -38.49765476513407,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 19.438920852878482
+    },
+    {
+      "section": "梅纳尔",
+      "start": 104.71195833333333,
+      "end": 133.825875,
+      "musicRmsDbFS": -32.06920688049183,
+      "v2RmsDbFS": -36.84874599381216,
+      "voiceActiveGapDb": 14.028411257203011
+    },
+    {
+      "section": "悬置",
+      "start": 133.825875,
+      "end": 145.14872916666667,
+      "musicRmsDbFS": -45.5980116743045,
+      "v2RmsDbFS": -37.77176403656016,
+      "voiceActiveGapDb": 28.27739406168346
+    },
+    {
+      "section": "总览／暗下",
+      "start": 145.14872916666667,
+      "end": 159.77964583333332,
+      "musicRmsDbFS": -39.33547251365613,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 20.714348915204535
+    },
+    {
+      "section": "信",
+      "start": 159.77964583333332,
+      "end": 175.28952083333334,
+      "musicRmsDbFS": -38.71903923886828,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 22.543904505874778
+    },
+    {
+      "section": "书卡",
+      "start": 175.28952083333334,
+      "end": 183.84766666666667,
+      "musicRmsDbFS": -36.49983022788455,
+      "v2RmsDbFS": -240.0,
+      "voiceActiveGapDb": 17.748304090931477
+    },
+    {
+      "section": "拉远",
+      "start": 183.84766666666667,
+      "end": 195.09539583333333,
+      "musicRmsDbFS": -33.65930563792944,
+      "v2RmsDbFS": -34.548479159229124,
+      "voiceActiveGapDb": 19.220747212620534
+    }
+  ],
+  "exactZeroSpans20ms": [
+    [
+      0.0,
+      0.64
+    ],
+    [
+      84.88,
+      88.24
+    ]
+  ],
+  "collapseCheckedAllBackgroundStems": true,
+  "menard": {
+    "identicalMelody": true,
+    "A": 112.752,
+    "B": 120.821,
+    "offsets": [
+      0,
+      0.72,
+      1.48,
+      2.36
+    ],
+    "pitches": [
+      "D4",
+      "A4",
+      "E5",
+      "B4"
+    ],
+    "harmonyA": [
+      "D3",
+      "A3",
+      "E4"
+    ],
+    "harmonyB": [
+      "G2",
+      "B2",
+      "D3",
+      "F#3"
+    ]
+  },
+  "mixedWavMeasurement": {
+    "input_i": "-14.16",
+    "input_tp": "-1.10",
+    "input_lra": "4.30",
+    "input_thresh": "-25.27",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "4.10",
+    "output_thresh": "-25.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "method": "250 ms RMS on original pre-master stems, shared scale; active-voice comparison uses 100 ms voice blocks above -35 dBFS.",
+  "inputs": [
+    {
+      "path": "docs/music-direction.md",
+      "sha256": "76a049f4605d9dc0fa6c9061dbfa816b49f2b4fb1cbb84df41897d4435535505"
+    },
+    {
+      "path": "design/cues3.json",
+      "sha256": "3de3c7d7d9e3d47bb9e4088a5fb65fba004f2bf7a2878cda584b3e1c52a253d9"
+    },
+    {
+      "path": "audio/vo/timing.json",
+      "sha256": "e06b16224bbf640881c583a4162ab715fdb3151b41abf3d6131253ca16006440"
+    },
+    {
+      "path": "audio/vo/narration.wav",
+      "sha256": "e7f9416b0cebec3963b219917c5f9e0d29fd38a63d77b9018dc489ba2894cc24"
+    },
+    {
+      "path": "engine/synthesize-music-v3.py",
+      "sha256": "931c9ed883cae80910e885ce6da91480c746837bd4f3b038f7de49dd20114847"
+    },
+    {
+      "path": "engine/synthesize-music-v2.py",
+      "sha256": "3663a1021de6fd3311d0913156e871c5173efbe9efbc977791d509df42236a1d"
+    },
+    {
+      "path": "engine/synthesize-music.py",
+      "sha256": "bc1b92c68593c3ffc67b007fe01722fce70009bba6b994d743858861eecc47a5"
+    }
+  ],
+  "noteCount": 138,
+  "deterministic": true
+}
