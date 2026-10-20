@@ -194,3 +194,32 @@ AAC 输出使用短时过采样峰值保护，源混音和分轨保持不变；
 
 本次实际预览固定使用 GPU 栅格。另试的软件栅格后端未通过一致性检查，
 未用于交付；记录在 out/engineering/film3-software-verify.ndjson。更换后端需要重新验证。
+
+
+## 第三版正式导出
+
+导演已通过画面和配乐 v3；批准由 Claude 在留言板转达，记录见
+`audio/music/approval-v3.json`。旧合成/试听报告的 awaiting-director 状态保留为生成当时的历史，
+本次正式导出使用这份新批准记录。第一版保留为存档，原定黑条修正和铜版画插图取消。
+
+设计快照 `f6f6ebe` 包含片尾 dust 系数和红色前景「我」字透明度的小修正。
+`engine/film3-final-plan.json` 冻结相关设计、字体、时间轴和音频输入。
+声音直接复制已通过预览中的 AAC，源混音是 `audio/mix/synthetic-v3-review.wav`；
+编码峰值保护参数沿用 `audio/mix/synthetic-v3-aac.json`，不重新合成或混音。
+
+```sh
+node engine/run.mjs render --film3 --scale 1 --workers 2 --out out/final-v3/film-v3-picture-1080p.mp4 --json > out/engineering/film3-final-render.ndjson
+node engine/run.mjs verify --film3 --scale 1 --at 17,130,193 --workers 2 --json > out/engineering/film3-final-verify.ndjson
+engine/.venv/bin/python engine/finalize-film3.py prepare
+engine/.venv/bin/python engine/finalize-film3.py assemble
+```
+
+导出脚本核对冻结输入、渲染与一致性检查结果，再封装 MP4。
+检查完整解码、5853 帧、30 fps 时间戳、1920×1080 H.264 yuv420p、
+48 kHz 双声道 AAC、起点/时长、实际编码响度和真峰值；
+同时比较声音/画面压缩数据，确认封装未重新编码。
+独立 SRT 共 43 条，校验完整台本和段落边界，不烧入画面。
+13 张 1080p 静帧与联系表从最终 MP4 提取，供 Claude 最后画面复核。
+
+交付目录 `out/final-v3/`；可提交的记录位于 `engine/film3-final-delivery.json`。
+输出文件不入 Git，源码与来源、校验记录持续提交至远端机器的本地仓库。
