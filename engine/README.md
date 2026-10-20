@@ -180,3 +180,7 @@ v3 音乐与背景在 84.70 秒开始用 0.18 秒截断，84.88–88.25 秒严�
 
 GPU 一致性检查在工具容差内通过；190 秒处 reorder/reload/workers:2 各有 69 个像素，
 最大单通道差 1/255（gpu_raster_jitter）。该预览不宣称逐像素哈希完全一致。
+
+
+第三版完整预览已交付：out/review/film-v3-preview.mp4（960×540 / 30 fps / 195.1 秒，暂用 v2 音轨）。
+联系表和静帧位于 out/review/film-v3-stills/；来源、校验与 GPU 舍入容差说明见 engine/film3-preview.json。
