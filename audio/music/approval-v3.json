@@ -1,0 +1,55 @@
+{
+  "version": "synthetic-v3",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "decision": "approved-for-final-film3",
+  "directorStatement": "通过！",
+  "provenance": {
+    "type": "director-approval-relayed-by-Claude",
+    "path": "docs/requests.md",
+    "revision": "f6f6ebe0256818a387b7de6bb373a61c39f96aae",
+    "entryTitle": "导演通过第三版画面和配乐 v3：出正式版",
+    "entrySha256": "49b0035f37dc9073e38458d87597558d9855ec677891264f4176f81e20004fcf",
+    "note": "Claude 在留言板转达导演看完预览后的通过意见；本会话用户要求按最新留言继续。"
+  },
+  "score": {
+    "path": "audio/music/synthetic-v3/score.wav",
+    "sha256": "cc184c3f2d428a46d09066d7efedcd754ff3510f72517415ffc1ddbd9069ee7e"
+  },
+  "mix": {
+    "path": "audio/mix/synthetic-v3-review.wav",
+    "sha256": "2dab8990969600624d8497bff4348d3af5a858de0958ef4eede84883c77686f9"
+  },
+  "deliveryAudio": {
+    "path": "out/review/music-v3/with-voice.m4a",
+    "sha256": "35124e6ec609f44070bb47620127038970b19cd735d015fa5b961ea5f610a50f",
+    "attempts": [
+      {
+        "gainDb": 0.25,
+        "measurement": {
+          "input_i": "-14.20",
+          "input_tp": "-1.36",
+          "input_lra": "4.30",
+          "input_thresh": "-25.26",
+          "output_i": "-14.14",
+          "output_tp": "-1.50",
+          "output_lra": "4.10",
+          "output_thresh": "-25.19",
+          "normalization_type": "dynamic",
+          "target_offset": "0.14"
+        }
+      }
+    ]
+  },
+  "acceptedPreview": {
+    "path": "out/review/film-v3-music-v3-preview.mp4",
+    "sha256": "14fc4a2a63085feed0f5e8f82a263c70ffaadf7cf1414a0733608903a47e8645",
+    "width": 960,
+    "height": 540,
+    "frames": 5853,
+    "fps": 30,
+    "duration": 195.1
+  },
+  "encodingRecord": "audio/mix/synthetic-v3-aac.json",
+  "scope": "采用导演已看过并通过的 v3 混音和 AAC；正式版仅提高画面分辨率并纳入 Claude 的两处视觉小修正。"
+}
