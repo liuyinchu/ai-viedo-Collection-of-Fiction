@@ -129,7 +129,7 @@ def assemble():
  r={"status":"final-mp4-delivered-awaiting-director-and-Claudes-last-look",
     "video":{"path":str(FINAL.relative_to(ROOT)),"sha256":digest(FINAL.read_bytes()),"bytes":FINAL.stat().st_size,
        "width":1920,"height":1080,"fps":30,"frames":len(pts),"duration":195.1,"codec":"h264","pixelFormat":"yuv420p"},
-    "audio":{"codec":"aac","sampleRate":48000,"channels":2,"duration":float(a["duration"]),"approvedVersion":"synthetic-v2",
+    "audio":{"target":{"integratedLUFS":-14,"toleranceLU":0.3,"maxTruePeakDbTP":-1},"codec":"aac","sampleRate":48000,"channels":2,"duration":float(a["duration"]),"approvedVersion":"synthetic-v2",
        "measurement":audio,"encodeGainDb":encoded["gainDb"]},
     "checks":{"fullDecode":True,"exactFrameGrid":True,"decodedPrefixAndTailIdentical":True,"prefixFrames":len(original),
        "tailFrames":len(tail),"loudnessAndTruePeak":True,"subtitleTextAndTimes":True,"sourcesMatchRenderPlan":True},

@@ -72,7 +72,7 @@ ASR 直接载入已转换的 MLX 权重，不使用 PyTorch 转换工具。requi
 engine/.venv/bin/python engine/synthesize-sfx.py 生成确定性的纸响、气流和环境声。
 engine/.venv/bin/python engine/mix.py 生成无配乐听审混音；实测响度结果保存在同名 JSON。
 音乐确认并铺好全片时间轴之后，可用 --music <score.wav> 加入总混音。
-10 秒样片和配音读音已通过；导演已确认当前版本采用配乐 v2，确认与音频哈希见 audio/music/approval.json；整片画面待 Claude 验收。
+10 秒样片和配音读音已通过；导演已确认当前版本采用配乐 v2，确认与音频哈希见 audio/music/approval.json；整片画面已通过；S18 修正已完成并输出最终 MP4，186 / 190 秒成片帧交 Claude 最后复核。
 
 当前听审：out/review/preview-10s-sfx.mp4，out/review/voice-sfx-review.mp3。
 字幕：out/film.zh-CN.srt。字幕段内时间按字数估算，段落边界为实测。
@@ -145,3 +145,9 @@ engine/.venv/bin/python engine/finalize-film.py assemble
 
 交付目录 out/final/ 包含最终 MP4、独立 SRT、186/190 秒静帧、联系表和 delivery.json。
 engine/final-delivery.json 保留可提交的校验记录；out/ 产物可重建，不入 Git。
+
+
+最终交付已生成：`out/final/borges-fiction-3min-v1.mp4`（195.1 秒）与同名 `.zh-CN.srt`（43 条）。
+从最终 MP4 回读实测 −14.17 LUFS、−1.06 dBTP；前 5100 帧与原片解码结果逐帧一致，
+后 753 帧与新尾段逐帧一致，视频共 5853 帧、30 fps，无丢帧、重帧或时间漂移。
+`out/final/closing-review.png` 以及两张原尺寸帧供 Claude 复核片尾修正。

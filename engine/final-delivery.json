@@ -1,0 +1,73 @@
+{
+  "status": "final-mp4-delivered-awaiting-director-and-Claudes-last-look",
+  "video": {
+    "path": "out/final/borges-fiction-3min-v1.mp4",
+    "sha256": "b4803667942db167e2fc40d5e8e8f1cb21e153f8c40474a0e021967aaa0fba38",
+    "bytes": 138061851,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 5853,
+    "duration": 195.1,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "duration": 195.095,
+    "approvedVersion": "synthetic-v2",
+    "measurement": {
+      "input_i": "-14.17",
+      "input_tp": "-1.06",
+      "input_lra": "4.40",
+      "input_thresh": "-25.73",
+      "output_i": "-14.22",
+      "output_tp": "-1.50",
+      "output_lra": "4.40",
+      "output_thresh": "-25.69",
+      "normalization_type": "dynamic",
+      "target_offset": "0.22"
+    },
+    "encodeGainDb": -0.17000000000000004,
+    "target": {
+      "integratedLUFS": -14,
+      "toleranceLU": 0.3,
+      "maxTruePeakDbTP": -1
+    }
+  },
+  "checks": {
+    "fullDecode": true,
+    "exactFrameGrid": true,
+    "decodedPrefixAndTailIdentical": true,
+    "prefixFrames": 5100,
+    "tailFrames": 753,
+    "loudnessAndTruePeak": true,
+    "subtitleTextAndTimes": true,
+    "sourcesMatchRenderPlan": true
+  },
+  "subtitles": {
+    "path": "out/final/borges-fiction-3min-v1.zh-CN.srt",
+    "cues": 43,
+    "sha256": "3b2879ee65581d174bbdc9db0486a82afa1d96f1d9026b5300536e65cacefa8d",
+    "timing": "Measured paragraph bounds; within-paragraph splits by character weight; not burned in."
+  },
+  "stills": [
+    {
+      "time": 186,
+      "frame": 5580,
+      "path": "out/final/frame-186s.png",
+      "sha256": "373897932c0cb2c8eb0a701411152d68478e976722258519325d0f53e7c6cb55"
+    },
+    {
+      "time": 190,
+      "frame": 5700,
+      "path": "out/final/frame-190s.png",
+      "sha256": "d69d6172269abfc3d24c591f21fcbe6f8458ce05f975a31c282e444a98865b1f"
+    }
+  ],
+  "patchPlan": "engine/tail-patch-plan.json",
+  "audioApproval": "audio/music/approval.json",
+  "renderLog": "out/engineering/tail-s18-render.ndjson"
+}
