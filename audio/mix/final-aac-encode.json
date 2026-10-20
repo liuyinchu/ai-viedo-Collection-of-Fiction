@@ -1,0 +1,59 @@
+{
+  "sourceMix": {
+    "approval": "audio/music/approval.json",
+    "path": "audio/mix/synthetic-v2-review.wav",
+    "sha256": "f8776b89e6fff8e856cd27a85f5cd3f942010a2c7266194b809bdd5d5e704d8b",
+    "designDecision": "Claude approved reuse: only S18 camera target changes, cue times and durations unchanged; do not resynthesize SFX."
+  },
+  "codec": "aac",
+  "bitRate": 320000,
+  "sampleRate": 48000,
+  "channels": 2,
+  "gainDb": -0.17000000000000004,
+  "attempts": [
+    {
+      "gainDb": 0.0,
+      "measurement": {
+        "input_i": "-14.02",
+        "input_tp": "-0.91",
+        "input_lra": "4.40",
+        "input_thresh": "-25.57",
+        "output_i": "-14.22",
+        "output_tp": "-1.50",
+        "output_lra": "4.30",
+        "output_thresh": "-25.68",
+        "normalization_type": "dynamic",
+        "target_offset": "0.22"
+      }
+    },
+    {
+      "gainDb": -0.17000000000000004,
+      "measurement": {
+        "input_i": "-14.17",
+        "input_tp": "-1.06",
+        "input_lra": "4.40",
+        "input_thresh": "-25.73",
+        "output_i": "-14.22",
+        "output_tp": "-1.50",
+        "output_lra": "4.40",
+        "output_thresh": "-25.69",
+        "normalization_type": "dynamic",
+        "target_offset": "0.22"
+      }
+    }
+  ],
+  "verified": {
+    "input_i": "-14.17",
+    "input_tp": "-1.06",
+    "input_lra": "4.40",
+    "input_thresh": "-25.73",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "4.40",
+    "output_thresh": "-25.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "sha256": "afef64a55d3a79dbf0173507a3380d8c9d295fa8b6b99127b76a10ec489c6580",
+  "passed": true
+}

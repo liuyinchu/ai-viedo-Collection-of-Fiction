@@ -121,3 +121,27 @@ review-film.py 从编码后的整片取出 Claude 指定的 11 个时间点，�
 按制作节点提交本远端仓库。台本、设计、工程、配音原始素材、批准的逐段 WAV、
 ASR、字体和生成参数都纳入版本控制；可再生成的整段声轨、视频、图表、下载缓存和依赖忽略。
 目前没有 Git remote；提交历史保存在这台制作机器。
+
+
+## S18 修正与最终封装
+
+Claude 的最后一处修改仅将 S18 镜头 y 从 9.5 改到 7.5，避免 S19 恢复文字时裁掉开场句。
+设计快照为 513b07a；具体输入哈希、拼接点与已批准混音见 engine/tail-patch-plan.json。
+沿用原有声音是 Claude 的明确决定；直接验证并使用批准的混音 SHA，不重跑音效或混音。
+
+```sh
+node engine/run.mjs render --from 170 --workers 2 --out out/patch-s18/tail-from-170.mp4 --json
+engine/.venv/bin/python engine/finalize-film.py prepare
+engine/.venv/bin/python engine/finalize-film.py assemble
+```
+
+170 秒是原片的闭合关键帧 / 分段边界。前 5100 帧直接复制，新尾段按绝对时间 170 秒起渲染 753 帧，
+从而覆盖 175.289521 秒开始的修改。合成后逐帧核对：解码结果必须恰好等于旧前段 + 新尾段，
+且全部 5853 帧严格落在 30 fps 时间网格上。
+
+声音先编码为 AAC 320 kb/s、48 kHz、双声道，再回读测量。若编码导致真峰值超标，
+仅对批准的母带做微小统一增益调整后重新编码，避免重复压缩；原始批准 WAV 保持不变。
+最终 MP4 再次测量，目标 −14 LUFS（容差 ±0.3 LU）、真峰值 ≤ −1 dBTP。
+
+交付目录 out/final/ 包含最终 MP4、独立 SRT、186/190 秒静帧、联系表和 delivery.json。
+engine/final-delivery.json 保留可提交的校验记录；out/ 产物可重建，不入 Git。
