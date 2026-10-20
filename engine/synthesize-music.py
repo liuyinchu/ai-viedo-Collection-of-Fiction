@@ -117,7 +117,7 @@ def build_score():
     # One fixed gain for all three cues, retaining their relative dynamics.
     gain=db(TARGET_PEAK_DB)/max(np.max(np.abs(score)),1e-12)
     score*=gain
-    # Smooth 4.5 dB attenuation under actual narration, with 50 ms attack / 450 ms recovery.
+    # Configured attenuation under actual narration, with 50 ms attack / 450 ms recovery.
     voice,sr=sf.read(ROOT/"audio/vo/narration.wav")
     if sr!=SR or len(voice)!=n:raise ValueError("Narration and music timeline differ")
     hop=480
@@ -166,6 +166,12 @@ def main():
        "score":{**metrics(x),"path":str(score.relative_to(ROOT)),"sha256":digest(score.read_bytes())},
        "soloAudition":{**metrics(solo),"gainPurpose":"louder audition; not the production music level"},
        "events":events}
+    approval_path=ROOT/"audio/music/approval.json"
+    if approval_path.exists():
+        approval=read_json(approval_path)
+        if approval.get("version")==VERSION and approval.get("score",{}).get("sha256")==manifest["score"]["sha256"]:
+            manifest["status"]="approved-for-current-cut"
+            manifest["approval"]="audio/music/approval.json"
     write_json(OUT/"manifest.json",manifest)
     print(f"{VERSION}: three music windows; score {len(x)/SR:.3f}s; solo audition {len(solo)/SR:.3f}s.")
     print(f"Production score peak {manifest['score']['peakDbFS']:.2f} dBFS; deterministic={deterministic}.")
