@@ -300,7 +300,7 @@ export function build(timing, script, words = {}) {
   reveal('to', word('S17', '收件人'), 0.6);
 
   // S18 如果你想读，就从《巴别图书馆》开始，只有几页。中文版可以找王永年的译本。
-  move(start('S18'), 1.2, { x: 8, y: 9.5, zoom: 1.5 }, 'inOutSine');
+  move(start('S18'), 1.2, { x: 8, y: 7.5, zoom: 1.5 }, 'inOutSine'); // 上沿留出 1.5 行：S19 重新浮现时开场那句要完整入画
   L('card1', '《虚构集》 博尔赫斯 著 · 王永年 译', 0, 11, STYLE.book);
   L('card2', '先读：《巴别图书馆》', 0, 13, STYLE.book);
   reveal('card2', word('S18', '《巴别图书馆》'), 0.9);
