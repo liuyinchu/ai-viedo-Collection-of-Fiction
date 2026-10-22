@@ -1,0 +1,358 @@
+{
+  "schema": "complete-project-snapshot/1",
+  "repository": "liuyinchu/ai-viedo-Collection-of-Fiction",
+  "releaseTag": "full-project-2026-10-22",
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "sourceCommit": "6a7bf4f948a794d4c70b614f58618bdf76c4f64a",
+  "rootDirectory": "proj1-1019",
+  "format": "tar.zst",
+  "archiveSha256": "fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019",
+  "archiveBytes": 3376699097,
+  "fileTreeSha256": "4a614e7646f65d56727914b062640ec80bcab7cefb1d5472498204a5a7ef66f3",
+  "entries": 10371,
+  "regularFiles": 9164,
+  "uncompressedBytes": 4676524041,
+  "parts": [
+    {
+      "path": "chunks/project.tar.zst.0000",
+      "size": 50331648,
+      "sha256": "f1dd474fd3f983db4b9dfc22d9618bcc98b83ba9fff47844c5c2e5dc7d3f1fc4"
+    },
+    {
+      "path": "chunks/project.tar.zst.0001",
+      "size": 50331648,
+      "sha256": "9c5641e22b56adaafacaf7b712ed28f18a4e842416ed98b3e5d446d12f728db7"
+    },
+    {
+      "path": "chunks/project.tar.zst.0002",
+      "size": 50331648,
+      "sha256": "41c6f6be31f69b34a2a5f182244fe1076ce13421634e8f518567e1bf1923253f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0003",
+      "size": 50331648,
+      "sha256": "0803ced336c93a22d4fdf4770140edb30615bdda9e7976f1456a40f31eb129fe"
+    },
+    {
+      "path": "chunks/project.tar.zst.0004",
+      "size": 50331648,
+      "sha256": "8f0f1a2fde6f2f32acf9f90cdcab5d0801cc3f6af94678e32c8d3778812af4e5"
+    },
+    {
+      "path": "chunks/project.tar.zst.0005",
+      "size": 50331648,
+      "sha256": "159869a0c794ac9fbbd546fa0609b012f6bd698a6b62aecdffb630ad7255178c"
+    },
+    {
+      "path": "chunks/project.tar.zst.0006",
+      "size": 50331648,
+      "sha256": "121d8c88c4272568285e1f898fe562930289754589aa530452b1704b48d42f3c"
+    },
+    {
+      "path": "chunks/project.tar.zst.0007",
+      "size": 50331648,
+      "sha256": "4967bed9d17addbd3275e20e468fddfb0714911cf403ba95dec34d69ea8754a5"
+    },
+    {
+      "path": "chunks/project.tar.zst.0008",
+      "size": 50331648,
+      "sha256": "6556dea25b239d935a5d1225669fcabb3904775e4299e6104cb84cdfd9287ac2"
+    },
+    {
+      "path": "chunks/project.tar.zst.0009",
+      "size": 50331648,
+      "sha256": "c1c4ada0717a2b4f322796bd848804f507c81d0d2566aebb19357e2f9ab249a4"
+    },
+    {
+      "path": "chunks/project.tar.zst.0010",
+      "size": 50331648,
+      "sha256": "586c49b33a4c204526fb321ad107f9bb3d1f29cc5906320ec3c1d4ec4f55d196"
+    },
+    {
+      "path": "chunks/project.tar.zst.0011",
+      "size": 50331648,
+      "sha256": "a34be63dee35b30e34b83087cea4867844680bb49e02eaa65426e5375d51ff49"
+    },
+    {
+      "path": "chunks/project.tar.zst.0012",
+      "size": 50331648,
+      "sha256": "3f4220dee72856f371d0e8edbfc8c1d16a244e4a775e96d2909baf1b9cb32623"
+    },
+    {
+      "path": "chunks/project.tar.zst.0013",
+      "size": 50331648,
+      "sha256": "7f0f465f0d0f60aff65ff050f49637e655f80501027d6a61c5a2f500d10cef92"
+    },
+    {
+      "path": "chunks/project.tar.zst.0014",
+      "size": 50331648,
+      "sha256": "1951139b5281a3d26fba00e532ba78ffcb5f62981e2f176bde137315c7370267"
+    },
+    {
+      "path": "chunks/project.tar.zst.0015",
+      "size": 50331648,
+      "sha256": "715f159b92b06b9708081efdd745bbc58f3f9280f6a4cd09f5b5efda8587e73f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0016",
+      "size": 50331648,
+      "sha256": "31010f0dc97a2f1aedba5854bcff2ebab97af27b1ae7e8303c7688d1470aa099"
+    },
+    {
+      "path": "chunks/project.tar.zst.0017",
+      "size": 50331648,
+      "sha256": "4d5240f125b7c692fa9525cf49f9bba6eb24a988cb823039c9d09045df6a45c6"
+    },
+    {
+      "path": "chunks/project.tar.zst.0018",
+      "size": 50331648,
+      "sha256": "e276d708adf8f252cdc78f63b1170dd1bf196932da30c584be6de4f86c7d6cf3"
+    },
+    {
+      "path": "chunks/project.tar.zst.0019",
+      "size": 50331648,
+      "sha256": "a1300f160dac52aed90efab0af1449eaaf04b291fd587038d1ede9510881688e"
+    },
+    {
+      "path": "chunks/project.tar.zst.0020",
+      "size": 50331648,
+      "sha256": "ed87c3417cbd4e8e14af62a4b36c7b46a7d3165465c39c491cc75906c46a92c8"
+    },
+    {
+      "path": "chunks/project.tar.zst.0021",
+      "size": 50331648,
+      "sha256": "e95ab81865efdb36613a4cb196346a7c28f1e1029789c891cd9d6ddf08d3b0dc"
+    },
+    {
+      "path": "chunks/project.tar.zst.0022",
+      "size": 50331648,
+      "sha256": "5894fa0d215c77d074305e2b8e1df304430d8258250d44d102750aeda9994366"
+    },
+    {
+      "path": "chunks/project.tar.zst.0023",
+      "size": 50331648,
+      "sha256": "b7768da54665f3f07fa103472267baf1cb81b4b35ad195fd96cd1b233f4d6f6e"
+    },
+    {
+      "path": "chunks/project.tar.zst.0024",
+      "size": 50331648,
+      "sha256": "04bd55dd18d4c2cc7ab16474f2140cd399ebdae5554ac59c1d726d61b798ca57"
+    },
+    {
+      "path": "chunks/project.tar.zst.0025",
+      "size": 50331648,
+      "sha256": "659e1ce852d16642da83420edeabfbe5e7ddb48beddf02f477eabd56e7bc1dfe"
+    },
+    {
+      "path": "chunks/project.tar.zst.0026",
+      "size": 50331648,
+      "sha256": "946cf4c730b488e53712ce0eeaf0b5cc5a44c50dba1f98f630c4ee397d552e20"
+    },
+    {
+      "path": "chunks/project.tar.zst.0027",
+      "size": 50331648,
+      "sha256": "15a1c47faa0ee34c03b88ff62fbc77953f99eaddf98a4ac07b80b48f7d359c86"
+    },
+    {
+      "path": "chunks/project.tar.zst.0028",
+      "size": 50331648,
+      "sha256": "9615133c67061d77b946017f2091ac2046097cdf5713f1605199c74c76bcdb18"
+    },
+    {
+      "path": "chunks/project.tar.zst.0029",
+      "size": 50331648,
+      "sha256": "1250f41802ab1d89f23346879561160af4dad9c2229f5acc25793efd0b7a5005"
+    },
+    {
+      "path": "chunks/project.tar.zst.0030",
+      "size": 50331648,
+      "sha256": "1b84f77e6883c1743b06a72be2c0bb17eb0547ba4b63ef69195c0876e8759450"
+    },
+    {
+      "path": "chunks/project.tar.zst.0031",
+      "size": 50331648,
+      "sha256": "87b95f86204e7f1737d9d8265f4c7b4844ce7e5e44ca938fc2debb485b271389"
+    },
+    {
+      "path": "chunks/project.tar.zst.0032",
+      "size": 50331648,
+      "sha256": "c705be9b420fd838a37e946843a7e5eb8484d795edb228bbca5210cd16147d1d"
+    },
+    {
+      "path": "chunks/project.tar.zst.0033",
+      "size": 50331648,
+      "sha256": "def8dc8584fa18b8e5426a6ec1f81b32cbc579fb92d7aeae0e8ce7926331649f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0034",
+      "size": 50331648,
+      "sha256": "8c6bba422d7850a496e4d0f2fd114a884ec63728bbe6def61d097af72d96e41f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0035",
+      "size": 50331648,
+      "sha256": "f6af9f737e82c6f46e4ac5a2b12d0146e6f897caa56bafd0a0b8fc803a46677d"
+    },
+    {
+      "path": "chunks/project.tar.zst.0036",
+      "size": 50331648,
+      "sha256": "a912f0977b4506ce6ae3bf7ee66767227183072d778ddd316a5446b07e4b4171"
+    },
+    {
+      "path": "chunks/project.tar.zst.0037",
+      "size": 50331648,
+      "sha256": "61b6df658e01361210b8de953cfa9ae0a418e468959e562ab086bfb52b945a82"
+    },
+    {
+      "path": "chunks/project.tar.zst.0038",
+      "size": 50331648,
+      "sha256": "dcf100f2022924c96bf196258f695df5d698a8bc73fd4f0324833a0cd05be0fa"
+    },
+    {
+      "path": "chunks/project.tar.zst.0039",
+      "size": 50331648,
+      "sha256": "18d4001c6f5ae7e6189b36e1949ae3ad0d644e24606277579a59481c048088ba"
+    },
+    {
+      "path": "chunks/project.tar.zst.0040",
+      "size": 50331648,
+      "sha256": "4590da4cbc09c3cd5593bae25cb84c060dd30b419a6bec52e332d7c2b3d2a64f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0041",
+      "size": 50331648,
+      "sha256": "2d65e3537f98e6a5554eca0c2e1ed3c5a0e41db26a03fecd9ed0a3fd0c9f6a98"
+    },
+    {
+      "path": "chunks/project.tar.zst.0042",
+      "size": 50331648,
+      "sha256": "8bd29899ccb1904ef2d80a87a9cf1b7b930dd4d060cf39650582c87faa120ec7"
+    },
+    {
+      "path": "chunks/project.tar.zst.0043",
+      "size": 50331648,
+      "sha256": "a3e399576eb5f4687ab9cdcc71321b5159ca1f9031c425e3e17e18921723182c"
+    },
+    {
+      "path": "chunks/project.tar.zst.0044",
+      "size": 50331648,
+      "sha256": "8278eae67e9a2d07139d8747c44885072ad5be10e917baa7f4e90807668c1311"
+    },
+    {
+      "path": "chunks/project.tar.zst.0045",
+      "size": 50331648,
+      "sha256": "878ef6efdcd3bc596394ce9989fc4ded1bebfe7ab7cec70875c50e842a11df82"
+    },
+    {
+      "path": "chunks/project.tar.zst.0046",
+      "size": 50331648,
+      "sha256": "a64b8fd12973cbed31f3a03765c28b2765d4de865dd89c08e794ef9ed7e13c92"
+    },
+    {
+      "path": "chunks/project.tar.zst.0047",
+      "size": 50331648,
+      "sha256": "ceddffa6d77be9fda9f874bc78344c02f5634e46fe0b889b73ae0a037fe061e3"
+    },
+    {
+      "path": "chunks/project.tar.zst.0048",
+      "size": 50331648,
+      "sha256": "afe92493ae0e5220ee27d6e14046e0ccaaa15324e8eedae82c010c812eba9de6"
+    },
+    {
+      "path": "chunks/project.tar.zst.0049",
+      "size": 50331648,
+      "sha256": "86d498092b31426ec571f00ab7ebebd234469b17c14ecfd8040f5c6b17be2212"
+    },
+    {
+      "path": "chunks/project.tar.zst.0050",
+      "size": 50331648,
+      "sha256": "a3016d2544b432ab8cb8337e31e8c8da4e84ad52f427554edd357928e3fae371"
+    },
+    {
+      "path": "chunks/project.tar.zst.0051",
+      "size": 50331648,
+      "sha256": "57d0db5d2683fc7e9db6622db5bdf7d002b62d4b97bf98ed1a4989783d96952d"
+    },
+    {
+      "path": "chunks/project.tar.zst.0052",
+      "size": 50331648,
+      "sha256": "0c6b25eb1cbf9efffbf5d3b69cb8a3c914c92f64a580c9a2c0018ce701a41193"
+    },
+    {
+      "path": "chunks/project.tar.zst.0053",
+      "size": 50331648,
+      "sha256": "9eabf34a3109c5820cbade9590b7cdccc1516741820642c3119d2f467733dcd2"
+    },
+    {
+      "path": "chunks/project.tar.zst.0054",
+      "size": 50331648,
+      "sha256": "be4477e949de582bcbaa66f4fa15e54c25d038be6107e7d1ad624caa0bf4d60f"
+    },
+    {
+      "path": "chunks/project.tar.zst.0055",
+      "size": 50331648,
+      "sha256": "9199f59e95f43279b1dac4ba6d46c1adb7ffa29eb3b68d1ec5a870171d8dcfda"
+    },
+    {
+      "path": "chunks/project.tar.zst.0056",
+      "size": 50331648,
+      "sha256": "dbbd7518e7c8f6a2754f0d6f76844cb28505d6a0ceeb2e5807057b70f7d75c64"
+    },
+    {
+      "path": "chunks/project.tar.zst.0057",
+      "size": 50331648,
+      "sha256": "2b47f89c16a7219adcb7dc0c3ab90148dd649604b4a90ba9c397f9d4ce7499f8"
+    },
+    {
+      "path": "chunks/project.tar.zst.0058",
+      "size": 50331648,
+      "sha256": "cdb0a7924b6bd23220897c412991208e5e0722106d133144e27c7ab34be8abbe"
+    },
+    {
+      "path": "chunks/project.tar.zst.0059",
+      "size": 50331648,
+      "sha256": "df7577e468163af3f8c51e92d2648bfbcf1ce89d17cd737dae544442b8f31eaf"
+    },
+    {
+      "path": "chunks/project.tar.zst.0060",
+      "size": 50331648,
+      "sha256": "c168ab77ba7d4dbb10e0c58699325508c3c214b212d2ce831c925e5156f80693"
+    },
+    {
+      "path": "chunks/project.tar.zst.0061",
+      "size": 50331648,
+      "sha256": "dd89fbdcbaacf9f31e95c0d2dc72b278c8634bc4de57ab277a118ba93caf0aea"
+    },
+    {
+      "path": "chunks/project.tar.zst.0062",
+      "size": 50331648,
+      "sha256": "b5e4b519ec083c3ff6dba704d8c567710211c3ebf9f761751a78dcd0791a3f1d"
+    },
+    {
+      "path": "chunks/project.tar.zst.0063",
+      "size": 50331648,
+      "sha256": "777e1e9666b52627ace6145008cf21479cc3c536e9e25b5abd04c63323edcef0"
+    },
+    {
+      "path": "chunks/project.tar.zst.0064",
+      "size": 50331648,
+      "sha256": "39c9bddf27f276a8487d888b8e1550689e3f7586b6960a4cb74ee3bf94800136"
+    },
+    {
+      "path": "chunks/project.tar.zst.0065",
+      "size": 50331648,
+      "sha256": "f99e2f02131e5dde643d19592ab82c85d689b4fc68c6a835b66b03637e973c88"
+    },
+    {
+      "path": "chunks/project.tar.zst.0066",
+      "size": 50331648,
+      "sha256": "4bff53ede67bdbc94fbf5b79379e57a753a3ce97efeb6fe21f9ca342ea2c2ce3"
+    },
+    {
+      "path": "chunks/project.tar.zst.0067",
+      "size": 4478681,
+      "sha256": "93250b9e880fd140562df952576ed0f31e01562b8c7862a3648a4a364276b46c"
+    }
+  ]
+}
