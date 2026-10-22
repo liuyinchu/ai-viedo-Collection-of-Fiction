@@ -1,0 +1,27 @@
+{
+  "allReleasePartsDownloadedAndVerified": true,
+  "method": "HTTP byte ranges; every range, each complete Release part, and the concatenated archive hashed from downloaded bytes",
+  "verifiedRanges": 68,
+  "archiveBytes": 3376699097,
+  "archiveSha256": "fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019",
+  "parts": [
+    {
+      "name": "project-full.tar.zst.part000",
+      "size": 1610612736,
+      "sha256": "db26532b6911ce138c330d7092f47a34e953f6eb55a8766d17d9e9f1ba434c7e",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part000"
+    },
+    {
+      "name": "project-full.tar.zst.part001",
+      "size": 1610612736,
+      "sha256": "2afc0d0aa36d8e58ef86621fc0d1f38281d233fd9bba59779de089d73b24e2af",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part001"
+    },
+    {
+      "name": "project-full.tar.zst.part002",
+      "size": 155473625,
+      "sha256": "eca7d004d0ad91c7f4394db81aa127ad059cd6f75ba3e8f66689954bb9c49431",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part002"
+    }
+  ]
+}

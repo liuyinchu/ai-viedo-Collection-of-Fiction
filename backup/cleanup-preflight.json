@@ -1,0 +1,10 @@
+{
+  "releaseReadbackPassed": true,
+  "cloudVerificationPassed": true,
+  "localGitHead": "686054e2b28985809420e1bd113e4e8adeb1eca7",
+  "localTrackedWorkingTreeClean": true,
+  "snapshotDataUnchanged": true,
+  "checkedIgnoredEntries": 9412,
+  "localReviewFilesVerified": 83,
+  "archiveSha256": "fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019"
+}

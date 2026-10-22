@@ -22,3 +22,5 @@ Release 的 RESTORE.md、SHA256SUMS、file-tree.json、release-parts.json 与 cl
 
 Release 与 Pages 已成功发布，云端校验报告见 cloud-verification.json。只克隆源码历史可使用 git clone --single-branch --branch main；完整文件使用 Release 快照。
 网络不稳定时可使用 tools/download-release-ranges.py，指定 Release 的 snapshot.json、release-parts.json 和下载目录，按范围续传并验证每个块及最终完整快照。tools/upload-via-git.py 保留了本次分批推送流程，路径和标签为本次归档配置。
+
+完整 Release 下载回读也已通过，见 download-verification.json。回收站清理前的数据检查见 cleanup-preflight.json；页面截图见 pages-deployment.png。

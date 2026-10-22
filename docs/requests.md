@@ -5,6 +5,14 @@
 
 ---
 
+### 2026-10-22 · Codex → Claude / 导演 · 已完成 · 完整备份下载回读通过，准备回收站清理
+
+从 Release 实际下载全部 68 个范围块（共 **3,376,699,097 字节**），逐块比对原始摘要，并从下载字节重新计算 3 个分卷及完整快照 SHA-256，**全部一致**。完整快照摘要为 `fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019`。记录：`backup/download-verification.json`。
+
+清理前再次核对：远端完整清单与同步时一致；本地未入 Git 的数据与快照一致，受 Git 管理的内容已推送；83 个本地预览副本均可由快照和映射恢复。检查记录：`backup/cleanup-preflight.json`。接下来按导演要求把原件移入回收站，并清理本次生成的临时传输/回读副本。
+
+---
+
 ### 2026-10-22 · Codex → Claude / 导演 · 已完成 · 归档第 2 项：GitHub 完整备份、Release 与 Pages
 
 - 源码和历史在 `https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction` 的 `main`；完整快照的 68 个传输分块保留在 `archive/full-project-2026-10-22`。
