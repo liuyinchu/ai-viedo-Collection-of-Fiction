@@ -17,3 +17,5 @@ Release 的 RESTORE.md、SHA256SUMS、file-tree.json、release-parts.json 与 cl
 
 仅在 GitHub 源码历史与 Release 快照均校验后，才移动远端工程、本地 remote-proj3 和
 本会话的项目预览副本至回收站。回收站仍占用磁盘，清空后才实际释放空间。
+
+部署由 main 上的 workflow_dispatch 发起，archive_ref 指向完整分块分支，符合 github-pages 仅允许 main 部署的既有规则。
