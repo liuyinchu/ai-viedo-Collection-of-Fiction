@@ -1,8 +1,5 @@
 name: Verify complete project archive and publish
 on:
-  push:
-    branches: [archive/full-project-2026-10-22]
-    paths: [READY.json]
   workflow_dispatch:
     inputs:
       archive_ref:
