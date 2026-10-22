@@ -155,7 +155,7 @@ GitHub 自动生成的 Source code ZIP 仅含源码；完整工程请使用以�
  (exports/"SHA256SUMS").write_text("".join(f"{sha(p)}  {p.name}\n" for p in assets))
  assets=sorted(p for p in exports.iterdir() if p.is_file())
  found=subprocess.run(["gh","release","view",TAG,"--repo",REPO],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0
- if not found:run(["gh","release","create",TAG,"--repo",REPO,"--target",m["sourceCommit"],"--title","《虚构集》完整工程备份 · 2026-10-22","--notes-file",exports/"RESTORE.md"])
+ if not found:run(["gh","release","create",TAG,"--repo",REPO,"--verify-tag","--title","《虚构集》完整工程备份 · 2026-10-22","--notes-file",exports/"RESTORE.md"])
  for asset in assets:run(["gh","release","upload",TAG,asset,"--repo",REPO,"--clobber"])
  cloud=json.loads(subprocess.check_output(["gh","api",f"repos/{REPO}/releases/tags/{TAG}"],text=True));actual={a["name"]:a for a in cloud["assets"]};checks=[]
  for p in assets:
