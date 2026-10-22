@@ -1,0 +1,51 @@
+name: Verify complete project archive and publish
+on:
+  push:
+    branches: [archive/full-project-2026-10-22]
+    paths: [READY.json]
+  workflow_dispatch:
+    inputs:
+      archive_ref:
+        description: Archive branch to verify and publish
+        required: true
+        default: archive/full-project-2026-10-22
+permissions:
+  contents: read
+concurrency:
+  group: complete-project-archive
+  cancel-in-progress: false
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: "${{ inputs.archive_ref || github.ref_name }}"
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verify all files and Git history, then publish Release
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: python3 archive-project.py publish .
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  pages:
+    needs: backup
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: "${{ steps.deployment.outputs.page_url }}"
+    steps:
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/deploy-pages@v4
+        id: deployment

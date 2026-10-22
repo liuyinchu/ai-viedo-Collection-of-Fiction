@@ -1,0 +1,15 @@
+{
+  "source": "yangshuyun@10.10.10.1:/Users/yangshuyun/workspace/dev/ai-video/proj1-1019",
+  "local": "/Users/ysyspace/workspace/dev/open-helper/remote-proj3",
+  "entries": 10338,
+  "regularFiles": 9140,
+  "bytes": 4676428744,
+  "manifestSha256": "fe9e5051ee2e82770b2d555eb4be641c7405ebe0b4115203f5f7d9b0501c7722",
+  "compared": [
+    "every regular file SHA-256",
+    "file modes",
+    "symlink targets",
+    "directories"
+  ],
+  "passed": true
+}

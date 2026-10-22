@@ -1,0 +1,503 @@
+{
+  "reviewDirectory": "/Users/ysyspace/.codex/visualizations/2026/10/19/01a154ca-d586-7901-80bb-a046d6b0412e/proj1-1019-review",
+  "files": [
+    {
+      "localRelativePath": "asr-diff.md",
+      "archiveRelativePath": "out/local-review-unique/asr-diff.md",
+      "size": 6222,
+      "sha256": "9dd7c1951f7194a9730219dc541148369b42fea6064139b59a7f782bf0241133"
+    },
+    {
+      "localRelativePath": "contact-sheet.png",
+      "archiveRelativePath": "out/review/stills/_sheet.png",
+      "size": 528920,
+      "sha256": "4becafca50f3267e375c571290e282e052d8179f9d70706a626fb02aa7d35a00"
+    },
+    {
+      "localRelativePath": "film-picture-v1.mp4",
+      "archiveRelativePath": "out/review/film-picture-v1.mp4",
+      "size": 130337630,
+      "sha256": "654cfc90a6ed6be5c7778ab0b841ee711bcc575f21755e82f46af7931c8716b5"
+    },
+    {
+      "localRelativePath": "film.zh-CN.srt",
+      "archiveRelativePath": "out/film.zh-CN.srt",
+      "size": 3966,
+      "sha256": "3b2879ee65581d174bbdc9db0486a82afa1d96f1d9026b5300536e65cacefa8d"
+    },
+    {
+      "localRelativePath": "final/borges-fiction-3min-v1.mp4",
+      "archiveRelativePath": "out/final/borges-fiction-3min-v1.mp4",
+      "size": 138061851,
+      "sha256": "b4803667942db167e2fc40d5e8e8f1cb21e153f8c40474a0e021967aaa0fba38"
+    },
+    {
+      "localRelativePath": "final/borges-fiction-3min-v1.zh-CN.srt",
+      "archiveRelativePath": "out/film.zh-CN.srt",
+      "size": 3966,
+      "sha256": "3b2879ee65581d174bbdc9db0486a82afa1d96f1d9026b5300536e65cacefa8d"
+    },
+    {
+      "localRelativePath": "final/closing-review.png",
+      "archiveRelativePath": "out/final/closing-review.png",
+      "size": 880525,
+      "sha256": "01bac14076e0a8c2a9f05e59b8efa4f7111cba60625807c76396b4c78f40ce8d"
+    },
+    {
+      "localRelativePath": "final/delivery.json",
+      "archiveRelativePath": "engine/final-delivery.json",
+      "size": 2092,
+      "sha256": "4c2109ac3e733761920bcfadf9e6746d9b099861587afe02c88a1e7c81f98b5d"
+    },
+    {
+      "localRelativePath": "final/frame-186s.png",
+      "archiveRelativePath": "out/final/frame-186s.png",
+      "size": 1932988,
+      "sha256": "373897932c0cb2c8eb0a701411152d68478e976722258519325d0f53e7c6cb55"
+    },
+    {
+      "localRelativePath": "final/frame-190s.png",
+      "archiveRelativePath": "out/final/frame-190s.png",
+      "size": 988627,
+      "sha256": "d69d6172269abfc3d24c591f21fcbe6f8458ce05f975a31c282e444a98865b1f"
+    },
+    {
+      "localRelativePath": "final-v3/borges-fiction-3min-v3.mp4",
+      "archiveRelativePath": "out/final-v3/borges-fiction-3min-v3.mp4",
+      "size": 167151942,
+      "sha256": "6e0c6b4365bc89cf1fa5edd6740181f684fce740ac168889ef69b3521693269f"
+    },
+    {
+      "localRelativePath": "final-v3/borges-fiction-3min-v3.zh-CN.srt",
+      "archiveRelativePath": "out/film.zh-CN.srt",
+      "size": 3966,
+      "sha256": "3b2879ee65581d174bbdc9db0486a82afa1d96f1d9026b5300536e65cacefa8d"
+    },
+    {
+      "localRelativePath": "final-v3/delivery.json",
+      "archiveRelativePath": "engine/film3-final-delivery.json",
+      "size": 19548,
+      "sha256": "a106db38f6ce7d70ac27374b0c5612017856d216a20075c073c8503471d4767e"
+    },
+    {
+      "localRelativePath": "final-v3/early-t-017.00.png",
+      "archiveRelativePath": "out/engineering/film3-final-early/t-017.00.png",
+      "size": 2320645,
+      "sha256": "2b3c1ed7a7ac08f25a6798add395534f3a5c9ed6fcaf77fb8cbf48dfc5b8a4cf"
+    },
+    {
+      "localRelativePath": "final-v3/stills/contact-sheet.png",
+      "archiveRelativePath": "out/final-v3/stills/contact-sheet.png",
+      "size": 2109662,
+      "sha256": "3b81141b2f308fe344069cace9d49b5678fadf9f9d5ce7aaad735b33a916f30c"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-005.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-005.00.png",
+      "size": 1805229,
+      "sha256": "0abe2d23f62c7134423cd1dd235ca8566f0b22facb93865222e653071811bddd"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-017.00.png",
+      "archiveRelativePath": "out/engineering/film3-final-early/t-017.00.png",
+      "size": 2320645,
+      "sha256": "2b3c1ed7a7ac08f25a6798add395534f3a5c9ed6fcaf77fb8cbf48dfc5b8a4cf"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-026.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-026.00.png",
+      "size": 2109357,
+      "sha256": "6d924e56518799eacbc70194929516f77073e05ce5f1008a5edf937710af2dfc"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-045.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-045.00.png",
+      "size": 2693988,
+      "sha256": "c7d589589a73e77e938e5af417a222465a05007a48d3a3cb9af099cfa77099fe"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-063.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-063.00.png",
+      "size": 2010568,
+      "sha256": "e9f221d089a050e15b800d741f52ed1835e729ae3d317747e53f409fdc5d7253"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-080.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-080.00.png",
+      "size": 1718164,
+      "sha256": "256d99c917f5cd19af43f35fee9f1b7c286b16c984a448a5c1fdd6c030c0eeca"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-088.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-088.00.png",
+      "size": 1648586,
+      "sha256": "80f1da0fd274846434683835e4a43772105436df965380aaffbec11d7cc3807d"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-118.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-118.00.png",
+      "size": 2088220,
+      "sha256": "334fb80d0afdfa80b9d455cb7e7146575aad2f0a3a9fb79cd47f4f1654aa2fc6"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-130.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-130.00.png",
+      "size": 1948131,
+      "sha256": "9d5fd88cd40e1a039f51a4684f5910ba05b5b04aa0039b3e490467096ec7ba18"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-150.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-150.00.png",
+      "size": 2248955,
+      "sha256": "e92ccda89879788ae186dcdd225c3d8ccffcb9b254b28c90f3fdf717282f31be"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-174.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-174.00.png",
+      "size": 1915543,
+      "sha256": "f10d0235d57339b7fedd52c520425b29dcde42714f4840ba31da788694e3fcd6"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-186.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-186.00.png",
+      "size": 2046890,
+      "sha256": "ee3ebd6dd2821bd3808a979f3934b6aae387c90ff0d1ec694ef96a7df5ea4e54"
+    },
+    {
+      "localRelativePath": "final-v3/stills/t-193.00.png",
+      "archiveRelativePath": "out/final-v3/stills/t-193.00.png",
+      "size": 259128,
+      "sha256": "68cde44191f08257e7aed0e723c34f9b53a276a67717a6328e72f22ce3cd80ce"
+    },
+    {
+      "localRelativePath": "full-film-stills/contact-sheet.png",
+      "archiveRelativePath": "out/review/full-film-stills/contact-sheet.png",
+      "size": 2046012,
+      "sha256": "e5ddc36439558062abf094ecd3d70d8a3d77470d6961dec291f2ba4e20092e2a"
+    },
+    {
+      "localRelativePath": "full-film-stills/manifest.json",
+      "archiveRelativePath": "engine/full-film-review.json",
+      "size": 9145,
+      "sha256": "ed02192398079b83a47dbe94e389798422fc83e3215e842082aa1c501b4d9b86"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-016.60.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-016.60.png",
+      "size": 1896343,
+      "sha256": "dc10b157da039623d63d386beb668678a21bab59fa749ef5506f14b1ac503f51"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-045.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-045.00.png",
+      "size": 2232715,
+      "sha256": "00fd286f9542a2da82de4790b32047ec0da5792b61b8d08474e2f025b96a7592"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-083.90.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-083.90.png",
+      "size": 2396350,
+      "sha256": "46e5e83c615fda903c1afac30dfa533d96bf1d60e6292eb8d4c3f0e3199d3a3f"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-086.50.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-086.50.png",
+      "size": 1937375,
+      "sha256": "8e9a187e1b150a57acc639f36f5cea80870caacba74d4801d4bc1480e0c53315"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-120.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-120.00.png",
+      "size": 474748,
+      "sha256": "2c1947a3c1975192cc1931885e784b100770a599ee4eb5f93f0bc92e79ffafbe"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-133.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-133.00.png",
+      "size": 1878116,
+      "sha256": "8ef537eaf461d6a70e8d53a820a9a38801beb192883e3c410516d54372b8d872"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-150.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-150.00.png",
+      "size": 2106197,
+      "sha256": "18c366b70908abda62aea3d06aef7982cb9d54ba02003c2803defe6f26d1d789"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-158.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-158.00.png",
+      "size": 1746130,
+      "sha256": "ecfc56080ad5f5f68241c43e80631f61ca78e27f25cea203651f0f833d50578d"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-174.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-174.00.png",
+      "size": 1923610,
+      "sha256": "8a58eb81b3c462cb49474ad7d8cd9ce9999e7f6ddf0756c7597e276c266de52e"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-186.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-186.00.png",
+      "size": 1928238,
+      "sha256": "4ee74bcad10487f8fa575c03dd2f1e9a36ce890206d66ec502aad74f690bdd3a"
+    },
+    {
+      "localRelativePath": "full-film-stills/t-193.00.png",
+      "archiveRelativePath": "out/review/full-film-stills/t-193.00.png",
+      "size": 171745,
+      "sha256": "c8817c766001eb77c19baf7310f93d5c80dad278fda6ff0de52c2e7b0eaaa7f7"
+    },
+    {
+      "localRelativePath": "music-v2/analysis.json",
+      "archiveRelativePath": "audio/music/synthetic-v2/analysis.json",
+      "size": 3063,
+      "sha256": "af7e55a2156d3359bfb4288e71a5fb2438db301cac0d1c8d1432d54f8c3e323a"
+    },
+    {
+      "localRelativePath": "music-v2/encoded-audio-check.json",
+      "archiveRelativePath": "out/review/music-v2/encoded-audio-check.json",
+      "size": 260,
+      "sha256": "65010e43eff661f25d5fcb76ca1c18c5e1ada130394152fbac7a0d80c56434ab"
+    },
+    {
+      "localRelativePath": "music-v2/index.html",
+      "archiveRelativePath": "out/review/music-v2/index.html",
+      "size": 3282,
+      "sha256": "7878f2494ffaebddf57044947ee8824dc419aa9f8e8fa7664be6828c95f1d38b"
+    },
+    {
+      "localRelativePath": "music-v2/levels.png",
+      "archiveRelativePath": "out/review/music-v2/levels.png",
+      "size": 441465,
+      "sha256": "7411bb988d47882aea7757c21da776f8c26e79e1481472319d00ab1cd18bbc1d"
+    },
+    {
+      "localRelativePath": "music-v2/opening-v1-then-v2.mp3",
+      "archiveRelativePath": "out/review/music-v2/opening-v1-then-v2.mp3",
+      "size": 1217324,
+      "sha256": "3583bd43bc3a5ad4954b8f9f1572d2c65f60768c034970dd440e9cce10feba4f"
+    },
+    {
+      "localRelativePath": "music-v2/score-map.png",
+      "archiveRelativePath": "out/review/music-v2/score-map.png",
+      "size": 198284,
+      "sha256": "9d67dd236aa40c0941d604cdfb7ea82436ec0459b8d2244738bc3c228d41697a"
+    },
+    {
+      "localRelativePath": "music-v2/v2-solo.mp3",
+      "archiveRelativePath": "out/review/music-v2/v2-solo.mp3",
+      "size": 1958444,
+      "sha256": "61c62487b0e03b2afc20fdd64ba01f04d5f1469c1bd1dc9928a7e9a41997bb77"
+    },
+    {
+      "localRelativePath": "music-v2/v2-with-voice.mp3",
+      "archiveRelativePath": "out/review/music-v2/v2-with-voice.mp3",
+      "size": 1958444,
+      "sha256": "8bd4f1ac1deb4e17b162c9468540da83f7135001be8072c162266fe1ffa42180"
+    },
+    {
+      "localRelativePath": "music-v3/analysis.json",
+      "archiveRelativePath": "audio/music/synthetic-v3/analysis.json",
+      "size": 4690,
+      "sha256": "ed962a74eb7a6cf74459bf9b0849f8ce157fd57779f914c9853e4fb7c1e1b945"
+    },
+    {
+      "localRelativePath": "music-v3/encoded-review.json",
+      "archiveRelativePath": "audio/mix/synthetic-v3-aac.json",
+      "size": 1941,
+      "sha256": "9f6da4ecded857b54c437f209ce4ad6dab6b2c16564f1f170516fa6516c8f37a"
+    },
+    {
+      "localRelativePath": "music-v3/highlights.mp3",
+      "archiveRelativePath": "out/review/music-v3/highlights.mp3",
+      "size": 3294764,
+      "sha256": "0523d0b357a3b6c9652d18ce00e816ab3e5ff895b67549afd0018597899437c5"
+    },
+    {
+      "localRelativePath": "music-v3/index.html",
+      "archiveRelativePath": "out/review/music-v3/index.html",
+      "size": 2441,
+      "sha256": "c122686dd9c06404d3efaf87fa04daaf4ab73f66ffef25d5babe92ddfa15ffb6"
+    },
+    {
+      "localRelativePath": "music-v3/levels.png",
+      "archiveRelativePath": "out/review/music-v3/levels.png",
+      "size": 802301,
+      "sha256": "41aa0afdd0eb10b4b5692b35d7c524a3568bfed3173a95819ed6c10e0b4fa10c"
+    },
+    {
+      "localRelativePath": "music-v3/menard.png",
+      "archiveRelativePath": "out/review/music-v3/menard.png",
+      "size": 89190,
+      "sha256": "1416c818cc9ea53347493a708206e0c273fcdb84a1e474b117cbc2221239b565"
+    },
+    {
+      "localRelativePath": "music-v3/music-only.mp3",
+      "archiveRelativePath": "out/review/music-v3/music-only.mp3",
+      "size": 6244652,
+      "sha256": "34ee2d061b2a568c9add310316708fd90640563af31a17ce0a801528a3643ca2"
+    },
+    {
+      "localRelativePath": "music-v3/score-map.png",
+      "archiveRelativePath": "out/review/music-v3/score-map.png",
+      "size": 170166,
+      "sha256": "51e9ad6a82d75879107f0b41f1e468c83236e661821268d22f2949485d86f3ec"
+    },
+    {
+      "localRelativePath": "music-v3/with-voice.m4a",
+      "archiveRelativePath": "out/review/music-v3/with-voice.m4a",
+      "size": 7714068,
+      "sha256": "35124e6ec609f44070bb47620127038970b19cd735d015fa5b961ea5f610a50f"
+    },
+    {
+      "localRelativePath": "music-v3/with-voice.mp3",
+      "archiveRelativePath": "out/review/music-v3/with-voice.mp3",
+      "size": 6244652,
+      "sha256": "4871225ff9921ffa790dbd12545efd5469e94a773ab53ced8422082e8317c987"
+    },
+    {
+      "localRelativePath": "preview-10s-sfx.mp4",
+      "archiveRelativePath": "out/review/preview-10s-sfx.mp4",
+      "size": 5584086,
+      "sha256": "ccbeb31e0a3ee56f09651d7dcc376fa2dfd8e576c40ac3597b1964d6f1e7e0b7"
+    },
+    {
+      "localRelativePath": "preview-10s-synthetic-v1.mp4",
+      "archiveRelativePath": "out/review/preview-10s-synthetic-v1.mp4",
+      "size": 5582754,
+      "sha256": "793c34831bb34ecfa79f502b8bad2cbbc48e73b26b85de3a7c800a4a9fcc1366"
+    },
+    {
+      "localRelativePath": "preview-10s.mp4",
+      "archiveRelativePath": "out/review/preview-10s.mp4",
+      "size": 5448599,
+      "sha256": "ed24fbea4f972fd02fad3a7a5185f026f1e1ee84d9f5f8f2ed26c2aad757f77e"
+    },
+    {
+      "localRelativePath": "pronunciation-review.wav",
+      "archiveRelativePath": "out/review/pronunciation-review.wav",
+      "size": 4586194,
+      "sha256": "8ff92ba5873bce089a693522d0f0f3d6cd1255e22747ca340c37fb16cae8fe63"
+    },
+    {
+      "localRelativePath": "requests.md",
+      "archiveRelativePath": "out/local-review-unique/requests.md",
+      "size": 13654,
+      "sha256": "9f7a62c0387034285e70b7efc45e8e957461069f35637a964d8d8ebb5b4e449d"
+    },
+    {
+      "localRelativePath": "synthetic-v1-solo.mp3",
+      "archiveRelativePath": "out/review/synthetic-v1-solo.mp3",
+      "size": 1468844,
+      "sha256": "d40f321493d234e74f70c74ab0ba83b5e38e59396283d906187c70464d858c80"
+    },
+    {
+      "localRelativePath": "synthetic-v1-with-voice.mp3",
+      "archiveRelativePath": "out/review/synthetic-v1-with-voice.mp3",
+      "size": 1468844,
+      "sha256": "461e1f9fab710a6752a084b9206f8656aab3ea97a352e8450e543603e2470748"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-music-v3-preview.mp4",
+      "archiveRelativePath": "out/review/film-v3-music-v3-preview.mp4",
+      "size": 60332193,
+      "sha256": "14fc4a2a63085feed0f5e8f82a263c70ffaadf7cf1414a0733608903a47e8645"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-preview.mp4",
+      "archiveRelativePath": "out/review/film-v3-preview.mp4",
+      "size": 60407497,
+      "sha256": "eb614e855fad15bc0f93b61d9a8cfe9c9df8c473beff0438c66d8187c6099cb4"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/contact-sheet.png",
+      "archiveRelativePath": "out/review/film-v3-stills/contact-sheet.png",
+      "size": 2231312,
+      "sha256": "82e664b26047133f3c53f13ea2f7b3d47eef4178df8b910de58072ec66e963d5"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/manifest.json",
+      "archiveRelativePath": "engine/film3-preview.json",
+      "size": 10198,
+      "sha256": "81dd9b101dac8b892b441031872bbf87c1884f358f022e027c0d05b574d1f8dc"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-005.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-005.00.png",
+      "size": 542072,
+      "sha256": "19f62e09e07b78beeaacf275a34e8ce6cdae1a4f5caff96f00f7ae04d63916f5"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-014.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-014.00.png",
+      "size": 643070,
+      "sha256": "9210055dd1bee2ff0a5e0a2a5536ca9de29b20a2a9eab812e08465235d5b2cb3"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-026.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-026.00.png",
+      "size": 591918,
+      "sha256": "776c40737481d5cb0c2c39c10a6faa653b16232af5116443a71a036deb52cc30"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-045.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-045.00.png",
+      "size": 701019,
+      "sha256": "f2c6041b229f6fee36b3d3dc05f6747c73d343d1d829c78787793a606f0cff4c"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-063.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-063.00.png",
+      "size": 566261,
+      "sha256": "93eb9f2092f353f6afb49fa57a252b98aa3d20b8879f6d2382208e8423f4762b"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-080.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-080.00.png",
+      "size": 480049,
+      "sha256": "5a501d52d7cb03ce861defec9020447caafa68456bdd9c613644ccc5eaa7334e"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-086.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-086.00.png",
+      "size": 464417,
+      "sha256": "8538658fa776687fb56f019c65c98a15c34009d60e1bc1b27ae4242f8d3f8a29"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-113.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-113.00.png",
+      "size": 556652,
+      "sha256": "118721f982868e3bbb91f558cbb9c1773485d2b92afbae026a2ebe1face1fd55"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-130.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-130.00.png",
+      "size": 556887,
+      "sha256": "cf21d16ed8f89903962d0b9f8facbddaa2d96f6b1a3b0f1acd8d923b41b81f2d"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-150.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-150.00.png",
+      "size": 553597,
+      "sha256": "0a9a67593399840d44045248f2a261f23c69fbbcba26207336f6ee8019047e94"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-186.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-186.00.png",
+      "size": 561172,
+      "sha256": "b6aabfaf4e83e96e9de11652c8dfe75fa3c2b3cf850baf874250c8fdbcad4273"
+    },
+    {
+      "localRelativePath": "v3-preview/film-v3-stills/t-193.00.png",
+      "archiveRelativePath": "out/review/film-v3-stills/t-193.00.png",
+      "size": 85089,
+      "sha256": "1ff5680b5fbcc1e12ab8fcb0b0f3797e6662fdb5ef27672fef33c7ddcb8f3826"
+    },
+    {
+      "localRelativePath": "voice-sfx-review.mp3",
+      "archiveRelativePath": "out/review/voice-sfx-review.mp3",
+      "size": 4683500,
+      "sha256": "971f9f164f294d6ef65859ffcd90b83a2843b549b579870ff432a57b57dd31df"
+    }
+  ]
+}
