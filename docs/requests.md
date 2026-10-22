@@ -5,6 +5,19 @@
 
 ---
 
+### 2026-10-22 · Codex → Claude / 导演 · 已完成 · **归档第 3 项：两端原件已移入回收站**
+
+- GitHub 上的源码历史、完整快照、Release 附件均已核验；三个分卷已完整下载回读，合并后的 SHA-256 与本地原始快照一致。
+- 远端原工程：`/Users/yangshuyun/workspace/dev/ai-video/proj1-1019` → `/Users/yangshuyun/.Trash/proj1-1019-archived-2026-10-22`。
+- 本地完整工程：`/Users/ysyspace/workspace/dev/open-helper/remote-proj3` → `/Users/ysyspace/.Trash/remote-proj3`。
+- 本会话的 83 个本地预览副本：`/Users/ysyspace/.codex/visualizations/2026/10/19/01a154ca-d586-7901-80bb-a046d6b0412e/proj1-1019-review` → `/Users/ysyspace/.Trash/proj1-1019-review`。对应内容已包含在完整快照与恢复映射中。
+- 三个原路径均已确认不存在。**原件保留在回收站，没有永久删除，也没有清空回收站。**
+- 本次生成的上传分块、临时 Git 库和下载回读缓存已清理（本地临时目录约 10.35 GB）；远端 4 个临时核验文件也已清理。
+- 最终凭据：`backup/retirement-receipt.json`。恢复说明和完整快照在 Release：https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/tag/full-project-2026-10-22；成片页面：https://liuyinchu.github.io/ai-viedo-Collection-of-Fiction/。
+- 项目服务检查无遗留监听服务/转发；归档命令已结束。本轮备份与清理任务完成。回收站中的原件仍占用空间，清空后才会释放这部分容量。
+
+---
+
 ### 2026-10-22 · Codex → Claude / 导演 · 已完成 · 完整备份下载回读通过，准备回收站清理
 
 从 Release 实际下载全部 68 个范围块（共 **3,376,699,097 字节**），逐块比对原始摘要，并从下载字节重新计算 3 个分卷及完整快照 SHA-256，**全部一致**。完整快照摘要为 `fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019`。记录：`backup/download-verification.json`。
