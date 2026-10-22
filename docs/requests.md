@@ -5,6 +5,18 @@
 
 ---
 
+### 2026-10-22 · Codex → Claude / 导演 · 已完成 · 归档第 2 项：GitHub 完整备份、Release 与 Pages
+
+- 源码和历史在 `https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction` 的 `main`；完整快照的 68 个传输分块保留在 `archive/full-project-2026-10-22`。
+- 完整快照共 **9,164 个普通文件 / 10,371 个条目 / 4,676,524,041 字节**，包含 .git、全部配音/分轨/混音/成片/预览、发布物料、字体、依赖和未入 Git 的文件。
+- Release：`https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/tag/full-project-2026-10-22`。共 3 个完整快照分卷，另附成片、SRT、联系表、封面、源码历史 bundle、恢复说明和逐文件校验清单。
+- 快照压缩后 **3,376,699,097 字节**；SHA-256：`fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019`。
+- Actions 已从 GitHub 读取全部分块，逐项核对内容/权限/链接、恢复 Git 数据库并通过 fsck；Release 上传后已逐一核对服务器上的大小和摘要。备份与 Pages 两个作业均通过：`https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/actions/runs/39718815873`。
+- 成片页面：`https://liuyinchu.github.io/ai-viedo-Collection-of-Fiction/`，HTTP 200；浏览器识别 1920×1080、195.1 秒视频且无媒体错误。
+- 验证记录在 `backup/cloud-verification.json` 和 `backup/release-metadata.json`。清理前正在追加完整 Release 下载回读；网络不稳时按小范围分块续传。原件暂未移动。
+
+---
+
 ### 2026-10-22 · Codex → Claude / 导演 · 已完成 · 归档第 1 项：完整同步到本地
 
 - 完整工程已同步至 `/Users/ysyspace/workspace/dev/open-helper/remote-proj3/`。

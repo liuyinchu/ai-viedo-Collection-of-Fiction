@@ -1,0 +1,134 @@
+{
+  "id": 420295832,
+  "tag": "full-project-2026-10-22",
+  "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/tag/full-project-2026-10-22",
+  "draft": false,
+  "assets": [
+    {
+      "name": "borges-fiction-3min-v3.mp4",
+      "size": 167151942,
+      "state": "uploaded",
+      "sha256": "6e0c6b4365bc89cf1fa5edd6740181f684fce740ac168889ef69b3521693269f",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/borges-fiction-3min-v3.mp4"
+    },
+    {
+      "name": "borges-fiction-3min-v3.zh-CN.srt",
+      "size": 3966,
+      "state": "uploaded",
+      "sha256": "3b2879ee65581d174bbdc9db0486a82afa1d96f1d9026b5300536e65cacefa8d",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/borges-fiction-3min-v3.zh-CN.srt"
+    },
+    {
+      "name": "cloud-verification.json",
+      "size": 5559,
+      "state": "uploaded",
+      "sha256": "723fe2847f287164b9abea8f260b1f653e80977f5a50095c8f4dbc7bb25c4f24",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/cloud-verification.json"
+    },
+    {
+      "name": "contact-sheet.png",
+      "size": 2109662,
+      "state": "uploaded",
+      "sha256": "3b81141b2f308fe344069cace9d49b5678fadf9f9d5ce7aaad735b33a916f30c",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/contact-sheet.png"
+    },
+    {
+      "name": "cover-a.png",
+      "size": 1536051,
+      "state": "uploaded",
+      "sha256": "528944637f35b86d60fdf32151f18377c8c11d53ae8b42e801141b54db7aca09",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/cover-a.png"
+    },
+    {
+      "name": "cover-b.png",
+      "size": 1532709,
+      "state": "uploaded",
+      "sha256": "27d51a4691de10b69f11b7d6fce7d80bac4b59513c2aac67ff1ed595aafc1c65",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/cover-b.png"
+    },
+    {
+      "name": "file-tree.json",
+      "size": 2280991,
+      "state": "uploaded",
+      "sha256": "4a614e7646f65d56727914b062640ec80bcab7cefb1d5472498204a5a7ef66f3",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/file-tree.json"
+    },
+    {
+      "name": "project-full.tar.zst.part000",
+      "size": 1610612736,
+      "state": "uploaded",
+      "sha256": "db26532b6911ce138c330d7092f47a34e953f6eb55a8766d17d9e9f1ba434c7e",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part000"
+    },
+    {
+      "name": "project-full.tar.zst.part001",
+      "size": 1610612736,
+      "state": "uploaded",
+      "sha256": "2afc0d0aa36d8e58ef86621fc0d1f38281d233fd9bba59779de089d73b24e2af",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part001"
+    },
+    {
+      "name": "project-full.tar.zst.part002",
+      "size": 155473625,
+      "state": "uploaded",
+      "sha256": "eca7d004d0ad91c7f4394db81aa127ad059cd6f75ba3e8f66689954bb9c49431",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/project-full.tar.zst.part002"
+    },
+    {
+      "name": "publish-description.txt",
+      "size": 2116,
+      "state": "uploaded",
+      "sha256": "867a9a9470889180a528e046eaa8b5de9693f21f02a38f7a2ddd2a63a7d236f0",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/publish-description.txt"
+    },
+    {
+      "name": "publish-README.md",
+      "size": 2547,
+      "state": "uploaded",
+      "sha256": "3a1b557c72578f5e3484196608d38ea25a6acf4ec6c6e01c5af4549cfe38a34e",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/publish-README.md"
+    },
+    {
+      "name": "release-parts.json",
+      "size": 610,
+      "state": "uploaded",
+      "sha256": "da718fbf21f1a708476bf602798c2ab541d157b66d71d6a058803203d0fff320",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/release-parts.json"
+    },
+    {
+      "name": "RESTORE.md",
+      "size": 1374,
+      "state": "uploaded",
+      "sha256": "faba6481cb1d54ac39c0593c9e4741aed73c773700a47ba72ecbaef5a1947597",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/RESTORE.md"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 1386,
+      "state": "uploaded",
+      "sha256": "304e040576e63a9f93d40e68f8c0f0d50abc3aa8b140fc6cd77170b62d57181b",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/SHA256SUMS"
+    },
+    {
+      "name": "snapshot.json",
+      "size": 11842,
+      "state": "uploaded",
+      "sha256": "43f1cf9f13a853b6a4f17480742ffa0a98aba916841ce1ee386c17bbbfc714f8",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/snapshot.json"
+    },
+    {
+      "name": "source-history.bundle",
+      "size": 44030263,
+      "state": "uploaded",
+      "sha256": "3bade25bafcb6fdcabb3d12385a56fd9402ee033001c2464261bf3a4395ae7b5",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/source-history.bundle"
+    },
+    {
+      "name": "verification.json",
+      "size": 522,
+      "state": "uploaded",
+      "sha256": "a364f4106825784eb19993a37e7b3ba53f147a2713d9fdd095863cb393e51952",
+      "url": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/download/full-project-2026-10-22/verification.json"
+    }
+  ]
+}
