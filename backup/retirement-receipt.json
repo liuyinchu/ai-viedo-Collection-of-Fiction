@@ -1,0 +1,77 @@
+{
+  "project": "proj1-1019 / remote-proj3",
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction",
+  "release": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/releases/tag/full-project-2026-10-22",
+  "pages": "https://liuyinchu.github.io/ai-viedo-Collection-of-Fiction/",
+  "workflow": "https://github.com/liuyinchu/ai-viedo-Collection-of-Fiction/actions/runs/39718815873",
+  "snapshotSourceCommit": "6a7bf4f948a794d4c70b614f58618bdf76c4f64a",
+  "mainBeforeRetirement": "a5d454b347be8d4b40273f9f8a74bf4fd5f62c83",
+  "archiveBranch": {
+    "name": "archive/full-project-2026-10-22",
+    "sha": "56150829ebed9ff8576674d5bad91efae785bdea"
+  },
+  "snapshot": {
+    "regularFiles": 9164,
+    "entries": 10371,
+    "uncompressedBytes": 4676524041,
+    "archiveBytes": 3376699097,
+    "archiveSha256": "fe8d0ea9ea71c97d6cf4d64ca330ebc405df95b9dbb3fa8692b6c80b63c17019"
+  },
+  "verification": {
+    "remoteLocalSyncPassed": true,
+    "localFullSnapshotVerificationPassed": true,
+    "githubFullSnapshotVerificationPassed": true,
+    "gitFsckPassed": true,
+    "releaseServerDigestsPassed": true,
+    "fullReleaseDownloadReadbackPassed": true,
+    "rangeCount": 68,
+    "localPreviewCopiesCovered": 83,
+    "pagesDeploymentPassed": true
+  },
+  "services": {
+    "projectListenersFound": 0,
+    "projectTunnelsFound": 0,
+    "longRunningArchiveCommandsCompleted": true
+  },
+  "retired": {
+    "remote": {
+      "host": "yangshuyun@10.10.10.1",
+      "original": "/Users/yangshuyun/workspace/dev/ai-video/proj1-1019",
+      "trash": "/Users/yangshuyun/.Trash/proj1-1019-archived-2026-10-22",
+      "moved": true,
+      "originalAbsent": true,
+      "inodePreserved": true,
+      "permanentlyDeleted": false
+    },
+    "local": [
+      {
+        "original": "/Users/ysyspace/workspace/dev/open-helper/remote-proj3",
+        "trash": "/Users/ysyspace/.Trash/remote-proj3",
+        "originalAbsent": true,
+        "permanentlyDeleted": false,
+        "nativeTrashCommandSucceeded": true,
+        "destinationConfirmedByNativeTool": true
+      },
+      {
+        "original": "/Users/ysyspace/.codex/visualizations/2026/10/19/01a154ca-d586-7901-80bb-a046d6b0412e/proj1-1019-review",
+        "trash": "/Users/ysyspace/.Trash/proj1-1019-review",
+        "originalAbsent": true,
+        "permanentlyDeleted": false,
+        "nativeTrashCommandSucceeded": true,
+        "destinationConfirmedByNativeTool": true
+      }
+    ]
+  },
+  "trashEmptied": false,
+  "storageNote": "Original project directories are recoverable in Trash. Moving to Trash does not release their disk space; generated transfer/readback copies are removed separately.",
+  "temporaryCleanup": {
+    "localPath": "/Users/ysyspace/workspace/dev/open-helper/.proj3-archive-20261022",
+    "removed": true,
+    "allocatedBytesBeforeRemoval": 10353995776,
+    "freeBytesBefore": 9525678080,
+    "freeBytesAfter": 19880493056,
+    "remoteTemporaryFilesRemoved": true
+  }
+}
